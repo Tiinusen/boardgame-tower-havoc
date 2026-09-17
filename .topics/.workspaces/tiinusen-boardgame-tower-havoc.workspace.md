@@ -31,4 +31,4 @@
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: self
-  - Value: 4XDgS7NnCYY4RY05fbAUM1cgk54dU5xR5x72GqZxRy4
+  - Value: P7Re1oro7YUaeEdR1Jy_yMqKHMRM6_Qm83a6rnAKDXc
