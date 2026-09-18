@@ -48,8 +48,8 @@
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: [TH-SIM-07 Bell Eligibility Rejects Same-turn Attempt](../../002-match.match.trace.md)
-  - Value: G5dXzAvo-QJnx101D1FLsT-zHdnJiQlNYMkz07obje8
+  - Value: bD-kFsGcFPLTG8W6YrTo5XeGB6kEcS2qoyOSihNcjlI
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: self
-  - Value: 8tPEVg5JbwAPywM6jh_sO7WgkFtR7GwbIt-nPeD_ooo
+  - Value: iR8_3RZS2PDp1ZNv4JKsX4L1gID3MW1vTE1T5OYf-uQ

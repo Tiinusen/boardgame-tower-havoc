@@ -155,4 +155,4 @@ The request is a precommitment to the question; the result owns the answer.
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: self
-  - Value: XBhtP0cR9vNdfbwdn7npKawuyEWZ8xkUZoFSBRBRtzk
+  - Value: IfrItRnr5ADloIaApf5MPnTQppos1Of_Msei_1M_yc0

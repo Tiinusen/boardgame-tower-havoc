@@ -60,8 +60,8 @@
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: [TH-SIM-06 Attack During Ceasefire Intent](001-1-attack.intent.trace.md)
-  - Value: HE1J9C6yyswRpyN9j2OppNNjwISCgrvwRgPSWChAGeQ
+  - Value: aXLey95rlNXQzNE5UXF68pSwhirx8iNAirGhDi_srXU
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: self
-  - Value: agzKhNAEArw1IxU3W3qQOeyu0faILkaDiOJmnpqnHWk
+  - Value: aAULHwsWD7yMKkt0SKOSjbh21kRqMEWHDdsAlChdq0Y

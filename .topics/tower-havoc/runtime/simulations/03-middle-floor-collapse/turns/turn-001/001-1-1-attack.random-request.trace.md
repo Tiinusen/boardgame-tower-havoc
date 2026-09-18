@@ -54,8 +54,8 @@
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: [TH-SIM-03 Attack Floor 2 Intent](001-1-attack.intent.trace.md)
-  - Value: AeB7Zw-K-iG-5i6DtVb4AeYPUVRwRatr9fpXQYmyMt8
+  - Value: wGV_VKsyEi0zT6trBuuNHEBU8eBwevIf7SO3QDLqr2k
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: self
-  - Value: hdLPnPYI1FCpEMVISo6Ym9O7ZZUZFx3VTQW6qryU7FE
+  - Value: yyyiCXs4uX11R3UzElDtUGfdmb2SzezlOzbhTvnfhU8

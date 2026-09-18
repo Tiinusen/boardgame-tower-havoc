@@ -52,4 +52,4 @@ Automatic game effects should have their own resolution artifact instead of fabr
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: self
-  - Value: X_IK0ELVeTQyjgBM_4cMPPBpTk5KnlVxEzkM8oJdsoQ
+  - Value: lNjuEU9BNhMEbn1MoQ05JW3SLIcB4YnhJkCRWg4K3bc

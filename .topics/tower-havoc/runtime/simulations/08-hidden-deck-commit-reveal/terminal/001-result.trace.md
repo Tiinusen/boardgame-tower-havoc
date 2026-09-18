@@ -49,8 +49,8 @@
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: [TH-SIM-08 Draw Card Resolution](../turns/turn-001/001-1-1-draw.resolution.trace.md)
-  - Value: skFc4TFZo0WqEq_7QVxEgGZOQwY3wmBK8WaJgEmj6Ro
+  - Value: LNG1o3_2dNhAUq_dseUhVum8pE8G-2ROq1BhcgaZUqg
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: self
-  - Value: MKLu7DmK1FvVQBJdHCRD5S1iHy3DQaaEiW7HJ7g9tfo
+  - Value: x_FNBwfjuMnJPXezy6e-3vTw4gp-LeIWrr-9c5RGB6I

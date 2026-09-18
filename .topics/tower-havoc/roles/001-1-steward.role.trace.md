@@ -57,8 +57,8 @@
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/c5c0a8173dcc0816d239a64fa363c7924df216b1/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: [Tower Havoc Roles](001-roles.topic.trace.md)
-  - Value: jHvHszvvdDaeiWtgMsBFkrpA4qgRhLiumELW1UF6ZIY
+  - Value: 9rv6NpjrEL3GEkrga-dhcY8_xpcD9hNCAP6WKDtOnLg
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/c5c0a8173dcc0816d239a64fa363c7924df216b1/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: self
-  - Value: GZDsL58hn5ZorvmYdCnrV-Ovyoh7mzsg1gDpuII0Ypw
+  - Value: 86q7qaaQSRyOkvMuihFEOtXZ31OElaZOsiv1SmimX8k

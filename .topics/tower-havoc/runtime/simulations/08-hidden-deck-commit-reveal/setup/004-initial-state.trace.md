@@ -59,8 +59,8 @@
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: [TH-SIM-08 Hidden Deck Commitment And Reveal](../002-match.match.trace.md)
-  - Value: Yp_yqGJaUMEcKBy3k1ubtRnYbAZAdD_h0cn4fqummBw
+  - Value: JmbKxEtGxKX58O-s5heCXWeze1cZkwOpkvJG7YHJAnc
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: self
-  - Value: QKv-Hi8tRgaQVpnLZRR2F4SylRrwK5ciQpv9zAaX8A0
+  - Value: _4lfcuHtBbfkRjCOb6EqOPEMGDmSu7sW-Z19tAFujBE

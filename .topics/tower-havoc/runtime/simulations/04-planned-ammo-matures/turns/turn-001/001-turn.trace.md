@@ -48,8 +48,8 @@
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: [TH-SIM-04 Planned Ammunition Matures Next Own Turn](../../002-match.match.trace.md)
-  - Value: gqEoKi7zk3Q5Kf2Oq3wHY5ACERV0x6LPad3DhDyyaOo
+  - Value: G7-haMc99q-wJmpVKOuAFBYcwZ9VSo4JaL1hvSoYcFc
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: self
-  - Value: D7Fd-p8WeT7t_f_h2jNwyqJJ7Wv6C0TQ7mQcGIP54L8
+  - Value: fCCqVlh_lolUgcZNH0baQqbLJrlJrkROc3ZIVEgycZE

@@ -127,4 +127,4 @@ Separating intent from resolution is the core anti-cheat boundary for issue-driv
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: self
-  - Value: whwMISSqVLu_Ub--glqiuZTozIXpQvxQaa_5Xf-0RuQ
+  - Value: pPFmY_KJJl8Ssuqft5U6liSVFAC3LskAmdA4CqZLv1w

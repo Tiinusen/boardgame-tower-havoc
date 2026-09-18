@@ -19,16 +19,39 @@ expected={
  'towerhavoc.hidden.reveal.v1':('tiinex.validation.report.v1',['Commitment Binding','Revealed Material','Verification','Reveal Timing','Interpretation Limits']),
  'towerhavoc.match.result.v1':('tiinex.runtime.v1',['Match Binding','Completion','Winner Or Outcome','Final State','Audit Closure','Interpretation Limits']),
 }
-SELF_RE=re.compile(r'(- \[sha256-base64url-c14n-v2\]\([^\n]+\)\n\s+- Towards: self\n\s+- Value:)[ \t]*([^\n]*)')
-
 def self_digest(text):
     text=text.replace('\r\n','\n').replace('\r','\n')
     text='\n'.join(re.sub(r'[ \t]+$','',ln) for ln in text.split('\n')).rstrip()
-    m=SELF_RE.search(text)
-    if not m: return None,None
-    recorded=m.group(2).strip()
-    neutral=text[:m.end(1)] + text[m.end(2):]
-    digest=base64.urlsafe_b64encode(hashlib.sha256(neutral.encode()).digest()).decode().rstrip('=')
+    lines=text.split('\n')
+    try: ih=lines.index('# Continuity Integrity')
+    except ValueError: return None,None
+    entries=[]; cur=None
+    def strip_link(v):
+        m=re.match(r'^\[([^\]]+)\]\([^)]+\)$',v.strip())
+        return (m.group(1) if m else v).strip()
+    def finish():
+        nonlocal cur
+        if cur is not None:
+            entries.append(cur); cur=None
+    for i in range(ih+1,len(lines)):
+        line=lines[i]
+        if re.match(r'^#\s+',line):
+            finish(); break
+        m=re.match(r'^-\s+(.+?)\s*$',line)
+        if m:
+            finish(); cur={'method':strip_link(m.group(1)),'towards':'','vals':[]}; continue
+        if cur is None: continue
+        m=re.match(r'^\s+-\s+Towards:\s*(.*?)\s*$',line)
+        if m: cur['towards']=strip_link(m.group(1))
+        m=re.match(r'^(\s+-\s+Value:)([ \t]*)(.*)$',line)
+        if m: cur['vals'].append((i,m.group(1),m.group(2),m.group(3).strip()))
+    finish()
+    selfs=[e for e in entries if e['method']=='sha256-base64url-c14n-v2' and e['towards']=='self']
+    if len(selfs)!=1 or len(selfs[0]['vals'])!=1:return None,None
+    i,label,spacing,recorded=selfs[0]['vals'][0]
+    canonical=lines[:]
+    canonical[i]=label+spacing
+    digest=base64.urlsafe_b64encode(hashlib.sha256('\n'.join(canonical).encode()).digest()).decode().rstrip('=')
     return recorded,digest
 
 errs=[]

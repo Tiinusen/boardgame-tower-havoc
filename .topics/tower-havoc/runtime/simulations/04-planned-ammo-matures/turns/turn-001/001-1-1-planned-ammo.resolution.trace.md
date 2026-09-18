@@ -60,8 +60,8 @@
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: [TH-SIM-04 Planned Ammo Intent](001-1-planned-ammo.intent.trace.md)
-  - Value: aZRJh-R3Ghk5ZtvNSOKZj8ptVgTFrwuu8NauYn4vmtk
+  - Value: 9M-bCmcBuYMLsYYqbK7nBgVEhEes5pwI7E2UOGFoNbU
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: self
-  - Value: bpLpNiOhU-2fibA9oNw9zUZVeOlIvNIdoyVUwBKcygA
+  - Value: 0oK3iee9zPDw3UFRARWkPAHqq1XljM7FOnIEnYWLzMY

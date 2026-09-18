@@ -139,4 +139,4 @@ The match root groups the game instance; it is not itself a record that every la
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: self
-  - Value: TPm2nnUq9MI51WoDV1co42TVGV4T4bzJCy1fvpedJCw
+  - Value: qDbuuEjezso_QQ3gklpka4lw383o-o2hcuQb6j_zKlM

@@ -65,3 +65,18 @@
 - Removed every nested `README.md`; repository root `README.md` is now the only README surface.
 - Tiinex artifacts, schemas, generated projections, and directory structure carry their own semantics without parallel README maintenance.
 - This reduces documentation drift and avoids treating directory-local summaries as competing semantic authority.
+
+## Working update — canonical c14n-v2 integrity repair
+
+- Re-sealed project-local Tower Havoc schemas and trace artifacts using the current Tiinex `sha256-base64url-c14n-v2` canonicalization rather than the earlier local approximation.
+- Rebound every local Parent-target integrity value after Parent digests changed.
+- Semantic bodies, Parent declarations, filenames, and directory-local filename lineage were preserved; this pass repairs integrity metadata only.
+
+
+## Working update — incremental match-lineage stress
+
+- Added `002-incremental-lineage-stress.topic.trace.md` as a new simulation-stress Topic without rewriting the earlier eight-scenario corpus semantics.
+- Added `09-incremental-lineage-match/`, a 56-artifact three-seat synthetic match emitted artifact-by-artifact while the harness executes.
+- Added `scripts/run_incremental_lineage_simulation.py`; each emitted child requires an already-verifying Parent and random fixture values are consumed only after the corresponding Random Request artifact verifies.
+- Added byte-for-byte regeneration validation plus current Tiinex c14n-v2/local-Parent integrity validation and a single-README-surface validator.
+- The fixture exercises turn-start/turn-end rule resolution, planned-ammo maturation, three-floor building, reinforcement, a blocked random attack, a full orbit, and successful bell resolution.

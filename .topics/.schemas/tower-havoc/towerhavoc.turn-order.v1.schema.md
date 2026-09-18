@@ -118,4 +118,4 @@ Issue-comment arrival order must never silently become turn order.
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: self
-  - Value: pZ1syqmVqDSlSb-28abTNBjVfyry1iRUABGdealXMEc
+  - Value: nqPF1vBOsP-JEsOCTQ3vizqOrgU3x3czR1xP92UuQkI

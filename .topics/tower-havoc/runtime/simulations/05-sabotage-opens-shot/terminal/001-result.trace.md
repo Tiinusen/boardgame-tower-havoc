@@ -49,8 +49,8 @@
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: [TH-SIM-05 Follow-up Attack Resolution](../turns/turn-001/001-2-1-1-1-1-attack.resolution.trace.md)
-  - Value: PXJhU6Nfowldp0WpeyKUtZpB2yFLue_3wYYb23lmdZg
+  - Value: zdl3TCS1NUBw5x5htV_DoeJdLLXBFqRk3DCEQzMSAbM
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: self
-  - Value: bGmvXGH1Jgum3ov9fLDc8WT8OnZ4cGy6K_MyPW6ZdH0
+  - Value: aaThAvZoRRa9gwIGHGvRqStlh4UQ4eidltB6nwvkido

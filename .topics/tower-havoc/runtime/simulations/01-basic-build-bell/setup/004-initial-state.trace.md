@@ -59,8 +59,8 @@
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: [TH-SIM-01 Basic Build And Bell Victory](../002-match.match.trace.md)
-  - Value: PpHthc1cIzunI3beuStGJOHIZMbLf3R1TSpSyU1xOT8
+  - Value: 6e_nmOU2b0vLwL2ZAnyGeP_s2y7IXYULNeIv0Q1jHEI
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: self
-  - Value: 3xJ8-dhEKU3oyy1s3XXcaU2AFtKqgjQzJ2_x8uP5nSw
+  - Value: qzYC0xgL5AAWUzM9G_Au8fr7RKLRUzlQk9h69_xtK1w

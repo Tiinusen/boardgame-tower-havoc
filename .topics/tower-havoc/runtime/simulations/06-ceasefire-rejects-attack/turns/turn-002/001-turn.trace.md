@@ -48,8 +48,8 @@
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: [TH-SIM-06 Ceasefire Rejects Attack Then Expires](../../002-match.match.trace.md)
-  - Value: xIAi-0kohiMmB_Z6CdWZtert33tzuhxV6oq_GfLLC3A
+  - Value: -ayJajyAxYC7XzxkBoEIyFUgD7GqzssCQOAK_wL-UCY
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: self
-  - Value: EssmUcqQvROhe60Th-AePzusK84xwUiMT1X3xlm8q3A
+  - Value: 9-nBAvADsRksRiByBQCkwsgW5YYedstjkR7Jk_EJqgA

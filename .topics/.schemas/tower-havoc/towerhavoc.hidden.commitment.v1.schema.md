@@ -124,4 +124,4 @@ Full provenance does not require full public plaintext during the match. Commitm
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: self
-  - Value: 6H3FVoEqW90UKzglQZt6qAUciYOTA1NTvh2Jpcq20KU
+  - Value: rVhrfDBTg0F3Ou-s39nxoRSDnDjPBJMs2ZnmWOtNya8

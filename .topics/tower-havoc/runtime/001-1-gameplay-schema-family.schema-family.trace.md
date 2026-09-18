@@ -96,4 +96,4 @@ This map is schema inheritance, not match-artifact Parent lineage. Concrete matc
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: self
-  - Value: aIgsiNq7MwfM_HA5WNkY9jn_eUKaTTWCRp3l94g940c
+  - Value: _Uy63HyLmNFK7R-_2aRwOUFzJdSDt2LsLeqve_ODCGY

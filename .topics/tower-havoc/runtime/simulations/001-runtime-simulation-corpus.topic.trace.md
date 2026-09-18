@@ -78,4 +78,4 @@ A Discord bot, GitHub Action, CLI, physical-table recorder, or later GUI should 
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: self
-  - Value: NiWrlJtCZeAMK8OnRDcbtuLNnP3mNp0nhFV5CkKaWQI
+  - Value: 7XG7-ZrEUxfvr__HzZp6MZkn7fZfV_Mcj6pDNcdhtmM

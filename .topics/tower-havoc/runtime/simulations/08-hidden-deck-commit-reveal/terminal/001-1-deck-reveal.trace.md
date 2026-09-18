@@ -43,8 +43,8 @@
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: [TH-SIM-08 Simulation Result](001-result.trace.md)
-  - Value: MKLu7DmK1FvVQBJdHCRD5S1iHy3DQaaEiW7HJ7g9tfo
+  - Value: x_FNBwfjuMnJPXezy6e-3vTw4gp-LeIWrr-9c5RGB6I
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: self
-  - Value: TPhY20eySbCvMDTEssCERflmvtBY_74e45vZssIzHIo
+  - Value: FFiK3hvCrWV80itSEwm8KY8JznMAAoxNX9Q_i4oLBKk

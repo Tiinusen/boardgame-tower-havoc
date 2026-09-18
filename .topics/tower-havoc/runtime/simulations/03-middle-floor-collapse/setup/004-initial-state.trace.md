@@ -59,8 +59,8 @@
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: [TH-SIM-03 Middle Floor Hit Causes Upper Collapse](../002-match.match.trace.md)
-  - Value: OQMY8_vKQgmvJWlsmCMRSQxym6ybIIZAFe9qc4A9xuk
+  - Value: 18Q7spdWdOEM6YDMV84SzLXCPjelAQYNh_H1kxfRhBk
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: self
-  - Value: pIMvBTqFINif8lTYXPQGh5GRhn8iSZz2oJFUD8u2huM
+  - Value: HI6bOJd9hUFdTkbLOqKAUe3hWslKQWXk0kWzLqvZZSU

@@ -62,4 +62,4 @@ ownership.
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/c5c0a8173dcc0816d239a64fa363c7924df216b1/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: self
-  - Value: jHvHszvvdDaeiWtgMsBFkrpA4qgRhLiumELW1UF6ZIY
+  - Value: 9rv6NpjrEL3GEkrga-dhcY8_xpcD9hNCAP6WKDtOnLg

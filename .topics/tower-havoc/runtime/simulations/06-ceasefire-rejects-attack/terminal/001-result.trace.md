@@ -49,8 +49,8 @@
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: [TH-SIM-06 Ceasefire Expiry Rule Resolution](../turns/turn-002/001-1-event-expiry.rule-resolution.trace.md)
-  - Value: Qhq43K861UrwEsaTNqJd89FM9PzUEesgiK25E3xueSg
+  - Value: EqAkUM4UhX6HTJpTLNoaFk_a_RPy0pvBaGzNGE1PdP4
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: self
-  - Value: eaVZLB2CTr0FIiISpYkeH8Mlgmhf__-tC391RyE5vyM
+  - Value: wiCr36oY7kRixbbT13yGjwSrfMBtAwr8LxLjUiZ3uTI

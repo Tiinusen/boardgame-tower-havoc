@@ -144,4 +144,4 @@ The action resolution is the durable game event. Human UI summaries are projecti
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: self
-  - Value: 68T3y4U7R5S028NJnW-IDAlJpXJVWmXLjxitH32HqGQ
+  - Value: Oxpi4zUdF5FDLRZFIAsNeTaJwPiamBwB0j6BFXfiPbk

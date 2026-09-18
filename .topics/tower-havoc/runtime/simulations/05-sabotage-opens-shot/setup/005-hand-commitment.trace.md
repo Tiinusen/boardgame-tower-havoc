@@ -50,8 +50,8 @@
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: [TH-SIM-05 Sabotage Opens A Protected Hit Value](../002-match.match.trace.md)
-  - Value: dZXkWaP5-slkpab9TL7nPClbpGg7mLxTPa0JjtPIrTM
+  - Value: 9tozi9_0StCoc_Hw6_cQm573R0DlsRYHBatuwiS5iBU
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: self
-  - Value: DayXYgzAJRO6_gDONN4mopeW-5AlzyXTV0q10jHV-CE
+  - Value: RBA0TffBlaQkneEnYDnQMKhTzTQWXCyYho_t22-2uDU

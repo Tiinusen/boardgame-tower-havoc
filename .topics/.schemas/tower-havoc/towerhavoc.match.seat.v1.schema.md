@@ -125,4 +125,4 @@ Player, seat, and faction remain distinct identities.
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: self
-  - Value: Dp6k0d744nBTClji2bxh9uq_L40_1pczQoUVBUbR0MU
+  - Value: HKIrGu_aJcC1WakraoPy2AOZ2Y7hyag2zgv9aaQ14og
