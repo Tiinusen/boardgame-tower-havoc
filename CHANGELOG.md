@@ -41,3 +41,27 @@
 - Rebuilt the synthetic match-lineage demo to demonstrate the same rule across setup and per-turn directories.
 - Added `scripts/validate_filename_lineage.py` to prevent accidental drift back to repository-global filename numbering.
 - Updated relative references, generated projections, and continuity integrity after the rename.
+
+## Review carrier 004 — synthetic runtime simulation corpus
+
+- Added eight typed synthetic match simulations under `.topics/tower-havoc/runtime/simulations/` as replay/conformance examples rather than playtest Evidence.
+- Added draft/local `towerhavoc.rule.resolution.v1` for deterministic automatic game effects that do not originate from a player Action Intent.
+- Exercised human-style generic Runtime and Machine Runtime randomness sources without making Tower Havoc depend on a digital-only execution model.
+- Added `scripts/validate_runtime_simulations.py` and extended gameplay-schema validation.
+- Preserved all-rights-reserved licensing status; no reuse license is granted by the simulation corpus.
+
+
+## Working update — explicit Tower Havoc roles
+
+- Added a canonical `roles/` branch under `.topics/tower-havoc/`.
+- Added reusable `tiinex.party.role.v1` endpoints for Steward, Cartographer, Keeper, and Player.
+- Kept all four Roles as siblings under one Roles Topic rather than encoding collaboration/delegation as Role Parent ancestry.
+- Used the current canonical `Holder Relationship -> Assignment Modes` field and kept Role identity distinct from holder/session/seat identity.
+- Bound Steward to project-level direction/acceptance, Cartographer to design/continuity materialization, Keeper to match adjudication/audit/simulation, and Player to seat-level strategy/intent.
+- Added explicit boundaries preventing synthetic simulation from becoming playtest Evidence, Keeper mismatches from becoming automatic cheating accusations, and Role references from becoming holder/delegation/publication authority.
+
+## Working update — README surface reduction
+
+- Removed every nested `README.md`; repository root `README.md` is now the only README surface.
+- Tiinex artifacts, schemas, generated projections, and directory structure carry their own semantics without parallel README maintenance.
+- This reduces documentation drift and avoids treating directory-local summaries as competing semantic authority.

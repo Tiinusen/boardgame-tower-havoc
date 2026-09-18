@@ -1,15 +1,12 @@
 {
-  "version": "0.6-review-carrier-003",
+  "version": "0.9-working-readme-surface-reduction",
+  "source_carrier": "005",
+  "notes": "Only repository-root README.md is retained; nested README surfaces were removed to reduce documentation drift.",
   "files": [
     {
       "path": ".gitignore",
       "size": 51,
       "sha256": "6664a504d63fc6883072bf6d700e1999deee275ca9a605e71be97c4b91868289"
-    },
-    {
-      "path": ".topics/.schemas/tower-havoc/README.md",
-      "size": 4376,
-      "sha256": "531871f0c016a25e9d0af505ec0eaeed1dd195e935fc18fd012b67fa264f9594"
     },
     {
       "path": ".topics/.schemas/tower-havoc/towerhavoc.action.intent.v1.schema.md",
@@ -57,6 +54,11 @@
       "sha256": "590bc6334bbcc2330c9d76f573c9b052abaf095b67db580f49dea23f659fd098"
     },
     {
+      "path": ".topics/.schemas/tower-havoc/towerhavoc.rule.resolution.v1.schema.md",
+      "size": 5219,
+      "sha256": "e868677153a0cf478c364d88f155d8ba6aec0b233c58e4457c88a154e16d0342"
+    },
+    {
       "path": ".topics/.schemas/tower-havoc/towerhavoc.ruleset.v1.schema.md",
       "size": 5338,
       "sha256": "d1b59aeca17e71f4720621d01a88960b6d08942ecb6420874adf379f0ee16a77"
@@ -95,11 +97,6 @@
       "path": ".topics/tower-havoc/001-tower-havoc.project.trace.md",
       "size": 3533,
       "sha256": "c556302215e4af6fbe6fc121f264f025d192c1abf622a271b7131ce3c2f78be1"
-    },
-    {
-      "path": ".topics/tower-havoc/README.md",
-      "size": 3516,
-      "sha256": "0950c47ed13fd7f9ea98f215423e0d87ec556c0ba018386861578ddd161794ba"
     },
     {
       "path": ".topics/tower-havoc/cards/001-1-deck-composition.decision.trace.md",
@@ -253,8 +250,8 @@
     },
     {
       "path": ".topics/tower-havoc/presentation/001-1-rulebook-projection.presentation.trace.md",
-      "size": 3222,
-      "sha256": "ad17b66069f08c8bb058d7a44127f23d1360d1bb3d4eb483683eacb91238ec98"
+      "size": 3267,
+      "sha256": "c952e24188ddfc85b3b25c2c6c144ef5edf430abe455ab81fc6bc14944056e4d"
     },
     {
       "path": ".topics/tower-havoc/presentation/001-2-quick-reference-projection.presentation.trace.md",
@@ -270,6 +267,31 @@
       "path": ".topics/tower-havoc/presentation/001-projection-surfaces.topic.trace.md",
       "size": 2040,
       "sha256": "ef32db5ddcc7be8b342e7b20be011ea075103d64d7f20b3e8037a5b457fb1acc"
+    },
+    {
+      "path": ".topics/tower-havoc/roles/001-1-steward.role.trace.md",
+      "size": 4941,
+      "sha256": "e5edb6f35603d9f915f72ee0274d13d41a381f506c5f891df181c4ae958c9673"
+    },
+    {
+      "path": ".topics/tower-havoc/roles/001-2-cartographer.role.trace.md",
+      "size": 5092,
+      "sha256": "cabf154047eab8b75db7bba0ebbf669a084638033906688f2459e67054d7d90c"
+    },
+    {
+      "path": ".topics/tower-havoc/roles/001-3-keeper.role.trace.md",
+      "size": 5171,
+      "sha256": "75daaecea8e10f06bdfe1d3d46a553e7e8a847037a0ddd7aecdfad901157ecb7"
+    },
+    {
+      "path": ".topics/tower-havoc/roles/001-4-player.role.trace.md",
+      "size": 4935,
+      "sha256": "fdbeb35c0fc357424c1c10dd16af92d70cd824653b87455cca3777c6c8f20dc6"
+    },
+    {
+      "path": ".topics/tower-havoc/roles/001-roles.topic.trace.md",
+      "size": 3298,
+      "sha256": "b232ddbb9604ec7b0bda3a1e5aa61aade4a8bfb2e89b0ca9bcaa733dcac3c933"
     },
     {
       "path": ".topics/tower-havoc/rules/001-1-setup.decision.trace.md",
@@ -333,8 +355,8 @@
     },
     {
       "path": ".topics/tower-havoc/runtime/001-1-gameplay-schema-family.schema-family.trace.md",
-      "size": 6460,
-      "sha256": "a20425536721d3949e767465c689f9f447525347427d15c42c6a538c5aa4fad8"
+      "size": 6548,
+      "sha256": "f52476b7b66e9319c0c3f8016013108fb29eeb85a267d775cd2780acdd9fbb89"
     },
     {
       "path": ".topics/tower-havoc/runtime/001-2-event-sourced-match-authority.decision.trace.md",
@@ -347,9 +369,764 @@
       "sha256": "625298fc0e746fe23c2801f654530d33a0b50cc81c62b9601e6737b3130962e5"
     },
     {
+      "path": ".topics/tower-havoc/runtime/001-4-automatic-rule-resolution.decision.trace.md",
+      "size": 2631,
+      "sha256": "96838f6eccb47097e4bdcc171fe49d58b418b9e186ecc457b7ba3934fd68a8fc"
+    },
+    {
       "path": ".topics/tower-havoc/runtime/001-match-provenance-runtime.topic.trace.md",
       "size": 2656,
       "sha256": "38551a7645fa5eefc4d08901b5b346407ce92aa510b043512d8ba5c6ea579b18"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/001-runtime-simulation-corpus.topic.trace.md",
+      "size": 4780,
+      "sha256": "849eba92a22fe4da33c1011ba49145b8e32b0cdce90b33ab3cef4b0f6da38c52"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/01-basic-build-bell/001-ruleset.ruleset.trace.md",
+      "size": 2805,
+      "sha256": "a800f0d8dd4d76731e557e67ee2be1ceccfe9eadb8b7404ad05bf04d7361e18d"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/01-basic-build-bell/002-match.match.trace.md",
+      "size": 2717,
+      "sha256": "d345b6805feca40eae16e3975d0446aebd4171d92b4cd2bb6b3b3552c5614ce3"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/01-basic-build-bell/setup/001-seat-01.seat.trace.md",
+      "size": 1754,
+      "sha256": "239909bbcd49d703497672540c66b616902a68d75b1e3dc64b929e4f0a1aaaf6"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/01-basic-build-bell/setup/002-seat-02.seat.trace.md",
+      "size": 1754,
+      "sha256": "ea3feeabb20ca32e181b3ea0a18c8117a2005af17f0972cf25bfadc34dc3e5c9"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/01-basic-build-bell/setup/003-turn-order.trace.md",
+      "size": 1702,
+      "sha256": "0af99552318efe516542e217d1c960e4056be9d32109d14db94936324072390a"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/01-basic-build-bell/setup/004-initial-state.trace.md",
+      "size": 2339,
+      "sha256": "2be921e0a987973e127a31bcfef4a164b295cd61440dec16e20bb9adadd82255"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/01-basic-build-bell/terminal/001-result.trace.md",
+      "size": 2332,
+      "sha256": "e2474b0229cee261f2b6bfea2b963b3636dd919f27c96085ee63f7be26e11d51"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/01-basic-build-bell/turns/turn-001/001-1-1-1-state.trace.md",
+      "size": 2409,
+      "sha256": "6a309e0f8291f8f2d9b40187b4ae1c2083e7300bc41e8339382440dcf6c0dbeb"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/01-basic-build-bell/turns/turn-001/001-1-1-build-1.resolution.trace.md",
+      "size": 2385,
+      "sha256": "0e651c782ee65125becc327ef00850cd920e89a6b30f4bce213623d41e965848"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/01-basic-build-bell/turns/turn-001/001-1-build-1.intent.trace.md",
+      "size": 1784,
+      "sha256": "d829774929c5c3d360352b4f4447bda4107c08fb8067ca88bccd50ea44042fa7"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/01-basic-build-bell/turns/turn-001/001-2-1-1-state.trace.md",
+      "size": 2395,
+      "sha256": "d486d3f64b179f82c6a1aad3ee0d368b7032ac1cfd768cbcc33000a4e28dafeb"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/01-basic-build-bell/turns/turn-001/001-2-1-build-2.resolution.trace.md",
+      "size": 2371,
+      "sha256": "d01a6568b934d167a0e89b1399c7fd836ee79fcb47efbec994f776710c253e9b"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/01-basic-build-bell/turns/turn-001/001-2-build-2.intent.trace.md",
+      "size": 1770,
+      "sha256": "c869120ec3c3096280f0c6592ce825ddcb7d4f8c10e24639b35157f361dfeae3"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/01-basic-build-bell/turns/turn-001/001-3-1-1-state.trace.md",
+      "size": 2395,
+      "sha256": "75dd979e0c142e31a37e4455eeecab8015a8a71ca7ae6961542ee541c66fdac6"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/01-basic-build-bell/turns/turn-001/001-3-1-build-3.resolution.trace.md",
+      "size": 2371,
+      "sha256": "e5cb9f54fe2fee90938f6fcb8883429215656a963c191f371c6d63f78b8d1741"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/01-basic-build-bell/turns/turn-001/001-3-build-3.intent.trace.md",
+      "size": 1770,
+      "sha256": "30c068a9de2f1102e2fc72d5a7f48f71ce8464c5a283af721d7d7e7e1879a887"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/01-basic-build-bell/turns/turn-001/001-turn.trace.md",
+      "size": 1957,
+      "sha256": "d345f9a86125fdb1a37bfe74cb5ce3bd5af6f285e7539ca3bd9e59583553332a"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/01-basic-build-bell/turns/turn-002/001-1-1-1-state.trace.md",
+      "size": 2418,
+      "sha256": "027753b6dc7c4c28305bf03330859c9dc90e3a133c3138edf73f913c4c7ec01a"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/01-basic-build-bell/turns/turn-002/001-1-1-pass.resolution.trace.md",
+      "size": 2356,
+      "sha256": "854171e9ef4a21683274c681dcc7863dd651edb2e1f48965fb819b3be149cc1e"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/01-basic-build-bell/turns/turn-002/001-1-pass.intent.trace.md",
+      "size": 1756,
+      "sha256": "9ab74e9238ce4600d973f240c3fb777f7a6005af78f42cbd5574ac3d867fcaad"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/01-basic-build-bell/turns/turn-002/001-turn.trace.md",
+      "size": 1955,
+      "sha256": "d5b02aa47acfafa5c798a27f76727dc582cfad721ba758942a0160562a652abc"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/01-basic-build-bell/turns/turn-003/001-1-1-state.trace.md",
+      "size": 2432,
+      "sha256": "f1f7c3e03a925f8ab8475e15fa3a45db014144fc343562566110b2976352d048"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/01-basic-build-bell/turns/turn-003/001-1-turn-start.rule-resolution.trace.md",
+      "size": 2300,
+      "sha256": "7bc2a92fd528752601ebd0fc0f7bfdf36963f54e6b8bcda169c328cbb9dc77fa"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/01-basic-build-bell/turns/turn-003/001-2-1-1-1-1-1-state.trace.md",
+      "size": 2406,
+      "sha256": "6c76fd3cb62f67989a8d1af5a0f5ffcea519942f227659f97e5d2fe9131a8969"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/01-basic-build-bell/turns/turn-003/001-2-1-1-1-1-bell.resolution.trace.md",
+      "size": 2448,
+      "sha256": "0b8dd35b6813676ae17354fc0c6b243038f2597147875fdf69d5c84d463dfcf5"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/01-basic-build-bell/turns/turn-003/001-2-1-1-1-bell.random-result.trace.md",
+      "size": 2298,
+      "sha256": "37713a8711e5ff7df2e9d9c628613e0d202cfc707274b0698976e2536323e1af"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/01-basic-build-bell/turns/turn-003/001-2-1-1-roll.runtime.trace.md",
+      "size": 1758,
+      "sha256": "6e448645027c0084114f3183bdc2d0130f6b6f1a5a6404ba4c515c15c867f1c1"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/01-basic-build-bell/turns/turn-003/001-2-1-bell.random-request.trace.md",
+      "size": 2079,
+      "sha256": "721abc4c8331b945dac4783ef9926727378f654a7d74d147413cf213de7163c9"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/01-basic-build-bell/turns/turn-003/001-2-bell.intent.trace.md",
+      "size": 1750,
+      "sha256": "f87bfdea6b19726ee68a0e033da88b2edf0fb604fae81677f1c78ab8a133b549"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/01-basic-build-bell/turns/turn-003/001-turn.trace.md",
+      "size": 1955,
+      "sha256": "2397c1944018b48c2dec4d97ddb646390e50f7d250cc777570156451a30046f0"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/02-reinforcement-block/001-ruleset.ruleset.trace.md",
+      "size": 2789,
+      "sha256": "d3d2ecf0efe1a39979381a23015bcc56171b6040175283b237a0e2d7027b1920"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/02-reinforcement-block/002-match.match.trace.md",
+      "size": 2733,
+      "sha256": "b276f9c321b8badfa685bef05e796f359d46046a930ac3738355af8de113a368"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/02-reinforcement-block/setup/001-seat-01.seat.trace.md",
+      "size": 1770,
+      "sha256": "79422e24e928fb802001aa7a26b99407dbabb6b52d8fc890718aa270002952f2"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/02-reinforcement-block/setup/002-seat-02.seat.trace.md",
+      "size": 1770,
+      "sha256": "ab7e1f30dce5b14787d28025da8bf7652d1d9d0142da7289c831ba59f9126f7d"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/02-reinforcement-block/setup/003-turn-order.trace.md",
+      "size": 1718,
+      "sha256": "97f45d4d1ecae18863baade8d15d4f93da00caf8ed1c02251842e370db77c895"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/02-reinforcement-block/setup/004-initial-state.trace.md",
+      "size": 2383,
+      "sha256": "74347b6f9365fb8233929c5d13263d628fd33e6ef5d76caf42cb0814de9be112"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/02-reinforcement-block/terminal/001-result.trace.md",
+      "size": 2335,
+      "sha256": "51daefbbd3e24a9d1176feffcd229d2c09fa6f4d78f91e18a1e3aee6de008125"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/02-reinforcement-block/turns/turn-001/001-1-1-1-1-1-1-state.trace.md",
+      "size": 2441,
+      "sha256": "20a2bf0596c994fca9e4afee44cb5466bdbf2eccee83417444eafaedd2b6058e"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/02-reinforcement-block/turns/turn-001/001-1-1-1-1-1-attack.resolution.trace.md",
+      "size": 2454,
+      "sha256": "6bbfcaa399738e3d940fe71f5bdb4a26a964a00cd4a03d15b022b9e71b974974"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/02-reinforcement-block/turns/turn-001/001-1-1-1-1-attack.random-result.trace.md",
+      "size": 2294,
+      "sha256": "e9d52a7d818f4023edda2f80e47e3f143151742eaa7085f136ff2f186ec457da"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/02-reinforcement-block/turns/turn-001/001-1-1-1-roll.runtime.trace.md",
+      "size": 1742,
+      "sha256": "e8b3955c8bfa3675c194075e8668265acd24f99d26372856ea174d786a4f7d35"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/02-reinforcement-block/turns/turn-001/001-1-1-attack.random-request.trace.md",
+      "size": 2078,
+      "sha256": "ff6a9ee433a7d1a01d10da94e28bb6fbc717cd54177021c50504f29b4991e6f1"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/02-reinforcement-block/turns/turn-001/001-1-attack.intent.trace.md",
+      "size": 1785,
+      "sha256": "0db3788f4ff203ea269f900d5935c54c1ee11cea5c83a7d7a7797f93ab95342c"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/02-reinforcement-block/turns/turn-001/001-turn.trace.md",
+      "size": 1973,
+      "sha256": "4cfe72ba6883279b98c8bf3c2d244d078e04de87e8a6f05a7bfe45fed4de2124"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/03-middle-floor-collapse/001-ruleset.ruleset.trace.md",
+      "size": 2798,
+      "sha256": "00b79bc64070a7dd07945f38a47f2647c7252c81e82084c1a4c23553dc63d13d"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/03-middle-floor-collapse/002-match.match.trace.md",
+      "size": 2737,
+      "sha256": "6362ebddbc8b5964cdf373d2e28645eb86943b449c339818ef8177230c3d2570"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/03-middle-floor-collapse/setup/001-seat-01.seat.trace.md",
+      "size": 1774,
+      "sha256": "bb6a101229339f8fa162b83e9c06aec10fe8d9ad1a99346c1ac33254485a542f"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/03-middle-floor-collapse/setup/002-seat-02.seat.trace.md",
+      "size": 1774,
+      "sha256": "f4b62ed4c00bfd447cd898026ce3f6c4c973d6c9ce9ddfefa26a1be17421bd9d"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/03-middle-floor-collapse/setup/003-turn-order.trace.md",
+      "size": 1722,
+      "sha256": "869a34753063537ae8310866b22b15ba44eb2107ca0adda388501769fc084c6f"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/03-middle-floor-collapse/setup/004-initial-state.trace.md",
+      "size": 2359,
+      "sha256": "ca6e97a9e717c6648e0a309c7731bfa981cf8881bcff031234d06254b9c4b55a"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/03-middle-floor-collapse/terminal/001-result.trace.md",
+      "size": 2379,
+      "sha256": "22460c9a6c86d858c86d9d6b4fa8eb4e6cd1cc40be779943ab0b670f57a0111c"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/03-middle-floor-collapse/turns/turn-001/001-1-1-1-1-1-1-state.trace.md",
+      "size": 2440,
+      "sha256": "de9add7ebb73ab9ceb23600929801a5ebdfdec1cea31db591b3c0aef0ad3ce6e"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/03-middle-floor-collapse/turns/turn-001/001-1-1-1-1-1-attack.resolution.trace.md",
+      "size": 2557,
+      "sha256": "2ecd2bcfbd7f55c06dd7e11a2a3557b13f1dbbae20ac3f257a1f05a2745e430f"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/03-middle-floor-collapse/turns/turn-001/001-1-1-1-1-attack.random-result.trace.md",
+      "size": 2335,
+      "sha256": "18b204f096746ca3365ef3468a43b5d6ba4120be0d93c9c0f3890e11598eeca8"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/03-middle-floor-collapse/turns/turn-001/001-1-1-1-machine.runtime.trace.md",
+      "size": 1810,
+      "sha256": "976529c93b4f440db8221b158ab35098c8373b89ee766781125cedf92476c34e"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/03-middle-floor-collapse/turns/turn-001/001-1-1-attack.random-request.trace.md",
+      "size": 2094,
+      "sha256": "b8f4718b1b04f31b84184eb2be0d248327962e8dd3660326e11da65bfc0db52b"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/03-middle-floor-collapse/turns/turn-001/001-1-attack.intent.trace.md",
+      "size": 1793,
+      "sha256": "8a8db9b8d2ad1b86e2a601fe7ca4b6badeeb16b062dda34cc47373f42478fc8b"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/03-middle-floor-collapse/turns/turn-001/001-turn.trace.md",
+      "size": 1977,
+      "sha256": "620cea06ef7ae5bece74ab08ab1d1baf8148ded9bd96c4b95355a32d0c760e89"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/04-planned-ammo-matures/001-ruleset.ruleset.trace.md",
+      "size": 2806,
+      "sha256": "584401da1044e773221e01f453fca7f44aa6b1f5cebe75c3b492dcf6c9b0e081"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/04-planned-ammo-matures/002-match.match.trace.md",
+      "size": 2741,
+      "sha256": "30c8513b8b91412b40bee4fae58cdf205acd3c5eda3369759093a32f98ad2e8f"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/04-planned-ammo-matures/setup/001-seat-01.seat.trace.md",
+      "size": 1778,
+      "sha256": "38f3691e235d58de4deb0f3238a719b4acd90db4405a75ccc5d247aa03082a06"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/04-planned-ammo-matures/setup/002-seat-02.seat.trace.md",
+      "size": 1778,
+      "sha256": "c5992e61f428420e6cba39ca5efa8a120ff6f3efd58f3ce2af32a23c9f17c83e"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/04-planned-ammo-matures/setup/003-turn-order.trace.md",
+      "size": 1726,
+      "sha256": "55538a57e84828822bf6dce6e9fd19d1a5377a911d42cf8a4c9f576935de43e5"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/04-planned-ammo-matures/setup/004-initial-state.trace.md",
+      "size": 2363,
+      "sha256": "4055d406ddc720d1996b9d46752a98216e81a22a133d23004f5c867b8fb80568"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/04-planned-ammo-matures/terminal/001-result.trace.md",
+      "size": 2370,
+      "sha256": "a305026491094ac67ec8a2247a5ef3b0c489d4eb42afdf75a4aff5dd7a8bdce9"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/04-planned-ammo-matures/turns/turn-001/001-1-1-1-state.trace.md",
+      "size": 2421,
+      "sha256": "428f4741d3cd62f0810e4de01b4a72ef58a7a0c28f563d7a70cf260e0131b79c"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/04-planned-ammo-matures/turns/turn-001/001-1-1-planned-ammo.resolution.trace.md",
+      "size": 2422,
+      "sha256": "dfe50b022703abcb0fc07de30a44d054170595ec0132827697885984b9406b00"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/04-planned-ammo-matures/turns/turn-001/001-1-planned-ammo.intent.trace.md",
+      "size": 1766,
+      "sha256": "3b5949de1f851f1dcd7aa013053da6b6e3f7d7063cef896d242b42799c432d7d"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/04-planned-ammo-matures/turns/turn-001/001-turn.trace.md",
+      "size": 1981,
+      "sha256": "3080716f5f024d94f8149ef9de1746dd9372c7e8de3bfce7802260d2ed87a071"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/04-planned-ammo-matures/turns/turn-002/001-1-1-1-state.trace.md",
+      "size": 2395,
+      "sha256": "529905dc5c59c645d1c3115d243454017ade960529b2a85c980992ad960134a2"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/04-planned-ammo-matures/turns/turn-002/001-1-1-pass.resolution.trace.md",
+      "size": 2308,
+      "sha256": "30c62f175822083e52808182433992644b474f8dd98d35847f3652777ef8f231"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/04-planned-ammo-matures/turns/turn-002/001-1-pass.intent.trace.md",
+      "size": 1749,
+      "sha256": "cd9c847fd55077b0859d90b8726ff5013330d6fdfe80861c0123242a26a52460"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/04-planned-ammo-matures/turns/turn-002/001-turn.trace.md",
+      "size": 1979,
+      "sha256": "2f15d7451fbe922c92abba136c6e0955c950a4fa167535d44b0cb1ba651f80b8"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/04-planned-ammo-matures/turns/turn-003/001-1-1-state.trace.md",
+      "size": 2455,
+      "sha256": "fcba56f7e297096a20ba5d9f41be66426a44a6e62f48f826b12d371741d44abe"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/04-planned-ammo-matures/turns/turn-003/001-1-turn-start.rule-resolution.trace.md",
+      "size": 2325,
+      "sha256": "18733b559deb1691cdfbbb4b2d9b2811f585b3d00fcbbcfb2e6598078629556e"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/04-planned-ammo-matures/turns/turn-003/001-turn.trace.md",
+      "size": 1979,
+      "sha256": "5adf3f93e0375c192d70774ed896a11ae3e8583692edcef6e89efe651aaa33c0"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/05-sabotage-opens-shot/001-ruleset.ruleset.trace.md",
+      "size": 2801,
+      "sha256": "0c218c361d6e4da56c94a9d33f622a0d744643ade5e88bb19a37b76dd6d78392"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/05-sabotage-opens-shot/002-match.match.trace.md",
+      "size": 2733,
+      "sha256": "d0d5ef7981bd41425c12a8c297c5da73a291fe7e84f1581c381b44a6c0684b86"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/05-sabotage-opens-shot/setup/001-seat-01.seat.trace.md",
+      "size": 1770,
+      "sha256": "6674b21c0296f9c08c1fef3b74d61fc988ed9ff33798ca673a9cedd252912150"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/05-sabotage-opens-shot/setup/002-seat-02.seat.trace.md",
+      "size": 1770,
+      "sha256": "f6688cd70a4f2cf7274ccc5ad51f8d36075bde2559b209501530711f382d4d89"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/05-sabotage-opens-shot/setup/003-turn-order.trace.md",
+      "size": 1718,
+      "sha256": "9ab35a1de7862492d4cb1c863f40bbff0b33844d6d07dd7decd98a39d5a5ce29"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/05-sabotage-opens-shot/setup/004-initial-state.trace.md",
+      "size": 2413,
+      "sha256": "aca6d2467129221e04133bf00c6058152729908ee8063cda34cbb78e01fb3ab1"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/05-sabotage-opens-shot/setup/005-hand-commitment.trace.md",
+      "size": 2299,
+      "sha256": "b6fe450ac040f9237ac31ce81777a266f25a3db92913728f11fd9e99f2102268"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/05-sabotage-opens-shot/terminal/001-result.trace.md",
+      "size": 2401,
+      "sha256": "c40b6f8518e5398d88540e821fce0fdfaf5ddf0bdf51a9936bab3f42c1b6048e"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/05-sabotage-opens-shot/turns/turn-001/001-1-1-1-state.trace.md",
+      "size": 2468,
+      "sha256": "11e83b1b08bad01d400a5aee4fbc12c9cf9e0d0fe8b2691f46a66b7aa9d923ad"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/05-sabotage-opens-shot/turns/turn-001/001-1-1-2-hand-reveal.trace.md",
+      "size": 2088,
+      "sha256": "825d9dcf411e88f3f876688ddf410bc1fbc72ca07525d7543e926b39f51a737a"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/05-sabotage-opens-shot/turns/turn-001/001-1-1-sabotage.resolution.trace.md",
+      "size": 2470,
+      "sha256": "dba68b66c91eda6a73ca3b039b04c865cbf97c842f190f25142ff4421169cbd0"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/05-sabotage-opens-shot/turns/turn-001/001-1-sabotage.intent.trace.md",
+      "size": 1822,
+      "sha256": "b52c46c9cfe4fa9541feb5debec3d7f9092fc5ba47837b2459bb1d371e52d712"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/05-sabotage-opens-shot/turns/turn-001/001-2-1-1-1-1-1-state.trace.md",
+      "size": 2421,
+      "sha256": "21aea4f79daafa7ec32ce8276ef29bee20b72096180676af779e1c2a25ad6bde"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/05-sabotage-opens-shot/turns/turn-001/001-2-1-1-1-1-attack.resolution.trace.md",
+      "size": 2490,
+      "sha256": "1666d3ec748cdf1a7d1a66dbed0ffa80bfb166843f2fed367d87c0a4f81e17a9"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/05-sabotage-opens-shot/turns/turn-001/001-2-1-1-1-attack.random-result.trace.md",
+      "size": 2282,
+      "sha256": "07af12d95e8f8e7a7e1ba01f5517449345aeca34882ba77e8447e2ea6d24f95b"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/05-sabotage-opens-shot/turns/turn-001/001-2-1-1-roll.runtime.trace.md",
+      "size": 1736,
+      "sha256": "3c5e21bbbdd6586bdf0afcfe75398957de6c507841b63a33808e10efef2ca3d4"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/05-sabotage-opens-shot/turns/turn-001/001-2-1-attack.random-request.trace.md",
+      "size": 2098,
+      "sha256": "e8b04259c73142ff6ce3301d4fdd9a4cc72d818b7d0950fe2a31c4af388cebaa"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/05-sabotage-opens-shot/turns/turn-001/001-2-attack.intent.trace.md",
+      "size": 1781,
+      "sha256": "6e24408f87516ccb2d591ed565f9c30027728751bbd93c018d156cf720310c67"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/05-sabotage-opens-shot/turns/turn-001/001-turn.trace.md",
+      "size": 1973,
+      "sha256": "7c758462ced316475d1e47ee4dcbc55df60a64fd96b9e11b399c5a83d03bc79b"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/06-ceasefire-rejects-attack/001-ruleset.ruleset.trace.md",
+      "size": 2799,
+      "sha256": "c54b4ca7e8bd433f9a0b8c9f6598cbcce6312ad21d6aa460db08ea4b7665d904"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/06-ceasefire-rejects-attack/002-match.match.trace.md",
+      "size": 2735,
+      "sha256": "d84a59d92a7a5cb70f20165a1f783fa8e1a7bc7a225b7261e448b750c383e904"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/06-ceasefire-rejects-attack/setup/001-seat-01.seat.trace.md",
+      "size": 1772,
+      "sha256": "6e8a8c246235dba59c4ef2e3175cb58f3984387fde05d382a015f5a930af48ff"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/06-ceasefire-rejects-attack/setup/002-seat-02.seat.trace.md",
+      "size": 1772,
+      "sha256": "b3be211642e6d9c1f89b9cd522a01900ca9af074a2a4cc692717af532d0666a9"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/06-ceasefire-rejects-attack/setup/003-turn-order.trace.md",
+      "size": 1720,
+      "sha256": "0e1519e8320a449e315476b8b13ef19da5e985bdde6cc1a27bdc507b46199d7b"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/06-ceasefire-rejects-attack/setup/004-initial-state.trace.md",
+      "size": 2409,
+      "sha256": "0a47fe0ce8bbaf7f2944ef699c8f6e2fc348dfe49feb55d6ffec25a1236ce32b"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/06-ceasefire-rejects-attack/terminal/001-result.trace.md",
+      "size": 2394,
+      "sha256": "9ddc41329e08b3713c4a13403b52be8a0bec32e3f81e1bbd2fb450c84bd38fde"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/06-ceasefire-rejects-attack/turns/turn-001/001-1-1-1-state.trace.md",
+      "size": 2428,
+      "sha256": "42fae188af71794e9de70449378d69adcf6d87271535a3d6014889b02ac3bb8e"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/06-ceasefire-rejects-attack/turns/turn-001/001-1-1-attack.resolution.trace.md",
+      "size": 2427,
+      "sha256": "fcafd10bcbd6e6377041a450199fce40e61d24f23c5972edfb3f4002afac274e"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/06-ceasefire-rejects-attack/turns/turn-001/001-1-attack.intent.trace.md",
+      "size": 1802,
+      "sha256": "7c0a17bf4bb5126fccbc1a3263c670e52201bd43ae2f07797d89aef53104ccbb"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/06-ceasefire-rejects-attack/turns/turn-001/001-turn.trace.md",
+      "size": 1975,
+      "sha256": "55fed93421ec3219a24ed6739086d20789874981a28ff782be5cfb7b41aa0945"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/06-ceasefire-rejects-attack/turns/turn-002/001-1-1-state.trace.md",
+      "size": 2453,
+      "sha256": "8d1fd0fccbdd3291db901df3c01949116b344982153a10f48b413ac402d4ae04"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/06-ceasefire-rejects-attack/turns/turn-002/001-1-event-expiry.rule-resolution.trace.md",
+      "size": 2310,
+      "sha256": "644d107aef885e5f77bd9f76020225390fce6af21c2fdf1bfae88895ee2aa47b"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/06-ceasefire-rejects-attack/turns/turn-002/001-turn.trace.md",
+      "size": 1973,
+      "sha256": "58530d1913f27aa617ac325ec3db197b045ab51cec2de8df29d3f10f524a1092"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/07-bell-ineligible-then-success/001-ruleset.ruleset.trace.md",
+      "size": 2818,
+      "sha256": "83da753be0a933d5f87c77fb87edcaacd03fa08416bfdbb863a2dd94584d0448"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/07-bell-ineligible-then-success/002-match.match.trace.md",
+      "size": 2745,
+      "sha256": "fcb712526d455dd83c2fcf3691f69122f52ba73750db204c38438a9b73bea829"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/07-bell-ineligible-then-success/setup/001-seat-01.seat.trace.md",
+      "size": 1782,
+      "sha256": "10882aa9c930e08f979bd02995c8e7edc19169cd9513635fed320d018fcce8a8"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/07-bell-ineligible-then-success/setup/002-seat-02.seat.trace.md",
+      "size": 1782,
+      "sha256": "4a6d5f764bf10fd3161a57c6f3394b371bb5ec594fdd2fbc02b71c836a5c8301"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/07-bell-ineligible-then-success/setup/003-turn-order.trace.md",
+      "size": 1730,
+      "sha256": "06e0e3179d087063e3ad79e81acb05a886fd4f00197623c9f10e7d59c9cde082"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/07-bell-ineligible-then-success/setup/004-initial-state.trace.md",
+      "size": 2367,
+      "sha256": "6e0504a84a6f1e8eda64de39f54ee88b05fe0841e3418dfa98595b689759ca7f"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/07-bell-ineligible-then-success/terminal/001-result.trace.md",
+      "size": 2378,
+      "sha256": "1ca97fb11f972e384287eb58134c75a39ad0b41e06ef578d9f6281f54ba17f04"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/07-bell-ineligible-then-success/turns/turn-001/001-1-1-1-state.trace.md",
+      "size": 2437,
+      "sha256": "5d9c2466455fc75c5a7e6be2b816acc2f0bd858b6c4cf8cd483a55dcf018ec2c"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/07-bell-ineligible-then-success/turns/turn-001/001-1-1-build.resolution.trace.md",
+      "size": 2406,
+      "sha256": "f1b3c361f7b374cfd32738d37cb6fab60c613728138622367f61eea4732a2339"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/07-bell-ineligible-then-success/turns/turn-001/001-1-build.intent.trace.md",
+      "size": 1788,
+      "sha256": "0fc6053205cf5ed6b2d08803bdb3ac2a98bc9b683a84c52776d566ba971b9f72"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/07-bell-ineligible-then-success/turns/turn-001/001-2-1-1-state.trace.md",
+      "size": 2407,
+      "sha256": "6132cff9fa91b71b831ed1c7c58552f8e27588573c0b68f7dde9fb0e4d52a3c9"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/07-bell-ineligible-then-success/turns/turn-001/001-2-1-bell.resolution.trace.md",
+      "size": 2385,
+      "sha256": "cc86ace16362ab0495282fbac9490cd03039aa9c9af933535af42a77357539d8"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/07-bell-ineligible-then-success/turns/turn-001/001-2-bell.intent.trace.md",
+      "size": 1754,
+      "sha256": "3c7e25440010353fca675d541a727d34fbca31b9d4dd6fed2ab0e83c168ca5d8"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/07-bell-ineligible-then-success/turns/turn-001/001-turn.trace.md",
+      "size": 1985,
+      "sha256": "6a985029f3debef41f0cb1c7e618c51ab811319b758a3bae33ec111067b9ff9f"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/07-bell-ineligible-then-success/turns/turn-002/001-1-1-1-state.trace.md",
+      "size": 2419,
+      "sha256": "b06d7e1608d529f6c83f4f8c245c9e9bebbfb4801079f69579232ddbd12ad0ba"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/07-bell-ineligible-then-success/turns/turn-002/001-1-1-pass.resolution.trace.md",
+      "size": 2337,
+      "sha256": "b2c122d85c1f5a2f5803c5da3d28fafbb1f6e0ad543635dd09cb16c7bcc9013a"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/07-bell-ineligible-then-success/turns/turn-002/001-1-pass.intent.trace.md",
+      "size": 1749,
+      "sha256": "e5167c22c2d38d36b4b892a162f164841cfe3a119f10d4422226e767a79415cd"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/07-bell-ineligible-then-success/turns/turn-002/001-turn.trace.md",
+      "size": 1983,
+      "sha256": "cd53e558b972d42b27cba05e2f8ac4205d90f8d2bb3ca761c1c51a8cf6b9bc5a"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/07-bell-ineligible-then-success/turns/turn-003/001-1-1-state.trace.md",
+      "size": 2442,
+      "sha256": "2bd6af5dea12d49ea5ba0833dc811e5acbd44bcbf50dcb27ba39fdf7bc1e5af4"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/07-bell-ineligible-then-success/turns/turn-003/001-1-turn-start.rule-resolution.trace.md",
+      "size": 2297,
+      "sha256": "00597941f5227200f8f20c614be6ebf16d0a98ce0ae5ba903078d78abb87fa4c"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/07-bell-ineligible-then-success/turns/turn-003/001-2-1-1-1-1-1-state.trace.md",
+      "size": 2414,
+      "sha256": "c89108622afb694afde31dfac1d230bfc558af1414a04a6614e438adead05190"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/07-bell-ineligible-then-success/turns/turn-003/001-2-1-1-1-1-bell.resolution.trace.md",
+      "size": 2416,
+      "sha256": "4cbd4fb8bdf895ac91b0d7b270d43397e08901fef8c8f2f6bf8ed5331c713589"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/07-bell-ineligible-then-success/turns/turn-003/001-2-1-1-1-bell.random-result.trace.md",
+      "size": 2286,
+      "sha256": "4ef9bb2bf4e9bb77de45fac6a05723e46acfe7eb1ee8dd7eeb3cdd31e68b1553"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/07-bell-ineligible-then-success/turns/turn-003/001-2-1-1-roll.runtime.trace.md",
+      "size": 1722,
+      "sha256": "131fa485e476b98f63b0d8ee88be2634b09a7c5f012687c768d58396f084b290"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/07-bell-ineligible-then-success/turns/turn-003/001-2-1-bell.random-request.trace.md",
+      "size": 2088,
+      "sha256": "87bf92bb2287466904b163a77ae4b223897dd34e5bf50e655558f297fee74c88"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/07-bell-ineligible-then-success/turns/turn-003/001-2-bell.intent.trace.md",
+      "size": 1751,
+      "sha256": "ab47c2090e099965c9a739446554575debe9842cd5da932296584d496c8a1bba"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/07-bell-ineligible-then-success/turns/turn-003/001-turn.trace.md",
+      "size": 1983,
+      "sha256": "9247c1ab1c9edb4a20ce286bc608e1938cd78038765b128bce0c1e504f844223"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/08-hidden-deck-commit-reveal/001-ruleset.ruleset.trace.md",
+      "size": 2816,
+      "sha256": "42c096ba0993ff93c881463af391b78bf915515bdb6fc21017eebe7a193921f6"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/08-hidden-deck-commit-reveal/002-match.match.trace.md",
+      "size": 2727,
+      "sha256": "de1b72f4ef3c2dedafc029661ff64c2fcff2facd4e2314de0c0f509cddfba771"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/08-hidden-deck-commit-reveal/setup/001-seat-01.seat.trace.md",
+      "size": 1764,
+      "sha256": "7a64cb99af39fa2ecf241fc258ad5da3c253559239d495e54c849448d96ded9b"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/08-hidden-deck-commit-reveal/setup/002-seat-02.seat.trace.md",
+      "size": 1764,
+      "sha256": "3e9a160987a8ffd486376fb08c5aae6a5ec164a0624446e8e9928f88121add35"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/08-hidden-deck-commit-reveal/setup/003-turn-order.trace.md",
+      "size": 1712,
+      "sha256": "55beacaef54aefd14a8447b55c5e7c33587cc1c30e0cf9c6942022ed6939d221"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/08-hidden-deck-commit-reveal/setup/004-initial-state.trace.md",
+      "size": 2364,
+      "sha256": "36d105b5d23d429826db5a9d2d1c14eae107eb5d0dcd030711153346eb0b7811"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/08-hidden-deck-commit-reveal/setup/005-deck-commitment.trace.md",
+      "size": 2310,
+      "sha256": "af07631b7d19cbf25d064796cdffef05dc727cd8e837e75469d3ce575f3b3636"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/08-hidden-deck-commit-reveal/terminal/001-1-deck-reveal.trace.md",
+      "size": 2058,
+      "sha256": "4c804876e499db3a41b5e7593898a787ba67706bd4542702c65cd1950961fa95"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/08-hidden-deck-commit-reveal/terminal/001-result.trace.md",
+      "size": 2308,
+      "sha256": "6fe752e66102a924c46b754c2ba6d0bd323315c4dad31b65e7315171237bdcb8"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/08-hidden-deck-commit-reveal/turns/turn-001/001-1-1-1-state.trace.md",
+      "size": 2412,
+      "sha256": "d7a812cb92d06d46de7b9020c07410e6cbd94e706db4627d43583feff0cf20ad"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/08-hidden-deck-commit-reveal/turns/turn-001/001-1-1-draw.resolution.trace.md",
+      "size": 2470,
+      "sha256": "34883d2b9fe36ad349e3d7f97f5ebade30d6dcd972e717963ceb52c635f0ab3a"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/08-hidden-deck-commit-reveal/turns/turn-001/001-1-draw.intent.trace.md",
+      "size": 1775,
+      "sha256": "272d982ad022b5dc6f523189e9cdb747b60e8006022d83307474a09689d010b5"
+    },
+    {
+      "path": ".topics/tower-havoc/runtime/simulations/08-hidden-deck-commit-reveal/turns/turn-001/001-turn.trace.md",
+      "size": 1967,
+      "sha256": "8d87f9fabad5ebcec4961c4bcb71801c658e36c7e57e1f8becfd42dd944986e4"
     },
     {
       "path": ".topics/tower-havoc/sources/001-original-sanka-torn-draft.preservation.trace.md",
@@ -358,18 +1135,18 @@
     },
     {
       "path": "CHANGELOG.md",
-      "size": 2948,
-      "sha256": "c52b46bc49ef93f0f2e685f9c67615b36fe2f4a6ec04b317a297a9bf222e4d4b"
+      "size": 4969,
+      "sha256": "e21052648ef6b3d07a7eb36014ee9ae178e2b9a41a0162dd7fe36f935be0c05b"
     },
     {
       "path": "PROVENANCE.md",
-      "size": 2389,
-      "sha256": "8a29d40296b6e834d28108f1f4d6e1168a597e243ed53d4fcad4c6e1b3139237"
+      "size": 2801,
+      "sha256": "ca1c0c921cd35a879ee818970c3e86e0cadf809d7f1a5d8efeb83f652743e1c3"
     },
     {
       "path": "README.md",
-      "size": 2540,
-      "sha256": "db69b6fef2e07c4bb45e9a6555d3c79518e627ffbcd613aa4921a1c3d8682f57"
+      "size": 3509,
+      "sha256": "f3aede910e7acc9a50f49bd46c9ce58179a7a3d2f0d789e7dda3651b4a7b8be1"
     },
     {
       "path": "RIGHTS.md",
@@ -378,8 +1155,8 @@
     },
     {
       "path": "VALIDATION.txt",
-      "size": 978,
-      "sha256": "4bb324f94fbde53bfe4885e6ad2cee44497cdbdfc42046cb26bcae75d1d7f7b6"
+      "size": 6111,
+      "sha256": "f822691f928168e21f3261890cc40d81b1fda00c4b16030789efca1556fcad01"
     },
     {
       "path": "cad/FUSION360_BRIEF.md",
@@ -390,11 +1167,6 @@
       "path": "cad/PARAMETERS.csv",
       "size": 1296,
       "sha256": "08f75957b548d545c80a937c98a9f6121c98b953f12503e0d54ead57faa57937"
-    },
-    {
-      "path": "cad/README.md",
-      "size": 373,
-      "sha256": "8e97e63aa290ab294834e53317998acf73dd52654d590b0d3d5a264992dfefde"
     },
     {
       "path": "data/cards.csv",
@@ -428,8 +1200,8 @@
     },
     {
       "path": "docs/DECISIONS.md",
-      "size": 11376,
-      "sha256": "f547ff1479c7a673e321c3b1d752a0a7c11f76d57ee770858de0974263915ea5"
+      "size": 11636,
+      "sha256": "1173b0e1ce065167c4b5dc3562c666d9383c64ab1d955ba6e3511534b6c16444"
     },
     {
       "path": "docs/EDITION_BIBLE.md",
@@ -447,19 +1219,9 @@
       "sha256": "53e3d54a6c41da4c07cce90704bc1790e5f8d5bf0c9940af484557c736480fe6"
     },
     {
-      "path": "docs/README.md",
-      "size": 336,
-      "sha256": "a4589a1cef51f366226b1e247f8e26c265497d31f648627545a9bf6eb2442968"
-    },
-    {
       "path": "docs/RULEBOOK.md",
       "size": 7758,
       "sha256": "336de71c7aa98d32c809b3b277d173aa0066993a2cf96f0527133e493360f72b"
-    },
-    {
-      "path": "examples/match-lineage-demo/README.md",
-      "size": 760,
-      "sha256": "e33509a076ab96b9215ed960e1ba158db5c0bb37d98d1ecd589d0e4cf03019f2"
     },
     {
       "path": "examples/match-lineage-demo/SCHEMA-USAGE.md",
@@ -802,11 +1564,6 @@
       "sha256": "14bbdc23f8583a51b231b6c74bfe421ccbe2a97e3e358b8d33ba93c1201ce2cf"
     },
     {
-      "path": "runtime/experiments/README.md",
-      "size": 608,
-      "sha256": "eff10487126bcaa56335667101938c2d7fc32521c4d5da05ee6be5e92a1fdea0"
-    },
-    {
       "path": "runtime/experiments/tiinex.human.runtime.v1.schema.candidate.md",
       "size": 2353,
       "sha256": "f9a29ee4722307d4d221b56ae0660697b43de6034e7b6eec96ce58cee61a3d0a"
@@ -833,13 +1590,23 @@
     },
     {
       "path": "scripts/validate_gameplay_schemas.py",
-      "size": 4222,
-      "sha256": "979bc685ec5ee280e235505cd40198f9efb9ad906b5153593478637ca2069120"
+      "size": 4422,
+      "sha256": "a3ad97ab8d27b53a93dbcd65f9dc163687cc4e6bbeed1239267c7573eeb675f0"
     },
     {
       "path": "scripts/validate_prototype.py",
       "size": 2345,
       "sha256": "130940cc02ef99badc254bfdfe92a5f1d5fc13a0a8cf3061ab8536ab9789bfa9"
+    },
+    {
+      "path": "scripts/validate_roles.py",
+      "size": 2079,
+      "sha256": "1c9dc5aadfc6f462207ae931752b7f2a575bb0c0b5e63c69eced99f86c6f28aa"
+    },
+    {
+      "path": "scripts/validate_runtime_simulations.py",
+      "size": 2293,
+      "sha256": "f74f7c1ae079df0f6a3295c3850cea16c70eb19a88d7f0a7ac1b1bee1403e0d3"
     },
     {
       "path": "sources/original-sanka-torn-draft.md",
@@ -855,11 +1622,6 @@
       "path": "tts/ONE_HOUR_PLAYTEST.md",
       "size": 1402,
       "sha256": "2b79619de72ca0a64241a3d1975a213ee6f0c75dfbc821d7def33293da8a7be8"
-    },
-    {
-      "path": "tts/README.md",
-      "size": 714,
-      "sha256": "7dc30f011842ce1726883e90df25fc4463c03c22d7872da187ae623413206463"
     },
     {
       "path": "tts/assets/cards-back.png",

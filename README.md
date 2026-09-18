@@ -7,7 +7,6 @@
 The canonical game definition lives in **`.topics/tower-havoc/**`** as typed Tiinex artifacts. Start at:
 
 - `.topics/tower-havoc/001-tower-havoc.project.trace.md`
-- `.topics/tower-havoc/README.md`
 
 The ordinary `docs/`, `data/`, `cad/FUSION360_BRIEF.md`, and `tts/ONE_HOUR_PLAYTEST.md` files are generated projections for humans/tools. Regenerate them with:
 
@@ -38,8 +37,7 @@ Game design and rules: **Olle Tiinus**. Future concrete contributions should be 
 The repository now contains a draft local gameplay schema family under `.topics/.schemas/tower-havoc/`. It is designed so a match can eventually be played and replayed as provenance: ruleset -> match -> seats -> turn order -> action intents -> random results -> adjudicated resolutions -> generated state -> match result. See `runtime/GITHUB_MATCH_RUNTIME.md`.
 ### Gameplay schema inheritance
 
-Project-local `towerhavoc.*` schemas are grouped as one Tower Havoc Schema Family, but each schema inherits from the nearest matching Tiinex semantic family rather than from a Tower Havoc umbrella schema. See `.topics/.schemas/tower-havoc/README.md`.
-
+Project-local `towerhavoc.*` schemas are grouped as one Tower Havoc Schema Family, but each schema inherits from the nearest matching Tiinex semantic family rather than from a Tower Havoc umbrella schema. 
 ## Experimental match-lineage inspection
 
 This review carrier also includes `examples/match-lineage-demo/`, a synthetic full-match artifact tree used to inspect the proposed gameplay provenance schemas. It is example material, not canonical playtest evidence. Candidate Human Runtime and automatic rule-resolution schema notes live under `runtime/experiments/`.
@@ -47,4 +45,21 @@ This review carrier also includes `examples/match-lineage-demo/`, a synthetic fu
 
 ## Tiinex filename lineage
 
-Canonical trace filenames under `.topics/tower-havoc/**` use directory-local numeric lineage. See `.topics/tower-havoc/README.md`; semantic `Parent` remains authoritative.
+Canonical trace filenames under `.topics/tower-havoc/**` use directory-local numeric lineage. Canonical semantics remain under `.topics/tower-havoc/**`; semantic `Parent` remains authoritative.
+
+## Synthetic runtime simulation corpus
+
+Eight replayable synthetic match traces now live under `.topics/tower-havoc/runtime/simulations/`. They are conformance/examples for the gameplay provenance model, not playtest Evidence. They exercise accepted/rejected actions, randomness, rule-triggered transitions, state snapshots, collapse, delayed ammo, events, bell eligibility, and hidden commitment/reveal.
+
+
+## Tower Havoc roles
+
+Reusable project/gameplay capacities live under `.topics/tower-havoc/roles/`:
+
+- **Steward** — project direction, game-design authority, and human acceptance.
+- **Cartographer** — design-system analysis, continuity modelling, and provenance-aware materialization.
+- **Keeper** — match adjudication, integrity review, replay, and simulation.
+- **Player** — bounded match participant and seat decision-maker.
+
+These are Role identities, not assertions about their current holders. A human, LLM,
+bot, or runtime must be separately bound according to each Role's declared Holder Relationship.

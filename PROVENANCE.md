@@ -22,3 +22,7 @@ The local Schema Family artifact groups the domain and records extension policy.
 ## Filename lineage boundary
 
 Numeric filename lineage under `.topics/tower-havoc/**` is directory-local navigation metadata. It is not semantic identity and must not be treated as a replacement for the artifact's declared `Parent`. Renaming or moving an artifact may therefore change its filename lineage while preserving semantic Parent continuity.
+
+## Synthetic runtime simulation boundary
+
+The runtime simulation corpus is generated design/conformance material authored to exercise the proposed gameplay schemas. It is not empirical playtest Evidence and does not support claims about balance, fun, player strategy, game duration, or fairness. Scenario-specific fixture parameters are explicit and must not be projected back into canonical Tower Havoc rules.

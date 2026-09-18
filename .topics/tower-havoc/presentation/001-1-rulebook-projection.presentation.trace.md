@@ -51,7 +51,7 @@
 
 - What Is Disclosed: player-facing current rule projection
 - What Is Hidden Or Deferred: detailed rationale and full project-development history
-- Expansion Path: source artifact paths are listed in generated headers and `.topics/tower-havoc/README.md`
+- Expansion Path: source artifact paths are listed in generated headers and remain resolvable from the canonical `.topics/tower-havoc/**` artifact tree
 
 ## Implementation Limits
 
@@ -68,4 +68,4 @@
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: self
-  - Value: rxLf9eDxtzgsoEf3BVEtIZ6IdEF6GLBHitl8doPiScA
+  - Value: F1Z-lLKCiaJtf1FssobZY4GHmuesbu3RbjMPIwBoQ-U

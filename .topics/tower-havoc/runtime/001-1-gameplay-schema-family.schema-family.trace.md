@@ -25,7 +25,7 @@
 - Family Role: group project-local Tower Havoc gameplay schemas across several existing Tiinex semantic families without making the Tower Havoc family itself their inheritance parent
 - Abstract Family: yes
 - Stable Children: none yet; all local schemas are draft/local until exercised by real matches
-- Candidate Children: towerhavoc.ruleset.v1; towerhavoc.match.v1; towerhavoc.match.seat.v1; towerhavoc.turn-order.v1; towerhavoc.turn.v1; towerhavoc.action.intent.v1; towerhavoc.action.resolution.v1; towerhavoc.random.request.v1; towerhavoc.random.result.v1; towerhavoc.state.v1; towerhavoc.hidden.commitment.v1; towerhavoc.hidden.reveal.v1; towerhavoc.match.result.v1
+- Candidate Children: towerhavoc.ruleset.v1; towerhavoc.match.v1; towerhavoc.match.seat.v1; towerhavoc.turn-order.v1; towerhavoc.turn.v1; towerhavoc.action.intent.v1; towerhavoc.action.resolution.v1; towerhavoc.rule.resolution.v1; towerhavoc.random.request.v1; towerhavoc.random.result.v1; towerhavoc.state.v1; towerhavoc.hidden.commitment.v1; towerhavoc.hidden.reveal.v1; towerhavoc.match.result.v1
 
 ## Inheritance Model
 
@@ -44,6 +44,7 @@
 - `towerhavoc.turn.v1` -> `tiinex.event.window.v1`
 - `towerhavoc.action.intent.v1` -> `tiinex.task.v1`
 - `towerhavoc.action.resolution.v1` -> `tiinex.runtime.v1`
+- `towerhavoc.rule.resolution.v1` -> `tiinex.runtime.v1`
 - `towerhavoc.random.request.v1` -> `tiinex.task.v1`
 - `towerhavoc.random.result.v1` -> `tiinex.derivation.v1`
 - `towerhavoc.state.v1` -> `tiinex.runtime.v1`
@@ -95,4 +96,4 @@ This map is schema inheritance, not match-artifact Parent lineage. Concrete matc
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: self
-  - Value: OZPoz3ZG_0m6UvnXk6EIYGJf3ZImlhFoBA__-mILNLA
+  - Value: aIgsiNq7MwfM_HA5WNkY9jn_eUKaTTWCRp3l94g940c

@@ -11,6 +11,7 @@ expected={
  'towerhavoc.turn.v1':('tiinex.event.window.v1',['Match Binding','Turn Identity','Opening State','Action Window','Closing State','Interpretation Limits']),
  'towerhavoc.action.intent.v1':('tiinex.task.v1',['Match And Turn Binding','Actor','Requested Action','Parameters','Intent State','Interpretation Limits']),
  'towerhavoc.action.resolution.v1':('tiinex.runtime.v1',['Match And Turn Binding','Intent Binding','Adjudication','Costs Applied','Randomness Binding','Outcome And State Delta','Resulting State','Adjudication Provenance','Interpretation Limits']),
+ 'towerhavoc.rule.resolution.v1':('tiinex.runtime.v1',['Match And Turn Binding','Trigger','Rules Applied','Outcome And State Delta','Resulting State','Execution Provenance','Interpretation Limits']),
  'towerhavoc.random.request.v1':('tiinex.task.v1',['Request Identity','Match Binding','Random Purpose','Outcome Space','Randomness Source Policy','Deterministic Mapping','Request State','Interpretation Limits']),
  'towerhavoc.random.result.v1':('tiinex.derivation.v1',['Request Binding','Source Material','Source Verification','Mapping','Result','Runtime Provenance','Interpretation Limits']),
  'towerhavoc.state.v1':('tiinex.runtime.v1',['Match Binding','State Identity','Public State','Hidden State Commitments','Derivation Binding','Verification State','Interpretation Limits']),
