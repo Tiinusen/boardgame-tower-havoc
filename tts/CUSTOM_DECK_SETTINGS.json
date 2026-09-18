@@ -1,0 +1,12 @@
+{
+  "Face": "assets/cards-front-8x5.png",
+  "Back": "assets/cards-back.png",
+  "Width": 8,
+  "Height": 5,
+  "Number": 40,
+  "UniqueBack": false,
+  "GeneratedFrom": [
+    ".topics/tower-havoc/cards/001-1-deck-composition.decision.trace.md",
+    ".topics/tower-havoc/digital/001-2-tts-playtest-surface.presentation.trace.md"
+  ]
+}

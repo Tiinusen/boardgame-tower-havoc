@@ -1,0 +1,12 @@
+OK: generated projections are internally consistent and traceable (40 cards, 11 component rows).
+OK: Tiinex lineage Parent edges verified 49/49.
+Tiinex audit findings: {'error': 0, 'warning': 6, 'info': 301, 'total': 307}.
+Tiinex resolve findings: {'error': 0, 'warning': 0, 'info': 2, 'total': 2}.
+Note: the 6 audit warnings are limited to the two tiinex.condition.v1 artifacts because the carried bootstrap has no exact Condition schema validator/module; Root validation was used as fallback.
+
+[v0.5] local gameplay schema validation: OK (13 schemas)
+[v0.5] prototype projection validation: OK
+[v0.6] gameplay schema semantic-parent validation: OK (13 schemas; explicit Tiinex semantic parents + body overrides + self integrity)
+[v0.6] prototype projection validation: OK (40 cards, 11 component rows)
+[v0.6] full portable Tiinex audit: not rerun; prior v0.5 audit lines above remain historical and do not claim qualification of the new project-local schema inheritance map.
+

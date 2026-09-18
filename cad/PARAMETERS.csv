@@ -1,0 +1,10 @@
+parameter,value,unit,status,purpose,source
+floor_width,,mm,TBD,shared outer width; mechanical equivalence source,.topics/tower-havoc/components/001-3-mechanical-equivalence.decision.trace.md
+floor_depth,,mm,TBD,shared outer depth; mechanical equivalence source,.topics/tower-havoc/components/001-3-mechanical-equivalence.decision.trace.md
+floor_height,,mm,TBD,shared per-floor stacking height,.topics/tower-havoc/components/001-3-mechanical-equivalence.decision.trace.md
+contact_width,,mm,TBD,shared floor-to-floor contact area,.topics/tower-havoc/components/001-3-mechanical-equivalence.decision.trace.md
+contact_depth,,mm,TBD,shared floor-to-floor contact area,.topics/tower-havoc/components/001-3-mechanical-equivalence.decision.trace.md
+reinforcement_interface_size,,mm,TBD,shared value-marker interface,.topics/tower-havoc/physical/001-1-fusion360-master-geometry.decision.trace.md
+reinforcement_clearance,,mm,TBD,allow marker add/remove while stacked,.topics/tower-havoc/physical/001-1-fusion360-master-geometry.decision.trace.md
+board_width,,mm,TBD,player-mat physical envelope,.topics/tower-havoc/components/001-2-visible-player-state.decision.trace.md
+board_depth,,mm,TBD,player-mat physical envelope,.topics/tower-havoc/components/001-2-visible-player-state.decision.trace.md

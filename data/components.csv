@@ -1,0 +1,12 @@
+Component,Quantity,Prototype Substitute,Constraint
+Player mat,6,paper/player colour zone,"visibly separate Action Bank, Ready Ammo, Production"
+Reference card,6,paper note,one quick reference per player
+Optional faction card,6,paper note,used only in Faction mode
+Tower floor,18,generic block,3 per player; identical mechanical envelope
+Light field cannon,6,pawn/token,theme/readability only; no real projectile required
+D6,2,standard die,one required plus one spare
+Bell,1,obvious goal token,physical bell preferred later
+Ammo token,72,cube/coin,shared supply
+Reinforcement marker,72,numbered token,values 2–5 x 3 floors x 6 players
+Action tracker,6 sets,counter/dial,must support banked actions without a small fixed cap
+Card,40,generated prototype deck,deck manifest comes from card lineage

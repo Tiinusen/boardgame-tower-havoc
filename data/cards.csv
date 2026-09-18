@@ -1,0 +1,41 @@
+id,family,name,type,effect,timing,source
+sabotage-01,sabotage,Sabotage,tactic,Remove one reinforcement from any opponent floor.,Play on your turn.,.topics/tower-havoc/cards/001-2-sabotage.decision.trace.md
+sabotage-02,sabotage,Sabotage,tactic,Remove one reinforcement from any opponent floor.,Play on your turn.,.topics/tower-havoc/cards/001-2-sabotage.decision.trace.md
+sabotage-03,sabotage,Sabotage,tactic,Remove one reinforcement from any opponent floor.,Play on your turn.,.topics/tower-havoc/cards/001-2-sabotage.decision.trace.md
+sabotage-04,sabotage,Sabotage,tactic,Remove one reinforcement from any opponent floor.,Play on your turn.,.topics/tower-havoc/cards/001-2-sabotage.decision.trace.md
+sabotage-05,sabotage,Sabotage,tactic,Remove one reinforcement from any opponent floor.,Play on your turn.,.topics/tower-havoc/cards/001-2-sabotage.decision.trace.md
+sabotage-06,sabotage,Sabotage,tactic,Remove one reinforcement from any opponent floor.,Play on your turn.,.topics/tower-havoc/cards/001-2-sabotage.decision.trace.md
+offensive-reroll-2-01,offensive-reroll-2,Offensive Reroll — 2,tactic,"When another player rolls 2 for an attack, force that attack die to be rerolled.",Reaction,.topics/tower-havoc/cards/001-3-offensive-reroll.decision.trace.md
+offensive-reroll-2-02,offensive-reroll-2,Offensive Reroll — 2,tactic,"When another player rolls 2 for an attack, force that attack die to be rerolled.",Reaction,.topics/tower-havoc/cards/001-3-offensive-reroll.decision.trace.md
+offensive-reroll-3-01,offensive-reroll-3,Offensive Reroll — 3,tactic,"When another player rolls 3 for an attack, force that attack die to be rerolled.",Reaction,.topics/tower-havoc/cards/001-3-offensive-reroll.decision.trace.md
+offensive-reroll-3-02,offensive-reroll-3,Offensive Reroll — 3,tactic,"When another player rolls 3 for an attack, force that attack die to be rerolled.",Reaction,.topics/tower-havoc/cards/001-3-offensive-reroll.decision.trace.md
+offensive-reroll-4-01,offensive-reroll-4,Offensive Reroll — 4,tactic,"When another player rolls 4 for an attack, force that attack die to be rerolled.",Reaction,.topics/tower-havoc/cards/001-3-offensive-reroll.decision.trace.md
+offensive-reroll-4-02,offensive-reroll-4,Offensive Reroll — 4,tactic,"When another player rolls 4 for an attack, force that attack die to be rerolled.",Reaction,.topics/tower-havoc/cards/001-3-offensive-reroll.decision.trace.md
+offensive-reroll-5-01,offensive-reroll-5,Offensive Reroll — 5,tactic,"When another player rolls 5 for an attack, force that attack die to be rerolled.",Reaction,.topics/tower-havoc/cards/001-3-offensive-reroll.decision.trace.md
+offensive-reroll-5-02,offensive-reroll-5,Offensive Reroll — 5,tactic,"When another player rolls 5 for an attack, force that attack die to be rerolled.",Reaction,.topics/tower-havoc/cards/001-3-offensive-reroll.decision.trace.md
+defensive-reroll-01,defensive-reroll,Defensive Reroll,tactic,Reroll one relevant roll made by the card owner. Exact eligible roll types remain PLAYTEST.,Reaction / PLAYTEST.,.topics/tower-havoc/cards/001-4-defensive-reroll.decision.trace.md
+defensive-reroll-02,defensive-reroll,Defensive Reroll,tactic,Reroll one relevant roll made by the card owner. Exact eligible roll types remain PLAYTEST.,Reaction / PLAYTEST.,.topics/tower-havoc/cards/001-4-defensive-reroll.decision.trace.md
+defensive-reroll-03,defensive-reroll,Defensive Reroll,tactic,Reroll one relevant roll made by the card owner. Exact eligible roll types remain PLAYTEST.,Reaction / PLAYTEST.,.topics/tower-havoc/cards/001-4-defensive-reroll.decision.trace.md
+defensive-reroll-04,defensive-reroll,Defensive Reroll,tactic,Reroll one relevant roll made by the card owner. Exact eligible roll types remain PLAYTEST.,Reaction / PLAYTEST.,.topics/tower-havoc/cards/001-4-defensive-reroll.decision.trace.md
+dud-01,dud,Dud,tactic,No effect. It remains in hand until the deck-recycle rule removes it unless another future effect says otherwise.,No effect.,.topics/tower-havoc/cards/001-5-dud.decision.trace.md
+dud-02,dud,Dud,tactic,No effect. It remains in hand until the deck-recycle rule removes it unless another future effect says otherwise.,No effect.,.topics/tower-havoc/cards/001-5-dud.decision.trace.md
+dud-03,dud,Dud,tactic,No effect. It remains in hand until the deck-recycle rule removes it unless another future effect says otherwise.,No effect.,.topics/tower-havoc/cards/001-5-dud.decision.trace.md
+dud-04,dud,Dud,tactic,No effect. It remains in hand until the deck-recycle rule removes it unless another future effect says otherwise.,No effect.,.topics/tower-havoc/cards/001-5-dud.decision.trace.md
+dud-05,dud,Dud,tactic,No effect. It remains in hand until the deck-recycle rule removes it unless another future effect says otherwise.,No effect.,.topics/tower-havoc/cards/001-5-dud.decision.trace.md
+dud-06,dud,Dud,tactic,No effect. It remains in hand until the deck-recycle rule removes it unless another future effect says otherwise.,No effect.,.topics/tower-havoc/cards/001-5-dud.decision.trace.md
+upper-hand-01,upper-hand,Upper Hand,tactic,Take two random cards from one chosen opponent hand.,Play on your turn.,.topics/tower-havoc/cards/001-6-upper-hand.decision.trace.md
+upper-hand-02,upper-hand,Upper Hand,tactic,Take two random cards from one chosen opponent hand.,Play on your turn.,.topics/tower-havoc/cards/001-6-upper-hand.decision.trace.md
+plunder-01,plunder,Plunder,tactic,Choose an opponent and roll D6: 1–2 steal 1 Ready Ammo; 3–4 steal 2; 5–6 steal 3; never steal more than the target has.,Play on your turn.,.topics/tower-havoc/cards/001-7-plunder.decision.trace.md
+plunder-02,plunder,Plunder,tactic,Choose an opponent and roll D6: 1–2 steal 1 Ready Ammo; 3–4 steal 2; 5–6 steal 3; never steal more than the target has.,Play on your turn.,.topics/tower-havoc/cards/001-7-plunder.decision.trace.md
+plunder-03,plunder,Plunder,tactic,Choose an opponent and roll D6: 1–2 steal 1 Ready Ammo; 3–4 steal 2; 5–6 steal 3; never steal more than the target has.,Play on your turn.,.topics/tower-havoc/cards/001-7-plunder.decision.trace.md
+plunder-04,plunder,Plunder,tactic,Choose an opponent and roll D6: 1–2 steal 1 Ready Ammo; 3–4 steal 2; 5–6 steal 3; never steal more than the target has.,Play on your turn.,.topics/tower-havoc/cards/001-7-plunder.decision.trace.md
+overtime-01,overtime,Overtime,tactic,Gain 1 action.,Play on your turn.,.topics/tower-havoc/cards/001-8-overtime.decision.trace.md
+overtime-02,overtime,Overtime,tactic,Gain 1 action.,Play on your turn.,.topics/tower-havoc/cards/001-8-overtime.decision.trace.md
+overtime-03,overtime,Overtime,tactic,Gain 1 action.,Play on your turn.,.topics/tower-havoc/cards/001-8-overtime.decision.trace.md
+overtime-04,overtime,Overtime,tactic,Gain 1 action.,Play on your turn.,.topics/tower-havoc/cards/001-8-overtime.decision.trace.md
+event-ammunition-shortage-01,event-ammunition-shortage,Ammunition Shortage,event,Every player loses 1 Ready Ammo if possible.,Resolve immediately.,.topics/tower-havoc/cards/001-9-global-events.decision.trace.md
+event-production-boom-01,event-production-boom,Production Boom,event,Every player who currently has any ammo in Production gains +1 Ready Ammo immediately; Production contents remain unchanged.,Resolve immediately.,.topics/tower-havoc/cards/001-9-global-events.decision.trace.md
+event-panic-production-01,event-panic-production,Panic Production,event,Every player immediately chooses: gain 2 Ready Ammo OR gain 1 action.,Resolve immediately.,.topics/tower-havoc/cards/001-9-global-events.decision.trace.md
+event-damp-powder-01,event-damp-powder,Damp Powder,event,No player may use Emergency Ammo until the drawer begins their next turn; Planned Ammo works normally.,Leave face-up until expiry.,.topics/tower-havoc/cards/001-9-global-events.decision.trace.md
+event-ceasefire-01,event-ceasefire,Ceasefire,event,No attacks until the drawer begins their next turn.,Leave face-up until expiry.,.topics/tower-havoc/cards/001-9-global-events.decision.trace.md
+event-building-strike-01,event-building-strike,Building Strike,event,All builds cost +1 action until the drawer begins their next turn.,Leave face-up until expiry.,.topics/tower-havoc/cards/001-9-global-events.decision.trace.md
