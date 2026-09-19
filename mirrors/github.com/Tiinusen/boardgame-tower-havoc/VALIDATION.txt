@@ -1,0 +1,48 @@
+Tower Havoc validation — Pilot-mediated card generation carrier candidate
+
+## validate_filename_lineage.py
+exit: 0
+OK: Tower Havoc trace filenames follow directory-local lineage convention
+
+## validate_gameplay_schemas.py
+exit: 0
+OK: 14 local gameplay schemas use expected Tiinex semantic parents, body overrides, and valid self integrity
+
+## validate_runtime_simulations.py
+exit: 0
+OK: 9 synthetic runtime simulations present with core schema coverage
+
+## validate_prototype.py
+exit: 0
+OK: generated projections are internally consistent and traceable (34 cards, 7 component rows).
+
+## validate_roles.py
+exit: 0
+ROLE VALIDATION: OK
+- role artifacts: 5
+- roles topic: 1
+- canonical assignment mode serialization: OK
+
+## validate_trace_integrity.py
+exit: 0
+OK: 323 Tower Havoc schemas/trace artifacts verify c14n-v2; local Parent targets agree
+
+## validate_incremental_simulation.py
+exit: 0
+OK: TH-SIM-09 regenerates byte-for-byte from incremental emission; random requests precede source runtimes
+
+## validate_readme_surface.py
+exit: 0
+OK: repository-root README.md is the only README surface
+
+## validate_visual_assets.py
+exit: 0
+OK: 6 approved faction boards, 2 shared coin sides, and 4 card-design references are byte-bound and materialized
+
+## validate_pilot_card_routes.py
+exit: 0
+OK: 7 independent Pilot card-generation routes use exact declared references, one human-mediated attempt, terminal return, and sibling isolation
+
+## validate_publication.py
+exit: 0
+OK: public bundle exposes lineage/docs, repository mirror, and stable GitHub Pages TTS asset paths

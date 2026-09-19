@@ -1,0 +1,11 @@
+{
+  "type": "tiinex.repository.snapshot",
+  "version": 1,
+  "repository": "github.com/Tiinusen/boardgame-tower-havoc",
+  "ref": "master",
+  "commit": "5bb2ae39037d2dbf398d065078636c11d22c7b8c",
+  "archive": "boardgame-tower-havoc.zip",
+  "directory": "boardgame-tower-havoc/",
+  "sha256": "fd47ce6acd367e2cba2e6674f6752f9d76e4fd8ee63b931e577939fba5edaee9",
+  "selection": "source-ref"
+}
