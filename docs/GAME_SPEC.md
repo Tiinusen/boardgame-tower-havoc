@@ -150,18 +150,20 @@ This projection combines current semantic branches for implementation/prototypin
 ## Components
 
 - State: provisional/PLAYTEST
-- Component Manifest ID: components.mvp.v2
+- Component Manifest ID: components.mvp.v3
 
 | Component | Quantity | Prototype Substitute | Constraint |
 |---|---:|---|---|
-| Compact player board | 6 | printed/TTS board | coin-sized stack wells plus tower-construction rows and faction/mode quick-reference slot |
-| Faction or mode quick-reference card | 6 | printed/TTS card | one per player; Classic uses a Classic-mode card instead of a separate generic reference card |
+| Faction player board | 6 | approved TTS board art | identical gameplay layout; integrated quick reference; one visual variant per faction |
 | Tower floor | 18 | generic block | 3 per player; identical mechanical envelope |
 | Light field cannon | 6 | pawn/token | theme/readability only; no real projectile required |
 | D6 | 2 | standard die | one required plus one spare |
 | Shared bell | 1 | obvious bell object | theatrical ring object; per-player bell construction state lives on each board |
-| Action/Ammo coin | 144 | double-sided coin/token | Action face on one side; Ammo face on the other; one shared physical vocabulary for Action Bank, Ready Ammo, Production, build/reinforcement markers, and bell construction |
-| Card | 34 | generated prototype deck | next PLAYTEST deck manifest comes from card lineage |
+| Action/Ammo coin | 144 | shared double-sided coin/token | one common visual design; Action face and Ammo face; stack in resource wells |
+| Card | 34 | current Dud-free draw deck | one common back and three visual front families |
+
+- Removed Component: separate faction/mode quick-reference card
+- Decision: integrate the quick reference into each player board and keep the rest of the compact shared-coin inventory.
 
 ## Edition
 
@@ -192,10 +194,10 @@ This projection combines current semantic branches for implementation/prototypin
 ## First-session baseline
 
 - State: provisional/PLAYTEST
-- Session Baseline ID: playtest.baseline.002
+- Session Baseline ID: playtest.baseline.003
 - Recommended Players: 3–4
-- Mode: Classic
-- Deck: 34-card dud-free prototype deck
+- Mode: Classic mechanics with visually distinct faction boards
+- Deck: 34-card Dud-free prototype deck
 - Floor Build Cost: 2 actions per floor
 - Attack Cost: 1 action plus 1 Ready Ammo
 - Attack Limit: maximum 1 attack per player turn
@@ -204,5 +206,5 @@ This projection combines current semantic branches for implementation/prototypin
 - Bell Sequence: build bell for 1 action after completing the tower; survive one full orbit; then spend 1 action for a bell attempt
 - Bell Success: D6 result 1
 - Bell Attempt Limit: maximum 1 per player turn
-- Player Surface: compact stacked board with double-sided Action/Ammo coins and faction/mode quick-reference slot
-- Decision: use this complete successor baseline for the next real session so the first-session findings can be tested together rather than mixed with ad-hoc mid-match changes.
+- Player Surface: one of six approved faction boards; Ready Ammo, Production, and Available Actions use shared coin stack wells; three permanent floor rows; integrated quick reference; no separate quick-reference card
+- Decision: use this baseline for the next real session after the individual card-face art is materialized.

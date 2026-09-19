@@ -1,0 +1,147 @@
+{
+  "schema": "tower-havoc.generated.card-art-plan.v1",
+  "generated_from": [
+    "data/cards.json",
+    ".topics/tower-havoc/art/001-3-card-visual-system.decision.trace.md",
+    ".topics/tower-havoc/art/001-3-1-individual-card-front-production.task.trace.md"
+  ],
+  "unique_face_count": 15,
+  "shared_back_reference": "art/approved/card-references/card-back-reference.png",
+  "faces": [
+    {
+      "name": "Sabotage",
+      "visual_family": "sabotage",
+      "effect": "Remove one reinforcement from any opponent floor.",
+      "timing": "Play on your turn.",
+      "reference": "art/approved/card-references/sabotage-front-reference.png",
+      "output": "art/pending/card-fronts/sabotage.png",
+      "source": ".topics/tower-havoc/cards/001-2-sabotage.decision.trace.md"
+    },
+    {
+      "name": "Offensive Reroll — 2",
+      "visual_family": "tactic",
+      "effect": "When another player rolls 2 for an attack, force that attack die to be rerolled.",
+      "timing": "Reaction",
+      "reference": "art/approved/card-references/tactic-front-reference.png",
+      "output": "art/pending/card-fronts/offensive-reroll-2.png",
+      "source": ".topics/tower-havoc/cards/001-3-offensive-reroll.decision.trace.md"
+    },
+    {
+      "name": "Offensive Reroll — 3",
+      "visual_family": "tactic",
+      "effect": "When another player rolls 3 for an attack, force that attack die to be rerolled.",
+      "timing": "Reaction",
+      "reference": "art/approved/card-references/tactic-front-reference.png",
+      "output": "art/pending/card-fronts/offensive-reroll-3.png",
+      "source": ".topics/tower-havoc/cards/001-3-offensive-reroll.decision.trace.md"
+    },
+    {
+      "name": "Offensive Reroll — 4",
+      "visual_family": "tactic",
+      "effect": "When another player rolls 4 for an attack, force that attack die to be rerolled.",
+      "timing": "Reaction",
+      "reference": "art/approved/card-references/tactic-front-reference.png",
+      "output": "art/pending/card-fronts/offensive-reroll-4.png",
+      "source": ".topics/tower-havoc/cards/001-3-offensive-reroll.decision.trace.md"
+    },
+    {
+      "name": "Offensive Reroll — 5",
+      "visual_family": "tactic",
+      "effect": "When another player rolls 5 for an attack, force that attack die to be rerolled.",
+      "timing": "Reaction",
+      "reference": "art/approved/card-references/tactic-front-reference.png",
+      "output": "art/pending/card-fronts/offensive-reroll-5.png",
+      "source": ".topics/tower-havoc/cards/001-3-offensive-reroll.decision.trace.md"
+    },
+    {
+      "name": "Defensive Reroll",
+      "visual_family": "tactic",
+      "effect": "Reroll one relevant roll made by the card owner. Exact eligible roll types remain PLAYTEST.",
+      "timing": "Reaction / PLAYTEST.",
+      "reference": "art/approved/card-references/tactic-front-reference.png",
+      "output": "art/pending/card-fronts/defensive-reroll.png",
+      "source": ".topics/tower-havoc/cards/001-4-defensive-reroll.decision.trace.md"
+    },
+    {
+      "name": "Upper Hand",
+      "visual_family": "tactic",
+      "effect": "Take two random cards from one chosen opponent hand.",
+      "timing": "Play on your turn.",
+      "reference": "art/approved/card-references/tactic-front-reference.png",
+      "output": "art/pending/card-fronts/upper-hand.png",
+      "source": ".topics/tower-havoc/cards/001-6-upper-hand.decision.trace.md"
+    },
+    {
+      "name": "Plunder",
+      "visual_family": "tactic",
+      "effect": "Choose an opponent and roll D6: 1–2 steal 1 Ready Ammo; 3–4 steal 2; 5–6 steal 3; never steal more than the target has.",
+      "timing": "Play on your turn.",
+      "reference": "art/approved/card-references/tactic-front-reference.png",
+      "output": "art/pending/card-fronts/plunder.png",
+      "source": ".topics/tower-havoc/cards/001-7-plunder.decision.trace.md"
+    },
+    {
+      "name": "Overtime",
+      "visual_family": "tactic",
+      "effect": "Gain 1 action.",
+      "timing": "Play on your turn.",
+      "reference": "art/approved/card-references/tactic-front-reference.png",
+      "output": "art/pending/card-fronts/overtime.png",
+      "source": ".topics/tower-havoc/cards/001-8-overtime.decision.trace.md"
+    },
+    {
+      "name": "Ammunition Shortage",
+      "visual_family": "event",
+      "effect": "Every player loses 1 Ready Ammo if possible.",
+      "timing": "Resolve immediately.",
+      "reference": "art/approved/card-references/event-front-reference.png",
+      "output": "art/pending/card-fronts/ammunition-shortage.png",
+      "source": ".topics/tower-havoc/cards/001-9-global-events.decision.trace.md"
+    },
+    {
+      "name": "Production Boom",
+      "visual_family": "event",
+      "effect": "Every player who currently has any ammo in Production gains +1 Ready Ammo immediately; Production contents remain unchanged.",
+      "timing": "Resolve immediately.",
+      "reference": "art/approved/card-references/event-front-reference.png",
+      "output": "art/pending/card-fronts/production-boom.png",
+      "source": ".topics/tower-havoc/cards/001-9-global-events.decision.trace.md"
+    },
+    {
+      "name": "Panic Production",
+      "visual_family": "event",
+      "effect": "Every player immediately chooses: gain 2 Ready Ammo OR gain 1 action.",
+      "timing": "Resolve immediately.",
+      "reference": "art/approved/card-references/event-front-reference.png",
+      "output": "art/pending/card-fronts/panic-production.png",
+      "source": ".topics/tower-havoc/cards/001-9-global-events.decision.trace.md"
+    },
+    {
+      "name": "Damp Powder",
+      "visual_family": "event",
+      "effect": "No player may use Emergency Ammo until the drawer begins their next turn; Planned Ammo works normally.",
+      "timing": "Leave face-up until expiry.",
+      "reference": "art/approved/card-references/event-front-reference.png",
+      "output": "art/pending/card-fronts/damp-powder.png",
+      "source": ".topics/tower-havoc/cards/001-9-global-events.decision.trace.md"
+    },
+    {
+      "name": "Ceasefire",
+      "visual_family": "event",
+      "effect": "No attacks until the drawer begins their next turn.",
+      "timing": "Leave face-up until expiry.",
+      "reference": "art/approved/card-references/event-front-reference.png",
+      "output": "art/pending/card-fronts/ceasefire.png",
+      "source": ".topics/tower-havoc/cards/001-9-global-events.decision.trace.md"
+    },
+    {
+      "name": "Building Strike",
+      "visual_family": "event",
+      "effect": "All builds cost +1 action until the drawer begins their next turn.",
+      "timing": "Leave face-up until expiry.",
+      "reference": "art/approved/card-references/event-front-reference.png",
+      "output": "art/pending/card-fronts/building-strike.png",
+      "source": ".topics/tower-havoc/cards/001-9-global-events.decision.trace.md"
+    }
+  ]
+}

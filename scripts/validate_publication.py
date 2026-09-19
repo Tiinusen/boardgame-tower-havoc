@@ -11,7 +11,7 @@ with tempfile.TemporaryDirectory(prefix='tower-havoc-public-') as td:
     cp=subprocess.run([sys.executable,str(ROOT/'scripts/build_public_bundle.py'),'--out',str(out),'--repository','Tiinusen/boardgame-tower-havoc','--ref','validation','--commit','0'*40],cwd=ROOT,text=True,capture_output=True)
     if cp.returncode: errs.append('public bundle build failed: '+(cp.stderr or cp.stdout))
     else:
-        for rel in ['.nojekyll','.topics/tower-havoc','docs/RULEBOOK.md','tts/assets/player-mat.png','tts/assets/coin-action.png','tts/assets/coin-ammo.png','tts/assets/classic-quick-reference-card.png','tts/assets/manifest.json','mirrors/github.com/Tiinusen/boardgame-tower-havoc.json','mirrors/github.com/Tiinusen/boardgame-tower-havoc.zip']:
+        for rel in ['.nojekyll','.topics/tower-havoc','docs/RULEBOOK.md','tts/assets/player-boards/ironclads.png','tts/assets/player-boards/brass-union.png','tts/assets/player-boards/ember-rail.png','tts/assets/player-boards/storm-foundry.png','tts/assets/player-boards/ash-dominion.png','tts/assets/player-boards/horizon-guild.png','tts/assets/coin-action.png','tts/assets/coin-ammo.png','tts/assets/manifest.json','mirrors/github.com/Tiinusen/boardgame-tower-havoc.json','mirrors/github.com/Tiinusen/boardgame-tower-havoc.zip']:
             if not (out/rel).exists(): errs.append('public bundle missing '+rel)
         mf=out/'tts/assets/manifest.json'
         if mf.exists():

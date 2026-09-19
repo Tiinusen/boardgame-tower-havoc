@@ -11,6 +11,7 @@ expected = {
     "001-2-cartographer.role.trace.md": "tiinex.party.role.v1",
     "001-3-keeper.role.trace.md": "tiinex.party.role.v1",
     "001-4-player.role.trace.md": "tiinex.party.role.v1",
+    "001-5-pilot.role.trace.md": "tiinex.party.role.v1",
 }
 
 canonical_modes = [
@@ -58,6 +59,6 @@ if errors:
     sys.exit(1)
 
 print("ROLE VALIDATION: OK")
-print(f"- role artifacts: 4")
+print(f"- role artifacts: 5")
 print("- roles topic: 1")
 print("- canonical assignment mode serialization: OK")

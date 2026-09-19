@@ -89,3 +89,10 @@
 - Updated generated TTS assets to a compact board, Action/Ammo coin faces, and Classic mode quick-reference card; nested README generation remains disabled.
 - Added a GitHub Pages/public-branch publication flow adapted from Tiinex/docs static/mirror publication semantics, including stable `tts/assets/**` delivery and a repository mirror.
 - Added an ammunition successor so generated projections no longer repeat the historical zero-action attack cost from baseline.001.
+
+## Working update — Pilot-mediated card generation
+
+- Added a project-local `Pilot` Role for bounded human-mediated external execution, exact-byte Evidence capture, and lineage-correct return Handoffs.
+- Added a Tower Havoc card-generation process adapted from the generic Tiinex Business Pilot/Human-Mediated External Execution and the proven Playthings visual-production flow, without importing Playthings domain semantics.
+- Preserved the first manually generated six-card batch byte-exactly in execution lineage and recorded the 5:7 versus 4:7 review disposition.
+- Added Pilot Card Generation Tranche 1 with seven independent Handoff routes: six Tactic routes and one Ammunition Shortage Event production-reference probe.

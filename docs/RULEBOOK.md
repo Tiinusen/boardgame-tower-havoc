@@ -168,10 +168,10 @@ Build a three-floor tower, construct its bell, survive the required orbit, then 
 ## Next-session PLAYTEST baseline
 
 - State: provisional/PLAYTEST
-- Session Baseline ID: playtest.baseline.002
+- Session Baseline ID: playtest.baseline.003
 - Recommended Players: 3–4
-- Mode: Classic
-- Deck: 34-card dud-free prototype deck
+- Mode: Classic mechanics with visually distinct faction boards
+- Deck: 34-card Dud-free prototype deck
 - Floor Build Cost: 2 actions per floor
 - Attack Cost: 1 action plus 1 Ready Ammo
 - Attack Limit: maximum 1 attack per player turn
@@ -180,5 +180,5 @@ Build a three-floor tower, construct its bell, survive the required orbit, then 
 - Bell Sequence: build bell for 1 action after completing the tower; survive one full orbit; then spend 1 action for a bell attempt
 - Bell Success: D6 result 1
 - Bell Attempt Limit: maximum 1 per player turn
-- Player Surface: compact stacked board with double-sided Action/Ammo coins and faction/mode quick-reference slot
-- Decision: use this complete successor baseline for the next real session so the first-session findings can be tested together rather than mixed with ad-hoc mid-match changes.
+- Player Surface: one of six approved faction boards; Ready Ammo, Production, and Available Actions use shared coin stack wells; three permanent floor rows; integrated quick reference; no separate quick-reference card
+- Decision: use this baseline for the next real session after the individual card-face art is materialized.

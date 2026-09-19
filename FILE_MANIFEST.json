@@ -1,7 +1,7 @@
 {
-  "version": "1.1-first-real-playtest-response",
-  "source_carrier": "007-1",
-  "notes": "First real TTS playtest Evidence, baseline.002 rule/component successors, Pages/public mirror flow, regenerated 34-card/compact-board assets; root README only.",
+  "version": "1.2-pilot-mediated-card-generation-tranche-1",
+  "source_carrier": "007-1-1",
+  "notes": "Adds Tower Havoc Pilot role, reusable Pilot-mediated card-generation process, exact pre-Pilot batch evidence, and seven qualified Cartographer-to-Pilot card-generation routes. Individual returned route packages remain pending.",
   "files": [
     {
       "path": ".github/workflows/publish-public.yml",
@@ -104,6 +104,121 @@
       "sha256": "d63800763f57e66ad6156b8abfc97f4f40204a5c00996a428b130bb3a0966ad6"
     },
     {
+      "path": ".topics/tower-havoc/art/001-1-faction-player-boards.decision.trace.md",
+      "size": 2973,
+      "sha256": "c3463570625fc0df505136f351c58a7b415ab772e0dfad19a861ec91743d5925"
+    },
+    {
+      "path": ".topics/tower-havoc/art/001-2-action-ammo-coin-art.decision.trace.md",
+      "size": 2493,
+      "sha256": "0bd2bd7703cee82405f7f9ed94e22a89e46149eb6f423d8fe90137b4ae4e629d"
+    },
+    {
+      "path": ".topics/tower-havoc/art/001-3-1-individual-card-front-production.task.trace.md",
+      "size": 3726,
+      "sha256": "4035d4a0362c586a802b3464fc49b13f671172705e96c3c5de36f8fce9a0c2c7"
+    },
+    {
+      "path": ".topics/tower-havoc/art/001-3-card-visual-system.decision.trace.md",
+      "size": 2914,
+      "sha256": "a4f3e410136593e44fb2024d58ba18446c9f100f569c33e5fdd3a104e0a1fe8a"
+    },
+    {
+      "path": ".topics/tower-havoc/art/001-4-approved-visual-assets.preservation.trace.md",
+      "size": 5194,
+      "sha256": "3177268054fff38bcd82b3d51a2f959e5294af80c0cbd3dd5684f0dc67606ab3"
+    },
+    {
+      "path": ".topics/tower-havoc/art/001-5-pilot-mediated-card-generation.topic.trace.md",
+      "size": 5933,
+      "sha256": "880ec614d3e4f8ff327c5f3b2b390feef99a8247de7eee0c8acfa2590dfddea0"
+    },
+    {
+      "path": ".topics/tower-havoc/art/001-visual-asset-system.topic.trace.md",
+      "size": 2938,
+      "sha256": "1239026d75cec3e538937f8e032b2e17bc8ba719d24dd9ec8d7a92b0ed13aff8"
+    },
+    {
+      "path": ".topics/tower-havoc/art/card-production/001-1-pre-pilot-source-review.decision.trace.md",
+      "size": 3700,
+      "sha256": "ffa1c534af02f90564d43aaa3fac8056c3ac631ac4a37a1256852e1bbe88a896"
+    },
+    {
+      "path": ".topics/tower-havoc/art/card-production/001-generated-defensive-reroll.png",
+      "size": 2450582,
+      "sha256": "8a0f7284692d746160264e67b4b91c129e385613b44d447091956b84421a6deb"
+    },
+    {
+      "path": ".topics/tower-havoc/art/card-production/001-generated-offensive-reroll-2.png",
+      "size": 2555146,
+      "sha256": "0cb88ac850d034f02819fb60fda3e8c2241d081c30aee12a3c277d33e235e3ca"
+    },
+    {
+      "path": ".topics/tower-havoc/art/card-production/001-generated-offensive-reroll-3.png",
+      "size": 2523740,
+      "sha256": "fb4f2fe31111457c17ced7169782dfb324865a7e67d74d81d21b4b8dbc5ac417"
+    },
+    {
+      "path": ".topics/tower-havoc/art/card-production/001-generated-offensive-reroll-4.png",
+      "size": 2660049,
+      "sha256": "ec3b0c1fef72f27a0b29e4593d3132dc73d656f7dedd5cbad7b2c35522356283"
+    },
+    {
+      "path": ".topics/tower-havoc/art/card-production/001-generated-offensive-reroll-5.png",
+      "size": 2573034,
+      "sha256": "7adf2d3fcee3bd5662114dcee2ffe586f3cbd99d829e178ec4bb5e235f1e92f0"
+    },
+    {
+      "path": ".topics/tower-havoc/art/card-production/001-generated-sabotage.png",
+      "size": 2440272,
+      "sha256": "dc62e49fbdd0463a695a182f6df52e87b8768583ad717cacda6d73565e26503b"
+    },
+    {
+      "path": ".topics/tower-havoc/art/card-production/001-pre-pilot-manual-generation.evidence.trace.md",
+      "size": 4832,
+      "sha256": "3e505fc76aa9129bdf69e8bb95c5f701492dfadd176bbb9397d9262858960d6f"
+    },
+    {
+      "path": ".topics/tower-havoc/art/card-production/002-1-cartographer-to-pilot-defensive-reroll.handoff.trace.md",
+      "size": 8006,
+      "sha256": "f4e455ade3cad11dea645d163afe3da4a2e4c1abf9b0366947776e03e01d0a12"
+    },
+    {
+      "path": ".topics/tower-havoc/art/card-production/002-2-cartographer-to-pilot-offensive-reroll-4.handoff.trace.md",
+      "size": 7895,
+      "sha256": "0b1dd032281ddd5386965f70756b25ffb9996e65ac8d9b06c07defd0eb466ee5"
+    },
+    {
+      "path": ".topics/tower-havoc/art/card-production/002-3-cartographer-to-pilot-offensive-reroll-5.handoff.trace.md",
+      "size": 7895,
+      "sha256": "920dd9da4cf1de15f74f1d19334b82e9be30793708998e086f0e0426927681a6"
+    },
+    {
+      "path": ".topics/tower-havoc/art/card-production/002-4-cartographer-to-pilot-upper-hand.handoff.trace.md",
+      "size": 7908,
+      "sha256": "1b52f89fe7c97dc68982244f298d7099495fe4371898d5c5cea8135529b19290"
+    },
+    {
+      "path": ".topics/tower-havoc/art/card-production/002-5-cartographer-to-pilot-plunder.handoff.trace.md",
+      "size": 7949,
+      "sha256": "83cca43be19a71598a5aea072b87bf9bc7bf83630e5187ba2fd0f5eac791c16c"
+    },
+    {
+      "path": ".topics/tower-havoc/art/card-production/002-6-cartographer-to-pilot-overtime.handoff.trace.md",
+      "size": 7828,
+      "sha256": "4507cd65a900c44626f8556d265a661104443cde335a9c2e41d9536562545030"
+    },
+    {
+      "path": ".topics/tower-havoc/art/card-production/002-7-cartographer-to-pilot-ammunition-shortage.handoff.trace.md",
+      "size": 7807,
+      "sha256": "6c2c31db2600cb2c9d5df349c2888651b075af429b3696b792b38ee9ef99b1ff"
+    },
+    {
+      "path": ".topics/tower-havoc/art/card-production/002-pilot-card-generation-tranche.task.trace.md",
+      "size": 3575,
+      "sha256": "d7f436d5977c59fd5b4c2864d98b5c7af48e9c37f1cec7c3be6824a148a16977"
+    },
+    {
       "path": ".topics/tower-havoc/cards/001-1-1-dud-free-deck.decision.trace.md",
       "size": 2449,
       "sha256": "f318dca5ef825fd029ae062b82675531a7d159fcb2397d67fc07601c811686f2"
@@ -174,6 +289,11 @@
       "sha256": "a934ecc82d7795647e226765a034ec213259418eca648a63341b7e82153d60e3"
     },
     {
+      "path": ".topics/tower-havoc/components/001-1-1-1-integrated-board-inventory.decision.trace.md",
+      "size": 3189,
+      "sha256": "bd31b9456cbe871bf6b9d3b86e586f97d5e62308a805ba48268fdd347388642c"
+    },
+    {
       "path": ".topics/tower-havoc/components/001-1-1-compact-coin-inventory.decision.trace.md",
       "size": 3436,
       "sha256": "31a05e1313d1e85e3d0e4107ec09b7a31bb032878f46c1b4e7b2799c6d109e3c"
@@ -182,6 +302,11 @@
       "path": ".topics/tower-havoc/components/001-1-component-inventory.decision.trace.md",
       "size": 2931,
       "sha256": "c8ff8e5c104b08ec0445288e0fd1aba5d06c20766bb9a3254f0500d03c495b98"
+    },
+    {
+      "path": ".topics/tower-havoc/components/001-2-1-1-integrated-quick-reference-board.decision.trace.md",
+      "size": 3262,
+      "sha256": "c76b3c6f2a4f5e0e2cfa4256be3944c87b368191b5be099faee3988701216e73"
     },
     {
       "path": ".topics/tower-havoc/components/001-2-1-stacked-player-board.decision.trace.md",
@@ -204,6 +329,11 @@
       "sha256": "1526a3258f795051c04cc2debd63a0a8857fa32c40e5927f4235b7f7a2bca047"
     },
     {
+      "path": ".topics/tower-havoc/digital/001-1-1-1-approved-art-tts-baseline.decision.trace.md",
+      "size": 3255,
+      "sha256": "3f999554cd8ee5651b0e08ed0f6937e6cf1dc30341c31cb6bd4fb3b26fae9b81"
+    },
+    {
       "path": ".topics/tower-havoc/digital/001-1-1-post-playtest-tts-baseline.decision.trace.md",
       "size": 2971,
       "sha256": "b9e872dffc5d1bd81befde4157868da867e3b570b5baa41bf7aa5e94ee7608a5"
@@ -212,6 +342,11 @@
       "path": ".topics/tower-havoc/digital/001-1-first-tts-baseline.decision.trace.md",
       "size": 2430,
       "sha256": "e35e0128de9c68fcc01f2355aaec047fa11640283106c5884238db82ae09fb3d"
+    },
+    {
+      "path": ".topics/tower-havoc/digital/001-2-1-1-approved-art-tts-surface.presentation.trace.md",
+      "size": 4047,
+      "sha256": "57004e92e221a4f36e18cd12cc83400221e35d0e6795258d2caaccc0109086e6"
     },
     {
       "path": ".topics/tower-havoc/digital/001-2-1-post-playtest-tts-surface.presentation.trace.md",
@@ -289,6 +424,11 @@
       "sha256": "14945ab714a256eeba2eae0fec479b34352e82cbfd85cfe54bcf2e3e4757725f"
     },
     {
+      "path": ".topics/tower-havoc/playtest/001-1-1-1-approved-art-session-baseline.decision.trace.md",
+      "size": 3293,
+      "sha256": "38e7647d86c97e465c644138426c10e7e1ad2e71676defa99822d0a261ba6d26"
+    },
+    {
       "path": ".topics/tower-havoc/playtest/001-1-1-second-session-baseline.decision.trace.md",
       "size": 3149,
       "sha256": "900e7a9575ac5dae8a7a1b0852e4944116d8d218721e1bc3802ddb6cf1555872"
@@ -352,6 +492,11 @@
       "path": ".topics/tower-havoc/roles/001-4-player.role.trace.md",
       "size": 4935,
       "sha256": "50c788f6bb58dc71a01fd6bc1e8fb37638ef80b444938b71d12f86c96af647b8"
+    },
+    {
+      "path": ".topics/tower-havoc/roles/001-5-pilot.role.trace.md",
+      "size": 7073,
+      "sha256": "d1d2232b441ede23c374cf889dcb2fd02805b103cdf57dfe94984058d34bcf62"
     },
     {
       "path": ".topics/tower-havoc/roles/001-roles.topic.trace.md",
@@ -1520,8 +1665,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "size": 7345,
-      "sha256": "99ea7781168a5f57a1743dd268efda46d57973515638d9829f357372b03de01e"
+      "size": 8075,
+      "sha256": "6e8c4bf08df3f96273d32386a27f051ff30da713fedd3f71f20cf81847ce03f8"
     },
     {
       "path": "PROVENANCE.md",
@@ -1540,18 +1685,83 @@
     },
     {
       "path": "VALIDATION.txt",
-      "size": 1237,
-      "sha256": "6b39af64693e3d78f78a65cbb5fb58a183631f2a23ac1d1a993c3d271dfeea6d"
+      "size": 1568,
+      "sha256": "df6e23483ae3b9eee7d610159b4617db7a31d763a87c227150d502fafd1e25f5"
+    },
+    {
+      "path": "art/approved/card-references/card-back-reference.png",
+      "size": 543988,
+      "sha256": "956ef2705b93d1df1c28241eca4d58230d71051812c9377bb362d2f7f5343c7e"
+    },
+    {
+      "path": "art/approved/card-references/event-front-reference.png",
+      "size": 541287,
+      "sha256": "1d7571beefd631777986f6054e2cadf33dc8fb1920587aa5649ef04f0877da66"
+    },
+    {
+      "path": "art/approved/card-references/sabotage-front-reference.png",
+      "size": 509060,
+      "sha256": "6215adb68f1f7dbf1b7016664e5868c75d6fec35fa903a9d47838e558aaece0d"
+    },
+    {
+      "path": "art/approved/card-references/tactic-front-reference.png",
+      "size": 522340,
+      "sha256": "2c5aa90040747667c79f4a2f5081475325cdfa9b87bd1d81956619db4367ede3"
+    },
+    {
+      "path": "art/approved/coins/action-side.png",
+      "size": 488738,
+      "sha256": "179bf99ba7ea6fd391c2ada2ebf4b8250ead35f56d8e54cf8522c9c3540b33e4"
+    },
+    {
+      "path": "art/approved/coins/ammo-side.png",
+      "size": 470906,
+      "sha256": "8080ea3e0dfa041f968e30d8a98f543e2a65499f4cddb5eefad8b309a0339221"
+    },
+    {
+      "path": "art/approved/player-boards/ash-dominion.png",
+      "size": 2708996,
+      "sha256": "7fdc0c34c97c96b3436622d1ed55f37ded7f5ca6a86ea8857c6da384523fd37b"
+    },
+    {
+      "path": "art/approved/player-boards/brass-union.png",
+      "size": 2681606,
+      "sha256": "126c0049646a7a16f61e92928b46cda10361c5ebec270a9e20c8a62be4095da0"
+    },
+    {
+      "path": "art/approved/player-boards/ember-rail.png",
+      "size": 2677725,
+      "sha256": "4ef0a5147d34d46649e2a51d19483ca4cf67423328a3368df950ab1eda0edf54"
+    },
+    {
+      "path": "art/approved/player-boards/horizon-guild.png",
+      "size": 2685140,
+      "sha256": "4b05f5a5adddd07e3bc2168f3e6ea5c408ed14160950c8681679527851783abf"
+    },
+    {
+      "path": "art/approved/player-boards/ironclads.png",
+      "size": 2943040,
+      "sha256": "b4b08670ae0078240e756213c915dadb7a0d8ec77cb4e9b06408e1c161a4012b"
+    },
+    {
+      "path": "art/approved/player-boards/storm-foundry.png",
+      "size": 2742048,
+      "sha256": "03a9f236a25739f2219bdcd1d66229c46db289eede508b0d5ea01ce417e36693"
     },
     {
       "path": "cad/FUSION360_BRIEF.md",
-      "size": 2305,
-      "sha256": "3bf69343497bb9806c3a3d5d1a97a98bca4a23c8639b5d71bc422490e0bca175"
+      "size": 2242,
+      "sha256": "8306e5ff8302bad16b3949d3ed60ad8f707dddfd1fe7dca28960179337b348c8"
     },
     {
       "path": "cad/PARAMETERS.csv",
-      "size": 1653,
-      "sha256": "6b5a343f0605382d3b24ba06365bcb2d34454942f85ba274b33aa8912b1cae5b"
+      "size": 1709,
+      "sha256": "24be69f616bfcf0e364cda8949975732081a07b1fcc2e7294c576c615cd33ddb"
+    },
+    {
+      "path": "data/card-art-generation-plan.json",
+      "size": 6861,
+      "sha256": "35fc3010a89a3e423f24410d38da332ba4f19c3cd36cf434d1f1ab9929f9eedb"
     },
     {
       "path": "data/cards.csv",
@@ -1565,13 +1775,18 @@
     },
     {
       "path": "data/components.csv",
-      "size": 961,
-      "sha256": "ab0f6193e48cb38a2ea63b05afe492ed7e581b878301903ed3d6ee8d12132a0d"
+      "size": 719,
+      "sha256": "78cdd879a5712a9f9381c984ecd3fc63e0c3e4a3694745eafd674fecd23be089"
     },
     {
       "path": "data/prototype-constants.json",
-      "size": 4407,
-      "sha256": "6a2a1c37d534874ac5ad2309b891256783a18900197fc532a88f4e6e5f5d23ee"
+      "size": 4437,
+      "sha256": "7bf22d1ca6b0634651c9936aeed00a8215fc7e31a0006d58fb42f323a6eb9f26"
+    },
+    {
+      "path": "data/visual-assets.json",
+      "size": 3385,
+      "sha256": "8cbe8e782d7f7689750ed9fe4e0afa7487df3a77fd49a531383cb9d4f5403d60"
     },
     {
       "path": "docs/CARDS.md",
@@ -1580,13 +1795,13 @@
     },
     {
       "path": "docs/COMPONENTS.md",
-      "size": 2808,
-      "sha256": "aca9b05f57dc70e8be772c8bf6514aefe43be94180d5f7c3637a6df3d1d9480c"
+      "size": 2704,
+      "sha256": "02942c69493d06fd1bce0144da034d761bb0edf35433cc48f0464097032751d9"
     },
     {
       "path": "docs/DECISIONS.md",
-      "size": 16232,
-      "sha256": "a25943fc12493b9efdfd50b485336068ec072d44994c79db14d443b1f449ff27"
+      "size": 19098,
+      "sha256": "85db3967fe4182a33d399c7cf869b0fe07afd3f547a00b92a2e150cfdba1a0fd"
     },
     {
       "path": "docs/EDITION_BIBLE.md",
@@ -1600,13 +1815,13 @@
     },
     {
       "path": "docs/GAME_SPEC.md",
-      "size": 10634,
-      "sha256": "98fa16af43b3b8ecde3aef5f61c85a021e933d6983fe5cae9f3b2933177db832"
+      "size": 10654,
+      "sha256": "ef9bea971ccdbc0a018dbc9d2068bd13c92d91455f5d16e58e63ee22b165971a"
     },
     {
       "path": "docs/RULEBOOK.md",
-      "size": 9463,
-      "sha256": "ac440283c35a676ae15724591c65b0230482f02ecbd6fdf626768f799ac97bed"
+      "size": 9546,
+      "sha256": "ad6b6c40cc1719f0cb05f17ee72a14bab5353ad2220273ba0afbef55a863a28b"
     },
     {
       "path": "examples/match-lineage-demo/SCHEMA-USAGE.md",
@@ -1930,8 +2145,8 @@
     },
     {
       "path": "playtest/NEXT_SESSION.md",
-      "size": 1671,
-      "sha256": "3153d82cec8435f9599f521986a9306ca5253706c0ce461bed0d55613be5e110"
+      "size": 1754,
+      "sha256": "0f6cc52f41095ef47e5ab769d8d136f16a79f46026d6773b34ccdbf3d2e20d66"
     },
     {
       "path": "playtest/SESSION_TEMPLATE.md",
@@ -1970,13 +2185,13 @@
     },
     {
       "path": "scripts/generate_from_topics.py",
-      "size": 18499,
-      "sha256": "b1a6744a841d598100248a6767776608e82a799aaaef4ac67458af8533c36a9e"
+      "size": 18529,
+      "sha256": "40f681313b842212c017d6f867d4ae78aa84296ca5a8060e5554f727322d84c5"
     },
     {
       "path": "scripts/generate_tts_assets.py",
-      "size": 7749,
-      "sha256": "22d236e0e7a01047e3851bd378e08f18b8c391bff7b07fdc376893ed90c79015"
+      "size": 3341,
+      "sha256": "97efcaa8dfd4f3c2623f9a78073c8528fc445eb4d31a5516f6163c60f2fd9758"
     },
     {
       "path": "scripts/run_incremental_lineage_simulation.py",
@@ -1999,14 +2214,19 @@
       "sha256": "08716945c8826543e868595ab01fcd7eca32100606669818393aef801202e89b"
     },
     {
+      "path": "scripts/validate_pilot_card_routes.py",
+      "size": 2330,
+      "sha256": "0c742831a5a574c4b04f0a87566cb91d8173a68e9a9b0ae55e5b068667ea29e8"
+    },
+    {
       "path": "scripts/validate_prototype.py",
       "size": 2353,
       "sha256": "2b12cbd6922fa28dea8bf0e97f263fea71c3656127d6658baa933e920e9bc8bf"
     },
     {
       "path": "scripts/validate_publication.py",
-      "size": 1633,
-      "sha256": "6dfa45312f9c3c25668ccb46143ed0c83064eeebed8ccb3015ff0e787ce44e77"
+      "size": 1819,
+      "sha256": "5bd26d93ec7f1a32614678396a4b66f8dfdf9dbfe8aa8bc991156931f2ba012e"
     },
     {
       "path": "scripts/validate_readme_surface.py",
@@ -2015,8 +2235,8 @@
     },
     {
       "path": "scripts/validate_roles.py",
-      "size": 2079,
-      "sha256": "1c9dc5aadfc6f462207ae931752b7f2a575bb0c0b5e63c69eced99f86c6f28aa"
+      "size": 2136,
+      "sha256": "45d3d10ab6006914d8226a530fe0a702d947444c48c961b513963948463953e2"
     },
     {
       "path": "scripts/validate_runtime_simulations.py",
@@ -2029,19 +2249,44 @@
       "sha256": "30db61a7e3423ea2d07436589c30744063ad3fe50db66467f461d609b3bd5b9b"
     },
     {
+      "path": "scripts/validate_visual_assets.py",
+      "size": 1859,
+      "sha256": "e07bb6aac8c96df9975e2471b2560e7d5bf15db383eae5fafb5166dc7dc74b87"
+    },
+    {
       "path": "sources/original-sanka-torn-draft.md",
       "size": 3059,
       "sha256": "19423a878f715cc039121b4d45435871ae939dc53de58a31dc798c7bcbd4c70d"
     },
     {
       "path": "tts/CUSTOM_DECK_SETTINGS.json",
-      "size": 335,
-      "sha256": "c23e6d4f5ca06836cac50e58e13b1ae4a473cbc89217811cdaa3b7a8d497e533"
+      "size": 336,
+      "sha256": "f6a2d3dfd24a8f8f4923b5925f903d53038672dcaea7561b1e4d5c2221bca0d6"
     },
     {
       "path": "tts/ONE_HOUR_PLAYTEST.md",
-      "size": 2273,
-      "sha256": "8689841ba3ae6254cbab564de11eeb130a1486bf0edb44d25a66ae8421148680"
+      "size": 2578,
+      "sha256": "59d1f334cfb98eef9f7440284ae045ca637c5a78108e5d8320eba8fd4041766f"
+    },
+    {
+      "path": "tts/assets/card-design-references/card-back-reference.png",
+      "size": 543988,
+      "sha256": "956ef2705b93d1df1c28241eca4d58230d71051812c9377bb362d2f7f5343c7e"
+    },
+    {
+      "path": "tts/assets/card-design-references/event-front-reference.png",
+      "size": 541287,
+      "sha256": "1d7571beefd631777986f6054e2cadf33dc8fb1920587aa5649ef04f0877da66"
+    },
+    {
+      "path": "tts/assets/card-design-references/sabotage-front-reference.png",
+      "size": 509060,
+      "sha256": "6215adb68f1f7dbf1b7016664e5868c75d6fec35fa903a9d47838e558aaece0d"
+    },
+    {
+      "path": "tts/assets/card-design-references/tactic-front-reference.png",
+      "size": 522340,
+      "sha256": "2c5aa90040747667c79f4a2f5081475325cdfa9b87bd1d81956619db4367ede3"
     },
     {
       "path": "tts/assets/cards-back.png",
@@ -2054,24 +2299,44 @@
       "sha256": "32c033fbac7214142ea366415b4a4dd82d7e5a68badbd5f33b7f5199e14787ae"
     },
     {
-      "path": "tts/assets/classic-quick-reference-card.png",
-      "size": 64869,
-      "sha256": "66ec906726e755555ad45687e2693d7e61ccb36209f4a9f1c18d561ee22b08c0"
-    },
-    {
       "path": "tts/assets/coin-action.png",
-      "size": 10373,
-      "sha256": "5bce68a85c020a0b42e8a3f801878538610bae963a4445c0d067b06f2bb77b01"
+      "size": 488738,
+      "sha256": "179bf99ba7ea6fd391c2ada2ebf4b8250ead35f56d8e54cf8522c9c3540b33e4"
     },
     {
       "path": "tts/assets/coin-ammo.png",
-      "size": 9391,
-      "sha256": "5ff7a9be08361d01923b3397debdc6d6bff5fa21dbcd30089013e2474e1c9094"
+      "size": 470906,
+      "sha256": "8080ea3e0dfa041f968e30d8a98f543e2a65499f4cddb5eefad8b309a0339221"
     },
     {
-      "path": "tts/assets/player-mat.png",
-      "size": 70202,
-      "sha256": "cf5135592442c1b985ab54fe48867c8db21edbb580113e4ce2418e3ae95d2aa0"
+      "path": "tts/assets/player-boards/ash-dominion.png",
+      "size": 2708996,
+      "sha256": "7fdc0c34c97c96b3436622d1ed55f37ded7f5ca6a86ea8857c6da384523fd37b"
+    },
+    {
+      "path": "tts/assets/player-boards/brass-union.png",
+      "size": 2681606,
+      "sha256": "126c0049646a7a16f61e92928b46cda10361c5ebec270a9e20c8a62be4095da0"
+    },
+    {
+      "path": "tts/assets/player-boards/ember-rail.png",
+      "size": 2677725,
+      "sha256": "4ef0a5147d34d46649e2a51d19483ca4cf67423328a3368df950ab1eda0edf54"
+    },
+    {
+      "path": "tts/assets/player-boards/horizon-guild.png",
+      "size": 2685140,
+      "sha256": "4b05f5a5adddd07e3bc2168f3e6ea5c408ed14160950c8681679527851783abf"
+    },
+    {
+      "path": "tts/assets/player-boards/ironclads.png",
+      "size": 2943040,
+      "sha256": "b4b08670ae0078240e756213c915dadb7a0d8ec77cb4e9b06408e1c161a4012b"
+    },
+    {
+      "path": "tts/assets/player-boards/storm-foundry.png",
+      "size": 2742048,
+      "sha256": "03a9f236a25739f2219bdcd1d66229c46db289eede508b0d5ea01ce417e36693"
     }
   ]
 }

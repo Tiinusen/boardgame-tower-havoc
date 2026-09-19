@@ -7,6 +7,20 @@
 |---|---|---|---|
 | `.topics/tower-havoc/001-1-lineage-is-canonical-game-source.decision.trace.md` | Continuity Context | accepted | `.topics/tower-havoc/**` is the canonical semantic source for the current game definition and its development continuity. `docs/**`, `data/**`, CAD briefs, TTS helper files, and similar consumable material should be generated or reconciled from that source wherever practical. Raw preserved source material may remain outside `.topics` when a Preservation artifact declares its boundary. |
 | `.topics/tower-havoc/001-2-tower-havoc-title.decision.trace.md` | Continuity Context | accepted working/product title | Use Tower Havoc consistently in repository, prototype, and generated documentation. |
+| `.topics/tower-havoc/art/001-1-faction-player-boards.decision.trace.md` | Continuity Context | accepted next-playtest visual baseline | use these six exact faction-board images as the next TTS visual baseline. |
+| `.topics/tower-havoc/art/001-2-action-ammo-coin-art.decision.trace.md` | Continuity Context | accepted next-playtest visual baseline | use one common coin appearance for every faction and every seat. |
+| `.topics/tower-havoc/art/001-3-card-visual-system.decision.trace.md` | Continuity Context | accepted visual baseline | use the approved common back and three front references as the visual source for producing the individual current-deck faces. |
+| `.topics/tower-havoc/art/card-production/001-1-pre-pilot-source-review.decision.trace.md` | Continuity Context | production-review disposition; not final project acceptance | - State: production-review disposition; not final project acceptance
+- Reusable Source Candidates:
+  - `001-generated-sabotage.png` — 1060×1484, exact 5:7; text/layout reviewed as matching current Sabotage semantics
+  - `001-generated-offensive-reroll-2.png` — 1060×1484, exact 5:7; text/layout reviewed as matching current printed-value 2 semantics
+  - `001-generated-offensive-reroll-3.png` — 1060×1484, exact 5:7; text/layout reviewed as matching current printed-value 3 semantics
+- Retry Required:
+  - `001-generated-defensive-reroll.png` — returned 948×1659 (4:7 rather than 5:7)
+  - `001-generated-offensive-reroll-4.png` — returned 948×1659 (4:7 rather than 5:7)
+  - `001-generated-offensive-reroll-5.png` — returned 948×1659 (4:7 rather than 5:7)
+- Production Reference For Remaining Tactic Routes: `001-generated-offensive-reroll-2.png`
+- Deterministic Stretch/Crop Of 4:7 Candidates: rejected for current production because it would either distort the accepted layout or remove source content. |
 | `.topics/tower-havoc/cards/001-1-1-dud-free-deck.decision.trace.md` | Continuity Context | provisional/PLAYTEST | remove all six Dud cards and test the remaining 34-card composition before adding replacements. |
 | `.topics/tower-havoc/cards/001-1-deck-composition.decision.trace.md` | Continuity Context | accepted prototype baseline | - State: accepted prototype baseline
 - Rule ID: cards.deck
@@ -59,6 +73,7 @@
 / Damp Powder / 1 / No player may use Emergency Ammo until the drawer begins their next turn; Planned Ammo works normally. / Leave face-up until expiry. /
 / Ceasefire / 1 / No attacks until the drawer begins their next turn. / Leave face-up until expiry. /
 / Building Strike / 1 / All builds cost +1 action until the drawer begins their next turn. / Leave face-up until expiry. / |
+| `.topics/tower-havoc/components/001-1-1-1-integrated-board-inventory.decision.trace.md` | Continuity Context | provisional/PLAYTEST | integrate the quick reference into each player board and keep the rest of the compact shared-coin inventory. |
 | `.topics/tower-havoc/components/001-1-1-compact-coin-inventory.decision.trace.md` | Continuity Context | provisional/PLAYTEST | - State: provisional/PLAYTEST
 - Component Manifest ID: components.mvp.v2
 
@@ -88,9 +103,11 @@
 / Reinforcement marker / 72 / numbered token / values 2–5 x 3 floors x 6 players /
 / Action tracker / 6 sets / counter/dial / must support banked actions without a small fixed cap /
 / Card / 40 / generated prototype deck / deck manifest comes from card lineage / |
+| `.topics/tower-havoc/components/001-2-1-1-integrated-quick-reference-board.decision.trace.md` | Continuity Context | provisional/PLAYTEST | use this fixed layout for every faction board; only decorative faction treatment may vary. |
 | `.topics/tower-havoc/components/001-2-1-stacked-player-board.decision.trace.md` | Continuity Context | provisional/PLAYTEST | use board location plus coin face to communicate persistent state, and stack fungible resources instead of spreading many tokens across large zones. |
 | `.topics/tower-havoc/components/001-2-visible-player-state.decision.trace.md` | Continuity Context | accepted | persistent state that matters later should be physically/digitally represented rather than remembered where practical. |
 | `.topics/tower-havoc/components/001-3-mechanical-equivalence.decision.trace.md` | Continuity Context | accepted | Every faction tower-floor variant must preserve the same outer bounding box, footprint, floor-to-floor contact area, stacking height, alignment behavior, practical stability envelope, reinforcement interface locations, and accessibility. Cosmetic variation must not create a gameplay advantage. |
+| `.topics/tower-havoc/digital/001-1-1-1-approved-art-tts-baseline.decision.trace.md` | Continuity Context | provisional/PLAYTEST | use the approved-art player boards and shared coin for the next TTS session while keeping unfinished individual card faces explicitly provisional. |
 | `.topics/tower-havoc/digital/001-1-1-post-playtest-tts-baseline.decision.trace.md` | Continuity Context | provisional/PLAYTEST | keep rule state analog-visible while improving ergonomics and presentation enough for the next real session. |
 | `.topics/tower-havoc/digital/001-1-first-tts-baseline.decision.trace.md` | Continuity Context | accepted prototype baseline | the first TTS build optimizes for time-to-playtest rather than presentation quality. |
 | `.topics/tower-havoc/digital/002-1-pages-publication-contract.decision.trace.md` | Continuity Context | accepted implementation direction | GitHub Pages is a delivery/presentation surface; published mirrors and assets never replace lineage or repository history as semantic authority. |
@@ -100,6 +117,7 @@
 | `.topics/tower-havoc/factions/001-1-classic-mode.decision.trace.md` | Continuity Context | accepted | In Classic mode every player set is mechanically identical. Use Classic mode for the first playtests and as the reference when judging whether the core game itself works. |
 | `.topics/tower-havoc/factions/001-2-faction-mode.decision.trace.md` | Continuity Context | provisional/PLAYTEST | Faction mode may use these six small prototype abilities after Classic testing, while final names remain open. |
 | `.topics/tower-havoc/physical/001-1-fusion360-master-geometry.decision.trace.md` | Continuity Context | accepted | Begin physical modeling from one parametric mechanically neutral tower-floor master. Preserve shared bounding box, footprint, stacking/contact area, height, alignment, stability envelope, reinforcement interfaces, and access. Create cosmetic faction variants only after the master survives physical stacking tests. |
+| `.topics/tower-havoc/playtest/001-1-1-1-approved-art-session-baseline.decision.trace.md` | Continuity Context | provisional/PLAYTEST | use this baseline for the next real session after the individual card-face art is materialized. |
 | `.topics/tower-havoc/playtest/001-1-1-second-session-baseline.decision.trace.md` | Continuity Context | provisional/PLAYTEST | use this complete successor baseline for the next real session so the first-session findings can be tested together rather than mixed with ad-hoc mid-match changes. |
 | `.topics/tower-havoc/playtest/001-1-first-session-baseline.decision.trace.md` | Continuity Context | provisional/PLAYTEST | Use this complete baseline for the first session so later variants have a comparable starting point. |
 | `.topics/tower-havoc/rules/001-1-setup.decision.trace.md` | Continuity Context | accepted | Each player takes one player set with three tower floors and the resources required by the selected game mode. Classic mode is the reference setup. |

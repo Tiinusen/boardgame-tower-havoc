@@ -6,25 +6,26 @@
 ## Prototype baseline
 
 - State: provisional/PLAYTEST
-- Prototype ID: tts.v0.2
-- Tower Floors: generic blocks remain sufficient while visual replacements are explored
+- Prototype ID: tts.v0.3
+- Tower Floors: generic blocks remain sufficient until approved tower-floor geometry/art exists
 - Cannon: generic pawn/token remains sufficient
-- Resources: one double-sided Action/Ammo coin vocabulary
-- Player Board: compact stacked layout with printed construction and reinforcement positions
-- Quick Reference: faction/mode-specific quick-reference card seated in the board slot
-- Cards: generated 34-card dud-free deck
-- Asset Delivery: load generated public assets from the repository GitHub Pages publication rather than GitHub repository permalink URLs
+- Resources: one shared double-sided Action/Ammo coin using the approved common texture pair
+- Player Boards: six approved faction board textures with identical gameplay layout
+- Quick Reference: printed directly on every player board; no separate quick-reference card object
+- Cards: current 34-card Dud-free draw deck; one common back; Event/Sabotage/Tactic front families
+- Card Art State: common back and three front-family visual references approved; individual current-deck faces still pending review
+- Asset Delivery: load published TTS assets from the repository GitHub Pages surface
 - Scripting Required: no
 - Hidden Automation: avoid
-- Decision: keep rule state analog-visible while improving ergonomics and presentation enough for the next real session.
+- Decision: use the approved-art player boards and shared coin for the next TTS session while keeping unfinished individual card faces explicitly provisional.
 
 ## First-session ruleset
 
 - State: provisional/PLAYTEST
-- Session Baseline ID: playtest.baseline.002
+- Session Baseline ID: playtest.baseline.003
 - Recommended Players: 3–4
-- Mode: Classic
-- Deck: 34-card dud-free prototype deck
+- Mode: Classic mechanics with visually distinct faction boards
+- Deck: 34-card Dud-free prototype deck
 - Floor Build Cost: 2 actions per floor
 - Attack Cost: 1 action plus 1 Ready Ammo
 - Attack Limit: maximum 1 attack per player turn
@@ -33,7 +34,7 @@
 - Bell Sequence: build bell for 1 action after completing the tower; survive one full orbit; then spend 1 action for a bell attempt
 - Bell Success: D6 result 1
 - Bell Attempt Limit: maximum 1 per player turn
-- Player Surface: compact stacked board with double-sided Action/Ammo coins and faction/mode quick-reference slot
-- Decision: use this complete successor baseline for the next real session so the first-session findings can be tested together rather than mixed with ad-hoc mid-match changes.
+- Player Surface: one of six approved faction boards; Ready Ammo, Production, and Available Actions use shared coin stack wells; three permanent floor rows; integrated quick reference; no separate quick-reference card
+- Decision: use this baseline for the next real session after the individual card-face art is materialized.
 
 Use generic objects first. Import/regenerate the generated card deck only after the table has the visible Action Bank, Ready Ammo, Production, tower floors, reinforcement values 2–5, D6, and bell/goal object.
