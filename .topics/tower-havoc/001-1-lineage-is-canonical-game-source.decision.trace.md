@@ -1,6 +1,6 @@
 # Continuity Context
 
-- Envelope Schema: [tiinex.root.v1](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.schemas/tiinex.root.v1.schema.md)
+- Envelope Schema: [tiinex.root.v1](https://github.com/Tiinex/docs/blob/8145c280093dff5d0b67db2aa72d5f5c12b6c7cb/.topics/.schemas/tiinex.root.v1.schema.md)
 - Parent
   - Parent Schema: [tiinex.project.v1](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.schemas/coordination/project/tiinex.project.v1.schema.md)
   - Created At: 2026-09-18 01:31:00
@@ -8,7 +8,7 @@
   - Origin:
     - [relative](001-tower-havoc.project.trace.md)
 - Current
-  - Current Schema: [tiinex.decision.v1](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.schemas/core/decision/tiinex.decision.v1.schema.md)
+  - Current Schema: [tiinex.decision.v1](https://github.com/Tiinex/docs/blob/13991b5a13ab911ed9abd63646f92c8a9362ea01/.topics/.schemas/core/decision/tiinex.decision.v1.schema.md)
   - Created At: 2026-09-18 02:18:00
   - Authors: Olle Tiinus
   - Why: Make the experiment intentionally artifact-native rather than using lineage only as a development diary.
@@ -43,4 +43,4 @@ Generated outputs carry a GENERATED header and source references. Manual edits t
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: self
-  - Value: ODW7Pq8A80VDXBpov1tUetp4JLYGoqlTEF91shxAFUc
+  - Value: 1N_nR2U85au4R-cFhYfaQQdDat72dzG6AslRyMRkK9g
