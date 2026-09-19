@@ -20,61 +20,69 @@ This projection combines current semantic branches for implementation/prototypin
 
 ## Action economy
 
-- State: accepted
+- State: provisional/PLAYTEST
 - Rule ID: rules.actions
 - Actions Gained Per Own Turn: 1
 - General Action Bank Cap: none
 - Pass Cost: 0
-- Draw Card Cost: 1 action
+- Draw Attempt Cost: 1 action
+- Draw Attempt Die: D6
+- Draw Attempt Success: 1 or 6
+- Draw Attempt Failure: 2, 3, 4, or 5; the player may spend another action to attempt again during the same turn
+- Draw Success Limit: after the first successful draw, that player may not make another draw attempt during the same turn
 - Reinforce Cost: 1 action
+- Attack Cost: 1 action plus 1 Ready Ammo
+- Bell Construction Cost: 1 action
 - Bell Attempt Cost: 1 action
 - Draw Phrase: `Ah, hmmm, mmmm`
-- Decision: Unused actions remain banked across turns. Actions are the flexible capital of the game rather than a turn-local allowance.
+- Decision: keep banked actions as strategic capital while making attacks and card access visibly compete for that same capital.
 
 ## Ammunition
 
-- State: accepted
+- State: provisional/PLAYTEST
 - Rule ID: rules.ammunition
 - Emergency Production: 1 action -> 1 Ready Ammo immediately
 - Planned Production: 1 action -> 2 Production Ammo
 - Planned Maturity: all Production Ammo becomes Ready Ammo at the beginning of that player's next own turn
-- Attack Cost: 1 Ready Ammo
-- Attack Action Cost: 0
-- Decision: Ready Ammo and Production Ammo are separate visible states. Ammunition is prepaid offensive capacity, not a second copy of the action currency.
+- Attack Ammo Cost: 1 Ready Ammo
+- Attack Action Cost: 1 action
+- Decision: Ready Ammo and Production Ammo remain separate visible states; an attack now spends both 1 action and 1 Ready Ammo under the next-session baseline.
 
 ## Turn structure
 
-- State: accepted
+- State: provisional/PLAYTEST
 - Rule ID: rules.turn
-- Start Step 1: expire any persistent global event owned by this player from the previous orbit
-- Start Step 2: move all of this player's Production Ammo to Ready Ammo
-- Start Step 3: gain 1 action
+- Start Step 1: gain 1 action; every own turn begins with this gain before any other start-of-turn game effect resolves
+- Start Step 2: expire any persistent global event owned by this player from the previous orbit
+- Start Step 3: move all of this player's Production Ammo to Ready Ammo
 - Action Phase: spend any legal combination of available actions/resources in any legal order
 - End: remaining actions stay banked; play passes clockwise
-- Decision: Start-of-turn processing is deliberately short and physically observable.
+- Decision: the action gain is the first explicit event of every own turn and is never skipped because another start-of-turn effect also resolves.
 
 ## Building
 
 - State: provisional/PLAYTEST
 - Rule ID: rules.building
 - Tower Floors Per Player: 3
-- Build Cost — first floor built this turn: 2 actions
-- Build Cost — second floor built this turn: 3 actions
-- Build Cost — third floor built this turn: 4 actions
-- Three-Floor Burst Total: 9 actions
-- Decision: A player may build multiple floors in one turn if enough banked actions are available; successive builds currently use the 2/3/4 cost curve.
+- Build Cost Per Floor: 2 actions
+- Same-Turn Multi-Floor Building: allowed when enough banked actions are available
+- Three-Floor Burst Total: 6 actions
+- Board Representation: each floor row exposes two Build slots sized for the shared Action/Ammo coin; the slots communicate the two-action cost
+- Partial Construction State: none; both actions are paid when the floor is built, and the physical tower remains the authoritative visible built-floor state
+- Decision: use one flat two-action floor cost so construction is easier to read and manipulate while preserving banked-action burst play.
 
 ## Attack
 
-- State: accepted with frequency PLAYTEST
+- State: provisional/PLAYTEST
 - Rule ID: rules.attack
 - Weapon Metaphor: light field cannon
 - Target: one specific built floor of one opponent
-- Cost: 1 Ready Ammo
-- Additional Action Cost: 0
-- First-Session Attack Limit: maximum 1 attack per player turn
+- Ready Ammo Cost: 1
+- Action Cost: 1
+- Total Cost: 1 action plus 1 Ready Ammo
+- Attack Limit: maximum 1 attack per player turn for the next-session baseline
 - Long-Term Multi-Attack Rule: unresolved/PLAYTEST
-- Decision: attacks consume ammunition and resolve against one chosen built floor. The first session uses a one-attack cap only as a conservative comparison baseline.
+- Decision: an attack consumes both one action and one Ready Ammo before its D6 resolution.
 
 ## Reinforcement
 
@@ -96,31 +104,33 @@ This projection combines current semantic branches for implementation/prototypin
 
 ## Victory
 
-- State: accepted structure; probability PLAYTEST
+- State: provisional/PLAYTEST
 - Rule ID: rules.victory
 - Required Tower: 3 built floors
-- Exposure Requirement: the complete three-floor tower must already exist at the beginning of the player's own turn
+- Bell Construction Requirement: a player with all three floors built may spend 1 action to construct the bell
+- Bell Construction Time: one full table orbit; the bell becomes ready only at the beginning of that player's next own turn if the three-floor tower still exists
 - Bell Attempt Cost: 1 action
-- First-Session Success: D6 result 1
-- First-Session Attempt Limit: maximum 1 bell attempt per player turn
-- Decision: A player cannot build the third floor and attempt victory in the same turn. The tower must survive a full table orbit before the first legal bell attempt.
+- Bell Attempt Success: D6 result 1
+- Bell Attempt Limit: maximum 1 bell attempt per player turn for the next-session baseline
+- Decision: completing the tower unlocks bell construction, not immediate victory. The constructed bell must survive one orbit with the complete tower before a ring attempt is legal.
 
 ## Cards
 
-- State: accepted prototype baseline
+- State: provisional/PLAYTEST
 - Rule ID: cards.deck
-- Total Cards: 40
+- Total Cards: 34
 
 | Family | Quantity | Type |
 |---|---:|---|
 | Sabotage | 6 | tactic |
 | Offensive Reroll | 8 | tactic |
 | Defensive Reroll | 4 | tactic |
-| Dud | 6 | tactic |
 | Upper Hand | 2 | tactic |
 | Plunder | 4 | tactic |
 | Overtime | 4 | tactic |
 | Global Events | 6 | event |
+
+- Decision: remove all six Dud cards and test the remaining 34-card composition before adding replacements.
 
 - State: accepted prototype baseline
 - Rule ID: cards.events
@@ -139,22 +149,19 @@ This projection combines current semantic branches for implementation/prototypin
 
 ## Components
 
-- State: accepted MVP inventory
-- Component Manifest ID: components.mvp
+- State: provisional/PLAYTEST
+- Component Manifest ID: components.mvp.v2
 
 | Component | Quantity | Prototype Substitute | Constraint |
 |---|---:|---|---|
-| Player mat | 6 | paper/player colour zone | visibly separate Action Bank, Ready Ammo, Production |
-| Reference card | 6 | paper note | one quick reference per player |
-| Optional faction card | 6 | paper note | used only in Faction mode |
+| Compact player board | 6 | printed/TTS board | coin-sized stack wells plus tower-construction rows and faction/mode quick-reference slot |
+| Faction or mode quick-reference card | 6 | printed/TTS card | one per player; Classic uses a Classic-mode card instead of a separate generic reference card |
 | Tower floor | 18 | generic block | 3 per player; identical mechanical envelope |
 | Light field cannon | 6 | pawn/token | theme/readability only; no real projectile required |
 | D6 | 2 | standard die | one required plus one spare |
-| Bell | 1 | obvious goal token | physical bell preferred later |
-| Ammo token | 72 | cube/coin | shared supply |
-| Reinforcement marker | 72 | numbered token | values 2–5 x 3 floors x 6 players |
-| Action tracker | 6 sets | counter/dial | must support banked actions without a small fixed cap |
-| Card | 40 | generated prototype deck | deck manifest comes from card lineage |
+| Shared bell | 1 | obvious bell object | theatrical ring object; per-player bell construction state lives on each board |
+| Action/Ammo coin | 144 | double-sided coin/token | Action face on one side; Ammo face on the other; one shared physical vocabulary for Action Bank, Ready Ammo, Production, build/reinforcement markers, and bell construction |
+| Card | 34 | generated prototype deck | next PLAYTEST deck manifest comes from card lineage |
 
 ## Edition
 
@@ -185,12 +192,17 @@ This projection combines current semantic branches for implementation/prototypin
 ## First-session baseline
 
 - State: provisional/PLAYTEST
-- Session Baseline ID: playtest.baseline.001
+- Session Baseline ID: playtest.baseline.002
 - Recommended Players: 3–4
 - Mode: Classic
-- Deck: 40-card prototype deck
-- Build Curve: 2 / 3 / 4
+- Deck: 34-card dud-free prototype deck
+- Floor Build Cost: 2 actions per floor
+- Attack Cost: 1 action plus 1 Ready Ammo
 - Attack Limit: maximum 1 attack per player turn
-- Bell Attempt Limit: maximum 1 per player turn
+- Draw Attempt: 1 action; D6 1 or 6 draws one card; failure may be retried for another action; first success ends card drawing for that turn
+- Turn Start: gain 1 action first, then resolve event expiry and Production maturity
+- Bell Sequence: build bell for 1 action after completing the tower; survive one full orbit; then spend 1 action for a bell attempt
 - Bell Success: D6 result 1
-- Decision: Use this complete baseline for the first session so later variants have a comparable starting point.
+- Bell Attempt Limit: maximum 1 per player turn
+- Player Surface: compact stacked board with double-sided Action/Ammo coins and faction/mode quick-reference slot
+- Decision: use this complete successor baseline for the next real session so the first-session findings can be tested together rather than mixed with ad-hoc mid-match changes.

@@ -3,30 +3,33 @@
 
 # Tower Havoc — Components
 
-- State: accepted MVP inventory
-- Component Manifest ID: components.mvp
+- State: provisional/PLAYTEST
+- Component Manifest ID: components.mvp.v2
 
 | Component | Quantity | Prototype Substitute | Constraint |
 |---|---:|---|---|
-| Player mat | 6 | paper/player colour zone | visibly separate Action Bank, Ready Ammo, Production |
-| Reference card | 6 | paper note | one quick reference per player |
-| Optional faction card | 6 | paper note | used only in Faction mode |
+| Compact player board | 6 | printed/TTS board | coin-sized stack wells plus tower-construction rows and faction/mode quick-reference slot |
+| Faction or mode quick-reference card | 6 | printed/TTS card | one per player; Classic uses a Classic-mode card instead of a separate generic reference card |
 | Tower floor | 18 | generic block | 3 per player; identical mechanical envelope |
 | Light field cannon | 6 | pawn/token | theme/readability only; no real projectile required |
 | D6 | 2 | standard die | one required plus one spare |
-| Bell | 1 | obvious goal token | physical bell preferred later |
-| Ammo token | 72 | cube/coin | shared supply |
-| Reinforcement marker | 72 | numbered token | values 2–5 x 3 floors x 6 players |
-| Action tracker | 6 sets | counter/dial | must support banked actions without a small fixed cap |
-| Card | 40 | generated prototype deck | deck manifest comes from card lineage |
+| Shared bell | 1 | obvious bell object | theatrical ring object; per-player bell construction state lives on each board |
+| Action/Ammo coin | 144 | double-sided coin/token | Action face on one side; Ammo face on the other; one shared physical vocabulary for Action Bank, Ready Ammo, Production, build/reinforcement markers, and bell construction |
+| Card | 34 | generated prototype deck | next PLAYTEST deck manifest comes from card lineage |
 
 ## Visible state
 
-- State: accepted
+- State: provisional/PLAYTEST
 - Component Rule ID: components.player-state
-- Required Visible Zones: Action Bank; Ready Ammo; Production
-- Additional Visible State: built floors; reinforcement markers; active persistent Event
-- Decision: persistent state that matters later should be physically/digitally represented rather than remembered where practical.
+- Stack Wells: Action Bank; Ready Ammo; Production
+- Stack Well Geometry: each well uses the same coin-sized footprint and permits vertical stacking
+- Quick Reference Slot: one faction or mode quick-reference card
+- Tower Section: three floor rows; each row has 2 Build slots plus reinforcement positions labelled 2, 3, 4, and 5
+- Reinforcement Representation: place one Action-face coin on the matching reinforcement position after paying the reinforcement action cost
+- Bell Section: one Bell Build slot using an Action-face coin to show constructed/pending bell state
+- Removed Zones: dedicated player-card slot; active-card slot; separate generic-reference-card slot
+- Helper Text: concise turn start, draw attempt, attack cost, build cost, and bell sequence reminders may be printed where they reduce lookup
+- Decision: use board location plus coin face to communicate persistent state, and stack fungible resources instead of spreading many tokens across large zones.
 
 ## Mechanical equivalence
 

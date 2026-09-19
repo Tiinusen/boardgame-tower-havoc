@@ -3,20 +3,21 @@
 
 # Tower Havoc — Cards
 
-- State: accepted prototype baseline
+- State: provisional/PLAYTEST
 - Rule ID: cards.deck
-- Total Cards: 40
+- Total Cards: 34
 
 | Family | Quantity | Type |
 |---|---:|---|
 | Sabotage | 6 | tactic |
 | Offensive Reroll | 8 | tactic |
 | Defensive Reroll | 4 | tactic |
-| Dud | 6 | tactic |
 | Upper Hand | 2 | tactic |
 | Plunder | 4 | tactic |
 | Overtime | 4 | tactic |
 | Global Events | 6 | event |
+
+- Decision: remove all six Dud cards and test the remaining 34-card composition before adding replacements.
 
 ## Sabotage
 
@@ -55,17 +56,6 @@
 - Quantity: 4
 - Effect: Reroll one relevant roll made by the card owner. Exact eligible roll types remain PLAYTEST.
 - Timing: Reaction / PLAYTEST.
-- Decision: Use this family and quantity in the v0.1 prototype deck.
-
-## Dud
-
-- State: accepted prototype baseline
-- Card Family ID: cards.dud
-- Name: Dud
-- Type: tactic
-- Quantity: 6
-- Effect: No effect. It remains in hand until the deck-recycle rule removes it unless another future effect says otherwise.
-- Timing: No effect.
 - Decision: Use this family and quantity in the v0.1 prototype deck.
 
 ## Upper Hand
@@ -120,6 +110,6 @@
 
 ## Deck recycle
 
-- State: accepted prototype baseline
+- State: provisional/PLAYTEST
 - Rule ID: cards.recycle
-- Decision: When the draw pile is exhausted, every player discards Dud cards from hand. Combine those Duds with the discard pile, shuffle, and create a new draw pile.
+- Decision: when the draw pile is exhausted, shuffle the discard pile to create a new draw pile. No hand purge occurs as part of deck exhaustion.

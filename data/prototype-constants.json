@@ -15,6 +15,20 @@
     ]
   },
   "actions_per_turn": 1,
+  "draw": {
+    "action_cost": 1,
+    "success_rolls": [
+      1,
+      6
+    ],
+    "failure_rolls": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "success_limit": "after the first successful draw, that player may not make another draw attempt during the same turn"
+  },
   "starting": {
     "ready_ammo": 2,
     "production_ammo": 0,
@@ -32,7 +46,7 @@
   },
   "attack": {
     "ammo_cost": 1,
-    "action_cost": 0,
+    "action_cost": 1,
     "automatic_misses": [
       1,
       6
@@ -58,49 +72,51 @@
   "building": {
     "same_turn_costs": [
       2,
-      3,
-      4
+      2,
+      2
     ],
     "state": "provisional/PLAYTEST"
   },
   "bell": {
+    "construction_action_cost": 1,
+    "construction_time": "one full table orbit; the bell becomes ready only at the beginning of that player's next own turn if the three-floor tower still exists",
     "action_cost": 1,
     "success_rolls": [
       1
     ],
     "first_session_max_attempts_per_turn": 1,
-    "state": "accepted structure; probability PLAYTEST"
+    "state": "provisional/PLAYTEST"
   },
-  "deck_count": 40,
+  "deck_count": 34,
   "sources": {
     "setup": ".topics/tower-havoc/rules/001-1-setup.decision.trace.md",
-    "actions": ".topics/tower-havoc/rules/001-2-action-economy.decision.trace.md",
-    "ammo": ".topics/tower-havoc/rules/001-3-ammunition.decision.trace.md",
-    "turn": ".topics/tower-havoc/rules/001-4-turn-structure.decision.trace.md",
-    "build": ".topics/tower-havoc/rules/001-5-building.decision.trace.md",
-    "attack": ".topics/tower-havoc/rules/001-6-attack.decision.trace.md",
+    "actions": ".topics/tower-havoc/rules/001-2-1-draw-and-action-costs.decision.trace.md",
+    "ammo": ".topics/tower-havoc/rules/001-3-1-ammunition-and-attack-cost.decision.trace.md",
+    "turn": ".topics/tower-havoc/rules/001-4-1-action-first-turn-start.decision.trace.md",
+    "build": ".topics/tower-havoc/rules/001-5-1-two-action-floor-build.decision.trace.md",
+    "attack": ".topics/tower-havoc/rules/001-6-2-action-and-ammo-attack-cost.decision.trace.md",
     "hit": ".topics/tower-havoc/rules/001-6-1-hit-resolution.condition.trace.md",
     "rein": ".topics/tower-havoc/rules/001-7-reinforcement.decision.trace.md",
     "collapse": ".topics/tower-havoc/rules/001-8-collapse.decision.trace.md",
-    "victory": ".topics/tower-havoc/rules/001-9-victory.decision.trace.md",
-    "bell": ".topics/tower-havoc/rules/001-9-1-bell-eligibility.condition.trace.md",
-    "deck": ".topics/tower-havoc/cards/001-1-deck-composition.decision.trace.md",
+    "victory": ".topics/tower-havoc/rules/001-9-2-bell-construction.decision.trace.md",
+    "bell": ".topics/tower-havoc/rules/001-9-1-1-bell-ready.condition.trace.md",
+    "deck": ".topics/tower-havoc/cards/001-1-1-dud-free-deck.decision.trace.md",
     "events": ".topics/tower-havoc/cards/001-9-global-events.decision.trace.md",
-    "recycle": ".topics/tower-havoc/cards/001-10-deck-recycle.decision.trace.md",
-    "components": ".topics/tower-havoc/components/001-1-component-inventory.decision.trace.md",
-    "layout": ".topics/tower-havoc/components/001-2-visible-player-state.decision.trace.md",
+    "recycle": ".topics/tower-havoc/cards/001-10-1-dud-free-recycle.decision.trace.md",
+    "components": ".topics/tower-havoc/components/001-1-1-compact-coin-inventory.decision.trace.md",
+    "layout": ".topics/tower-havoc/components/001-2-1-stacked-player-board.decision.trace.md",
     "geometry": ".topics/tower-havoc/components/001-3-mechanical-equivalence.decision.trace.md",
     "edition": ".topics/tower-havoc/edition/001-1-edition-independence.decision.trace.md",
     "visual": ".topics/tower-havoc/edition/001-2-dieselpunk-visual-direction.decision.trace.md",
     "cannon": ".topics/tower-havoc/edition/001-3-light-field-cannon.decision.trace.md",
     "classic": ".topics/tower-havoc/factions/001-1-classic-mode.decision.trace.md",
     "factions": ".topics/tower-havoc/factions/001-2-faction-mode.decision.trace.md",
-    "tts": ".topics/tower-havoc/digital/001-1-first-tts-baseline.decision.trace.md",
+    "tts": ".topics/tower-havoc/digital/001-1-1-post-playtest-tts-baseline.decision.trace.md",
     "cad": ".topics/tower-havoc/physical/001-1-fusion360-master-geometry.decision.trace.md",
-    "play": ".topics/tower-havoc/playtest/001-1-first-session-baseline.decision.trace.md",
+    "play": ".topics/tower-havoc/playtest/001-1-1-second-session-baseline.decision.trace.md",
     "play_surface": ".topics/tower-havoc/playtest/001-2-playtest-observation-surface.presentation.trace.md",
     "tts_task": ".topics/tower-havoc/digital/001-tabletop-simulator-prototype.task.trace.md",
-    "tts_surface": ".topics/tower-havoc/digital/001-2-tts-playtest-surface.presentation.trace.md",
+    "tts_surface": ".topics/tower-havoc/digital/001-2-1-post-playtest-tts-surface.presentation.trace.md",
     "cad_task": ".topics/tower-havoc/physical/001-physical-prototype-and-cad.task.trace.md"
   }
 }

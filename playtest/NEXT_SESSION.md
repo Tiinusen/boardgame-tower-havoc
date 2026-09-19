@@ -1,24 +1,9 @@
 > **GENERATED PROJECTION — DO NOT EDIT AS CANONICAL SOURCE.**
 > Source authority: `.topics/tower-havoc/**`. Regenerate with `python scripts/generate_from_topics.py`.
 
-# Tower Havoc — One-Hour TTS Playtest Path
+# Next playtest
 
-## Prototype baseline
-
-- State: provisional/PLAYTEST
-- Prototype ID: tts.v0.2
-- Tower Floors: generic blocks remain sufficient while visual replacements are explored
-- Cannon: generic pawn/token remains sufficient
-- Resources: one double-sided Action/Ammo coin vocabulary
-- Player Board: compact stacked layout with printed construction and reinforcement positions
-- Quick Reference: faction/mode-specific quick-reference card seated in the board slot
-- Cards: generated 34-card dud-free deck
-- Asset Delivery: load generated public assets from the repository GitHub Pages publication rather than GitHub repository permalink URLs
-- Scripting Required: no
-- Hidden Automation: avoid
-- Decision: keep rule state analog-visible while improving ergonomics and presentation enough for the next real session.
-
-## First-session ruleset
+## Baseline
 
 - State: provisional/PLAYTEST
 - Session Baseline ID: playtest.baseline.002
@@ -36,4 +21,9 @@
 - Player Surface: compact stacked board with double-sided Action/Ammo coins and faction/mode quick-reference slot
 - Decision: use this complete successor baseline for the next real session so the first-session findings can be tested together rather than mixed with ad-hoc mid-match changes.
 
-Use generic objects first. Import/regenerate the generated card deck only after the table has the visible Action Bank, Ready Ammo, Production, tower floors, reinforcement values 2–5, D6, and bell/goal object.
+## Observation boundary
+
+- May Contain: player count; duration; rounds; build timing; attacks/hits; fortification; Sabotage use; bell attempts; strategy shifts; unclear rules; downtime; card impressions; post-game answers
+- Must Not Contain: invented observations, automatic balance conclusions, or fabricated Evidence
+
+Do not rebalance mid-match unless continuation becomes impossible. Preserve what actually happened before deciding what should change.

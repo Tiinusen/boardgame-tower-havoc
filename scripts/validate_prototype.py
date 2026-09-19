@@ -19,11 +19,11 @@ def qty(name):
     except Exception: errors.append(f'missing/invalid component quantity for {name}'); return -1
 players=const['players']['max']; floors=const['tower']['levels']; vals=len(const['tower']['reinforcement_values'])
 if qty('Tower floor') != players*floors: errors.append('tower-floor quantity does not match players × floors')
-if qty('Reinforcement marker') != players*floors*vals: errors.append('reinforcement quantity does not match players × floors × values')
 if qty('Card') != cards['count']: errors.append('component card quantity does not match card manifest')
+if qty('Action/Ammo coin') < players*floors*vals: errors.append('shared Action/Ammo coin pool is smaller than full reinforcement occupancy alone')
 for rel in const.get('sources',{}).values():
     if not (ROOT/rel).is_file(): errors.append(f'missing constants source trace: {rel}')
-for p in [ROOT/'docs'/'RULEBOOK.md',ROOT/'docs'/'GAME_SPEC.md',ROOT/'docs'/'CARDS.md',ROOT/'docs'/'COMPONENTS.md',ROOT/'docs'/'FACTIONS.md',ROOT/'docs'/'EDITION_BIBLE.md',ROOT/'cad'/'FUSION360_BRIEF.md',ROOT/'tts'/'ONE_HOUR_PLAYTEST.md',ROOT/'playtest'/'FIRST_SESSION.md']:
+for p in [ROOT/'docs'/'RULEBOOK.md',ROOT/'docs'/'GAME_SPEC.md',ROOT/'docs'/'CARDS.md',ROOT/'docs'/'COMPONENTS.md',ROOT/'docs'/'FACTIONS.md',ROOT/'docs'/'EDITION_BIBLE.md',ROOT/'cad'/'FUSION360_BRIEF.md',ROOT/'tts'/'ONE_HOUR_PLAYTEST.md',ROOT/'playtest'/'NEXT_SESSION.md']:
     if not p.read_text(encoding='utf-8').startswith('> **GENERATED PROJECTION'): errors.append(f'{p.relative_to(ROOT)} is missing generated-projection boundary')
 if errors:
     print('FAILED'); [print('-',e) for e in errors]; sys.exit(1)

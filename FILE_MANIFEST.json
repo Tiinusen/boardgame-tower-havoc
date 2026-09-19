@@ -1,8 +1,13 @@
 {
-  "version": "1.0-incremental-lineage-stress",
-  "source_carrier": "006",
-  "notes": "TH-SIM-09 is emitted artifact-by-artifact during deterministic execution; project-local Tower Havoc trace/schema integrity is canonical c14n-v2; repository-root README.md is the only README surface.",
+  "version": "1.1-first-real-playtest-response",
+  "source_carrier": "007-1",
+  "notes": "First real TTS playtest Evidence, baseline.002 rule/component successors, Pages/public mirror flow, regenerated 34-card/compact-board assets; root README only.",
   "files": [
+    {
+      "path": ".github/workflows/publish-public.yml",
+      "size": 3450,
+      "sha256": "2c2848ad8034c5a10df240b1d9854565227760908ccc73a66d6af8b70715964c"
+    },
     {
       "path": ".gitignore",
       "size": 51,
@@ -80,8 +85,8 @@
     },
     {
       "path": ".topics/.workspaces/tiinusen-boardgame-tower-havoc.workspace.md",
-      "size": 1166,
-      "sha256": "f47c210d269244f4fd1494dcc68a8f1eaf8198ad4099f828c1d974e3b560d480"
+      "size": 1038,
+      "sha256": "42b2e0acbfce2b87490b5ca55e206e6a4c140b508f14b1145dac85f6d878c6b9"
     },
     {
       "path": ".topics/tower-havoc/001-1-lineage-is-canonical-game-source.decision.trace.md",
@@ -99,9 +104,19 @@
       "sha256": "d63800763f57e66ad6156b8abfc97f4f40204a5c00996a428b130bb3a0966ad6"
     },
     {
+      "path": ".topics/tower-havoc/cards/001-1-1-dud-free-deck.decision.trace.md",
+      "size": 2449,
+      "sha256": "f318dca5ef825fd029ae062b82675531a7d159fcb2397d67fc07601c811686f2"
+    },
+    {
       "path": ".topics/tower-havoc/cards/001-1-deck-composition.decision.trace.md",
       "size": 2206,
       "sha256": "3eedd6fda6488aa98ea01d2a83359191e24150a13fd161992e33a368eed5a5e6"
+    },
+    {
+      "path": ".topics/tower-havoc/cards/001-10-1-dud-free-recycle.decision.trace.md",
+      "size": 2150,
+      "sha256": "dd7f43a522bb242fb268bb5653def45caead3cc5bbc3cd49d00f96c9ffee7163"
     },
     {
       "path": ".topics/tower-havoc/cards/001-10-deck-recycle.decision.trace.md",
@@ -122,6 +137,11 @@
       "path": ".topics/tower-havoc/cards/001-4-defensive-reroll.decision.trace.md",
       "size": 2142,
       "sha256": "49cffcfc1b78d33ecffb3e928b969c909e0c70a146f2fef0d4c05b48b627df2d"
+    },
+    {
+      "path": ".topics/tower-havoc/cards/001-5-1-retire-duds.decision.trace.md",
+      "size": 2314,
+      "sha256": "f0e770c6f6f189f56bdc97b1036ceaed4fa7980aa6c0d7f72dd0cbdab1247488"
     },
     {
       "path": ".topics/tower-havoc/cards/001-5-dud.decision.trace.md",
@@ -154,9 +174,19 @@
       "sha256": "a934ecc82d7795647e226765a034ec213259418eca648a63341b7e82153d60e3"
     },
     {
+      "path": ".topics/tower-havoc/components/001-1-1-compact-coin-inventory.decision.trace.md",
+      "size": 3436,
+      "sha256": "31a05e1313d1e85e3d0e4107ec09b7a31bb032878f46c1b4e7b2799c6d109e3c"
+    },
+    {
       "path": ".topics/tower-havoc/components/001-1-component-inventory.decision.trace.md",
       "size": 2931,
       "sha256": "c8ff8e5c104b08ec0445288e0fd1aba5d06c20766bb9a3254f0500d03c495b98"
+    },
+    {
+      "path": ".topics/tower-havoc/components/001-2-1-stacked-player-board.decision.trace.md",
+      "size": 3336,
+      "sha256": "32f3f189f43ef382e6b1dbef36898d6303447d459ec72b562f14017f43af73c7"
     },
     {
       "path": ".topics/tower-havoc/components/001-2-visible-player-state.decision.trace.md",
@@ -174,9 +204,19 @@
       "sha256": "1526a3258f795051c04cc2debd63a0a8857fa32c40e5927f4235b7f7a2bca047"
     },
     {
+      "path": ".topics/tower-havoc/digital/001-1-1-post-playtest-tts-baseline.decision.trace.md",
+      "size": 2971,
+      "sha256": "b9e872dffc5d1bd81befde4157868da867e3b570b5baa41bf7aa5e94ee7608a5"
+    },
+    {
       "path": ".topics/tower-havoc/digital/001-1-first-tts-baseline.decision.trace.md",
       "size": 2430,
       "sha256": "e35e0128de9c68fcc01f2355aaec047fa11640283106c5884238db82ae09fb3d"
+    },
+    {
+      "path": ".topics/tower-havoc/digital/001-2-1-post-playtest-tts-surface.presentation.trace.md",
+      "size": 3710,
+      "sha256": "019072bc910056aaebec42d8a74e784617f118c5adb8d3b64aa69286b12a250f"
     },
     {
       "path": ".topics/tower-havoc/digital/001-2-tts-playtest-surface.presentation.trace.md",
@@ -187,6 +227,21 @@
       "path": ".topics/tower-havoc/digital/001-tabletop-simulator-prototype.task.trace.md",
       "size": 2163,
       "sha256": "9c7b6cdeda1d1907c96ff8b20ffff772cbd78fc0927b5a800c048d3bd2f4625b"
+    },
+    {
+      "path": ".topics/tower-havoc/digital/002-1-pages-publication-contract.decision.trace.md",
+      "size": 3202,
+      "sha256": "e830c189352f1d2d566512addf0def98d4ec4d670e83238b40d97ec5ce2aeb7e"
+    },
+    {
+      "path": ".topics/tower-havoc/digital/002-github-pages-publication.task.trace.md",
+      "size": 2743,
+      "sha256": "1b4f7147855a7c893be307a89846ae234cebf5eb342c8578b9b5232e56cf6d7f"
+    },
+    {
+      "path": ".topics/tower-havoc/discussions/001-discussions.trace.md",
+      "size": 1383,
+      "sha256": "c3cc3b1599cafdeebf57d738a58c9947c2b360542826310ba03052338496ba42"
     },
     {
       "path": ".topics/tower-havoc/edition/001-1-edition-independence.decision.trace.md",
@@ -234,6 +289,11 @@
       "sha256": "14945ab714a256eeba2eae0fec479b34352e82cbfd85cfe54bcf2e3e4757725f"
     },
     {
+      "path": ".topics/tower-havoc/playtest/001-1-1-second-session-baseline.decision.trace.md",
+      "size": 3149,
+      "sha256": "900e7a9575ac5dae8a7a1b0852e4944116d8d218721e1bc3802ddb6cf1555872"
+    },
+    {
       "path": ".topics/tower-havoc/playtest/001-1-first-session-baseline.decision.trace.md",
       "size": 2460,
       "sha256": "a4f04bf654e67a228b6d317d2b1f1a1cb9698966fed35c436d8d4b2eedd39633"
@@ -242,6 +302,11 @@
       "path": ".topics/tower-havoc/playtest/001-2-playtest-observation-surface.presentation.trace.md",
       "size": 3161,
       "sha256": "e2fb95a3c1716ef40a0a812e34a219d60f1aa207de2a7bbcdac497a57a5e68bf"
+    },
+    {
+      "path": ".topics/tower-havoc/playtest/001-3-first-tts-playtest.evidence.trace.md",
+      "size": 5194,
+      "sha256": "00d589aa40f70db0c355f5be0111ff0a5cef405d811d4ad16d3c12aa036c72e6"
     },
     {
       "path": ".topics/tower-havoc/playtest/001-playtest-program.task.trace.md",
@@ -299,9 +364,19 @@
       "sha256": "18d93dd88e856cc0e2a1c1d673e882548ef4e18381cc34ec4075f311d1da7b43"
     },
     {
+      "path": ".topics/tower-havoc/rules/001-2-1-draw-and-action-costs.decision.trace.md",
+      "size": 3129,
+      "sha256": "8ce4da163998300f6b284e946efeefc45c02c63b637badc004be868aa8bdb873"
+    },
+    {
       "path": ".topics/tower-havoc/rules/001-2-action-economy.decision.trace.md",
       "size": 2388,
       "sha256": "a4960b5f83af6449ce717cf9e8b4db013c15f5d6566392e65f4e2867987777cc"
+    },
+    {
+      "path": ".topics/tower-havoc/rules/001-3-1-ammunition-and-attack-cost.decision.trace.md",
+      "size": 2649,
+      "sha256": "35f7014a327dd769826c53c975fdb0e015427c727d59a1a829da7c921a6bba4e"
     },
     {
       "path": ".topics/tower-havoc/rules/001-3-ammunition.decision.trace.md",
@@ -309,9 +384,19 @@
       "sha256": "19e2b68dbe1a824409a9dec9d26a8cf9afd03c3419b35e198179742e37e7a4af"
     },
     {
+      "path": ".topics/tower-havoc/rules/001-4-1-action-first-turn-start.decision.trace.md",
+      "size": 2819,
+      "sha256": "6542bd1d6950d6c67c7e293f03eae6802ee2e3823b10b9eaaedc03e99cb7c3f9"
+    },
+    {
       "path": ".topics/tower-havoc/rules/001-4-turn-structure.decision.trace.md",
       "size": 2373,
       "sha256": "01cd201e39963e7dc2b891f5ce835e730011d77ab5973cc5dbb46372c58d3eee"
+    },
+    {
+      "path": ".topics/tower-havoc/rules/001-5-1-two-action-floor-build.decision.trace.md",
+      "size": 2935,
+      "sha256": "08e025c2bf1265cb98ef80c7427563ea6387ff92b573bf4d99e81e3d756d7ea6"
     },
     {
       "path": ".topics/tower-havoc/rules/001-5-building.decision.trace.md",
@@ -322,6 +407,11 @@
       "path": ".topics/tower-havoc/rules/001-6-1-hit-resolution.condition.trace.md",
       "size": 2813,
       "sha256": "81cfc284d38878f2237104a5a2685049157435b80df41e4310d437281f2cd58d"
+    },
+    {
+      "path": ".topics/tower-havoc/rules/001-6-2-action-and-ammo-attack-cost.decision.trace.md",
+      "size": 2681,
+      "sha256": "b31701aca7d258bbba9e5a4292ba8af1e42c9a78a8901d5f85efa4d221b0d9fa"
     },
     {
       "path": ".topics/tower-havoc/rules/001-6-attack.decision.trace.md",
@@ -339,9 +429,19 @@
       "sha256": "4f25bb6d1a13554f61201bdb795a9fea175d92fa1412463295f68221ab75306b"
     },
     {
+      "path": ".topics/tower-havoc/rules/001-9-1-1-bell-ready.condition.trace.md",
+      "size": 3047,
+      "sha256": "0baf42b234b96e47bf67c68612ba74089862fa715fff3c8a31ea023131ecd120"
+    },
+    {
       "path": ".topics/tower-havoc/rules/001-9-1-bell-eligibility.condition.trace.md",
       "size": 2774,
       "sha256": "3c0f0defbec5284e5cf4316181430acee69561b16dc4ba04ce4646bbe0c0df24"
+    },
+    {
+      "path": ".topics/tower-havoc/rules/001-9-2-bell-construction.decision.trace.md",
+      "size": 3058,
+      "sha256": "226ba5dda55782daac5acf8d8b9302f2ab54e8381940a36f5ac54e8ee7cbb34a"
     },
     {
       "path": ".topics/tower-havoc/rules/001-9-victory.decision.trace.md",
@@ -1420,8 +1520,8 @@
     },
     {
       "path": "CHANGELOG.md",
-      "size": 6342,
-      "sha256": "27886660f2843909efe0e38f334d739f16e774de54b07d749f26355b73158a85"
+      "size": 7345,
+      "sha256": "99ea7781168a5f57a1743dd268efda46d57973515638d9829f357372b03de01e"
     },
     {
       "path": "PROVENANCE.md",
@@ -1430,8 +1530,8 @@
     },
     {
       "path": "README.md",
-      "size": 3961,
-      "sha256": "ae498baea58dc67dfe383bd0d4311336483bdc86699f82bc30bf6d642e7390da"
+      "size": 4480,
+      "sha256": "ae582f8e100403189f6dbc3e6b8dcbec3f7d724db0be3578ba320e48c5a5631d"
     },
     {
       "path": "RIGHTS.md",
@@ -1440,53 +1540,53 @@
     },
     {
       "path": "VALIDATION.txt",
-      "size": 9770,
-      "sha256": "78e355ad9f3eafbcd313d06fc4de5d9eabc60e74d0cd6054597301bf7ce2a3b2"
+      "size": 1237,
+      "sha256": "6b39af64693e3d78f78a65cbb5fb58a183631f2a23ac1d1a993c3d271dfeea6d"
     },
     {
       "path": "cad/FUSION360_BRIEF.md",
-      "size": 2178,
-      "sha256": "2f5dc53662d668714973b9bc33f3e5ceb143b280d49fe842dd42461029b052c6"
+      "size": 2305,
+      "sha256": "3bf69343497bb9806c3a3d5d1a97a98bca4a23c8639b5d71bc422490e0bca175"
     },
     {
       "path": "cad/PARAMETERS.csv",
-      "size": 1296,
-      "sha256": "08f75957b548d545c80a937c98a9f6121c98b953f12503e0d54ead57faa57937"
+      "size": 1653,
+      "sha256": "6b5a343f0605382d3b24ba06365bcb2d34454942f85ba274b33aa8912b1cae5b"
     },
     {
       "path": "data/cards.csv",
-      "size": 8294,
-      "sha256": "72f4aac93b44516c6500f3cb8ba445093f270e50d557975d27a62b170aca27db"
+      "size": 7082,
+      "sha256": "f5d0297c871c23bda5a7496ef1dae80c21f12ea628aff7ff3bce4c4663a2fd69"
     },
     {
       "path": "data/cards.json",
-      "size": 13805,
-      "sha256": "b014781b3eeb29116b04e0bb597eec7339b22bbec4914e1ceb31a1aebb409931"
+      "size": 11777,
+      "sha256": "0b9c0cfda457baae4d40f9c02b23300ea10353caa8f38f5dcf7aa4fed7a90c0b"
     },
     {
       "path": "data/components.csv",
-      "size": 808,
-      "sha256": "4c6cbc35b8c9710fb0040b1845fa76116c8905e911cc514503f2b92b1ef0e7cf"
+      "size": 961,
+      "sha256": "ab0f6193e48cb38a2ea63b05afe492ed7e581b878301903ed3d6ee8d12132a0d"
     },
     {
       "path": "data/prototype-constants.json",
-      "size": 3837,
-      "sha256": "f03908594ad45e23b87bec4322f90ee10c05338bb8be84d4b382ad8155255a2a"
+      "size": 4407,
+      "sha256": "6a2a1c37d534874ac5ad2309b891256783a18900197fc532a88f4e6e5f5d23ee"
     },
     {
       "path": "docs/CARDS.md",
-      "size": 4201,
-      "sha256": "e9a3d727076d5688d4636b7e346ed4038d79881e37bbd6eccc9155aca0b3cad3"
+      "size": 3925,
+      "sha256": "7ad8c98170d419148c91cb444774b5a5564a8b5e07e654c0b8112ef5fe4bc242"
     },
     {
       "path": "docs/COMPONENTS.md",
-      "size": 1977,
-      "sha256": "ae4b5c0645f6076ee3f66d5be7afcc727310a1bfff92e4f85af6e91fc63395fd"
+      "size": 2808,
+      "sha256": "aca9b05f57dc70e8be772c8bf6514aefe43be94180d5f7c3637a6df3d1d9480c"
     },
     {
       "path": "docs/DECISIONS.md",
-      "size": 11636,
-      "sha256": "1173b0e1ce065167c4b5dc3562c666d9383c64ab1d955ba6e3511534b6c16444"
+      "size": 16232,
+      "sha256": "a25943fc12493b9efdfd50b485336068ec072d44994c79db14d443b1f449ff27"
     },
     {
       "path": "docs/EDITION_BIBLE.md",
@@ -1500,13 +1600,13 @@
     },
     {
       "path": "docs/GAME_SPEC.md",
-      "size": 8891,
-      "sha256": "53e3d54a6c41da4c07cce90704bc1790e5f8d5bf0c9940af484557c736480fe6"
+      "size": 10634,
+      "sha256": "98fa16af43b3b8ecde3aef5f61c85a021e933d6983fe5cae9f3b2933177db832"
     },
     {
       "path": "docs/RULEBOOK.md",
-      "size": 7758,
-      "sha256": "336de71c7aa98d32c809b3b277d173aa0066993a2cf96f0527133e493360f72b"
+      "size": 9463,
+      "sha256": "ac440283c35a676ae15724591c65b0230482f02ecbd6fdf626768f799ac97bed"
     },
     {
       "path": "examples/match-lineage-demo/SCHEMA-USAGE.md",
@@ -1829,6 +1929,11 @@
       "sha256": "c8194e83b39ab651b45d20fc434a3752df6b01f236fc2a3a7a4ecddc3ed36d15"
     },
     {
+      "path": "playtest/NEXT_SESSION.md",
+      "size": 1671,
+      "sha256": "3153d82cec8435f9599f521986a9306ca5253706c0ce461bed0d55613be5e110"
+    },
+    {
       "path": "playtest/SESSION_TEMPLATE.md",
       "size": 1129,
       "sha256": "c9e44367607a9b6348a8e091173f1c39f6a1c14792a54e58667d6578453c745b"
@@ -1859,14 +1964,19 @@
       "sha256": "9899694ae65e4b32a025285f34c0a9d3d5b011c423e66b19afb56764e76dfd7a"
     },
     {
+      "path": "scripts/build_public_bundle.py",
+      "size": 3946,
+      "sha256": "7a3f67602835184a7757edc73a7f511a040b3712368930d0a281b36e9624834a"
+    },
+    {
       "path": "scripts/generate_from_topics.py",
-      "size": 18494,
-      "sha256": "1cea0f5c6d2db4a6e3e965e0ac529a6319a678f99928aed859750272903ba890"
+      "size": 18499,
+      "sha256": "b1a6744a841d598100248a6767776608e82a799aaaef4ac67458af8533c36a9e"
     },
     {
       "path": "scripts/generate_tts_assets.py",
-      "size": 4248,
-      "sha256": "b76ea17a44789716ebb7ebabd1939f92c2db6ed2c5e9ccfe5c85c7e47eed83a8"
+      "size": 7749,
+      "sha256": "22d236e0e7a01047e3851bd378e08f18b8c391bff7b07fdc376893ed90c79015"
     },
     {
       "path": "scripts/run_incremental_lineage_simulation.py",
@@ -1890,8 +2000,13 @@
     },
     {
       "path": "scripts/validate_prototype.py",
-      "size": 2345,
-      "sha256": "130940cc02ef99badc254bfdfe92a5f1d5fc13a0a8cf3061ab8536ab9789bfa9"
+      "size": 2353,
+      "sha256": "2b12cbd6922fa28dea8bf0e97f263fea71c3656127d6658baa933e920e9bc8bf"
+    },
+    {
+      "path": "scripts/validate_publication.py",
+      "size": 1633,
+      "sha256": "6dfa45312f9c3c25668ccb46143ed0c83064eeebed8ccb3015ff0e787ce44e77"
     },
     {
       "path": "scripts/validate_readme_surface.py",
@@ -1920,33 +2035,43 @@
     },
     {
       "path": "tts/CUSTOM_DECK_SETTINGS.json",
-      "size": 329,
-      "sha256": "2fe4eff973072769a40848b4c41686b4293181908aa6bf585743e0cb24d4e446"
+      "size": 335,
+      "sha256": "c23e6d4f5ca06836cac50e58e13b1ae4a473cbc89217811cdaa3b7a8d497e533"
     },
     {
       "path": "tts/ONE_HOUR_PLAYTEST.md",
-      "size": 1402,
-      "sha256": "2b79619de72ca0a64241a3d1975a213ee6f0c75dfbc821d7def33293da8a7be8"
+      "size": 2273,
+      "sha256": "8689841ba3ae6254cbab564de11eeb130a1486bf0edb44d25a66ae8421148680"
     },
     {
       "path": "tts/assets/cards-back.png",
-      "size": 10271,
-      "sha256": "b212ec3ecea0aeeb4c8c790edee8c046f09b615f0452e6db2c87860f4c6a2ff4"
+      "size": 10377,
+      "sha256": "ae539046404574b538a24ad142a69dd29c5caf5f04d2c234028fbe29e672eecd"
     },
     {
       "path": "tts/assets/cards-front-8x5.png",
-      "size": 252349,
-      "sha256": "fc3c2d0a0ba189e495e73d53382705b1d65d3c866eb23d0a57c09bf50a96dd06"
+      "size": 244500,
+      "sha256": "32c033fbac7214142ea366415b4a4dd82d7e5a68badbd5f33b7f5199e14787ae"
+    },
+    {
+      "path": "tts/assets/classic-quick-reference-card.png",
+      "size": 64869,
+      "sha256": "66ec906726e755555ad45687e2693d7e61ccb36209f4a9f1c18d561ee22b08c0"
+    },
+    {
+      "path": "tts/assets/coin-action.png",
+      "size": 10373,
+      "sha256": "5bce68a85c020a0b42e8a3f801878538610bae963a4445c0d067b06f2bb77b01"
+    },
+    {
+      "path": "tts/assets/coin-ammo.png",
+      "size": 9391,
+      "sha256": "5ff7a9be08361d01923b3397debdc6d6bff5fa21dbcd30089013e2474e1c9094"
     },
     {
       "path": "tts/assets/player-mat.png",
-      "size": 25518,
-      "sha256": "27db9a0f665fbb0ef3ebe28a9a325ca0bbb1ab18a3dca36910b8322f1a17dcdf"
-    },
-    {
-      "path": "tts/assets/reference-card.png",
-      "size": 52830,
-      "sha256": "9a5f79360fcc6cc589ac5461b381ed3fc9ba7252e09ea8276c2c4985447121d4"
+      "size": 70202,
+      "sha256": "cf5135592442c1b985ab54fe48867c8db21edbb580113e4ce2418e3ae95d2aa0"
     }
   ]
 }

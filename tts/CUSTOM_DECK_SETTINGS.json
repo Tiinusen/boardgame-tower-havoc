@@ -3,10 +3,10 @@
   "Back": "assets/cards-back.png",
   "Width": 8,
   "Height": 5,
-  "Number": 40,
+  "Number": 34,
   "UniqueBack": false,
   "GeneratedFrom": [
-    ".topics/tower-havoc/cards/001-1-deck-composition.decision.trace.md",
-    ".topics/tower-havoc/digital/001-2-tts-playtest-surface.presentation.trace.md"
+    ".topics/tower-havoc/cards/001-1-1-dud-free-deck.decision.trace.md",
+    ".topics/tower-havoc/digital/001-2-1-post-playtest-tts-surface.presentation.trace.md"
   ]
 }

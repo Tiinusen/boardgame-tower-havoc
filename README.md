@@ -71,3 +71,9 @@ bot, or runtime must be separately bound according to each Role's declared Holde
 and serialize it afterward: it emits and verifies each setup/turn/intent/random/runtime/resolution/state
 artifact as the synthetic match progresses. Re-running the harness is validated byte-for-byte
 against the committed lineage.
+
+## Current post-playtest iteration
+
+The first real TTS playtest is preserved under `.topics/tower-havoc/playtest/001-3-first-tts-playtest.evidence.trace.md`. The next PLAYTEST baseline uses the compact shared-coin board, 34-card dud-free deck, roll-gated card draw, 1 Action + 1 Ammo attacks, and a separate bell-construction orbit.
+
+The repository also carries a GitHub Pages/public-branch publication flow. Generated TTS assets are published under `tts/assets/` while repository lineage remains the semantic source.

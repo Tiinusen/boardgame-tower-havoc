@@ -80,3 +80,12 @@
 - Added `scripts/run_incremental_lineage_simulation.py`; each emitted child requires an already-verifying Parent and random fixture values are consumed only after the corresponding Random Request artifact verifies.
 - Added byte-for-byte regeneration validation plus current Tiinex c14n-v2/local-Parent integrity validation and a single-README-surface validator.
 - The fixture exercises turn-start/turn-end rule resolution, planned-ammo maturation, three-floor building, reinforcement, a blocked random attack, a full orbit, and successful bell resolution.
+
+## Working update — first real TTS playtest response
+
+- Preserved the first real TTS session observations as `tiinex.evidence.v1` without inventing unreported duration/player-count/session statistics.
+- Added successor PLAYTEST Decisions for draw attempts, action-first turn start, flat two-action floor construction, 1 Action + 1 Ammo attacks, bell construction/maturity, Dud removal, deck recycle, compact component inventory, and stacked player-board layout.
+- Added playtest baseline.002 rather than rewriting baseline.001.
+- Updated generated TTS assets to a compact board, Action/Ammo coin faces, and Classic mode quick-reference card; nested README generation remains disabled.
+- Added a GitHub Pages/public-branch publication flow adapted from Tiinex/docs static/mirror publication semantics, including stable `tts/assets/**` delivery and a repository mirror.
+- Added an ammunition successor so generated projections no longer repeat the historical zero-action attack cost from baseline.001.

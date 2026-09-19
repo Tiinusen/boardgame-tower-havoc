@@ -1,0 +1,107 @@
+# Adapted from Tiinex/docs .github/workflows/publish-public.yml
+# Source reference: Tiinex/docs@f5a9543318283344d8f3d08649d885f1a5f28639
+name: Publish Public Branch and Pages
+
+on:
+  push:
+    branches-ignore:
+      - public
+  workflow_dispatch:
+    inputs:
+      source_ref:
+        description: Branch, tag, or commit to publish from
+        required: false
+        default: ""
+      deploy_pages:
+        description: Set false for public-branch-only publication
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: tower-havoc-public-${{ github.repository }}
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    outputs:
+      pages_deploy_enabled: ${{ steps.settings.outputs.pages_deploy_enabled }}
+    steps:
+      - name: Resolve publication settings
+        id: settings
+        shell: bash
+        run: |
+          set -euo pipefail
+          source_ref="${{ github.event.inputs.source_ref || github.ref_name }}"
+          [ -n "$source_ref" ] || source_ref="main"
+          deploy="${{ github.event.inputs.deploy_pages || 'true' }}"
+          case "${deploy,,}" in false|no|off|0|branch|branch-only) pages=false ;; *) pages=true ;; esac
+          echo "source_ref=$source_ref" >> "$GITHUB_OUTPUT"
+          echo "pages_deploy_enabled=$pages" >> "$GITHUB_OUTPUT"
+
+      - name: Check out source
+        uses: actions/checkout@v6
+        with:
+          ref: ${{ steps.settings.outputs.source_ref }}
+          fetch-depth: 0
+          submodules: false
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+
+      - name: Install projection dependency
+        run: python -m pip install --disable-pip-version-check pillow
+
+      - name: Regenerate projections and TTS assets
+        run: python scripts/generate_from_topics.py
+
+      - name: Validate Tower Havoc workspace
+        shell: bash
+        run: |
+          set -euo pipefail
+          for validator in scripts/validate_*.py; do
+            python "$validator"
+          done
+
+      - name: Build public material and repository mirror
+        env:
+          SOURCE_REF: ${{ steps.settings.outputs.source_ref }}
+        run: python scripts/build_public_bundle.py --out .site-publish --repository "${{ github.repository }}" --ref "$SOURCE_REF" --commit "${{ github.sha }}"
+
+      - name: Publish inspectable public branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: .site-publish
+          publish_branch: public
+          force_orphan: true
+          commit_message: Publish Tower Havoc public material from ${{ steps.settings.outputs.source_ref }} @ ${{ github.sha }}
+
+      - name: Configure GitHub Pages
+        if: steps.settings.outputs.pages_deploy_enabled == 'true'
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        if: steps.settings.outputs.pages_deploy_enabled == 'true'
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: .site-publish
+
+  deploy-pages:
+    needs: publish
+    if: needs.publish.outputs.pages_deploy_enabled == 'true'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

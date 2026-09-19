@@ -1,7 +1,7 @@
 {
   "schema": "tower-havoc.generated.cards.v0.1",
   "generated_from": ".topics/tower-havoc/**",
-  "count": 40,
+  "count": 34,
   "cards": [
     {
       "id": "sabotage-01",
@@ -164,60 +164,6 @@
       "effect": "Reroll one relevant roll made by the card owner. Exact eligible roll types remain PLAYTEST.",
       "timing": "Reaction / PLAYTEST.",
       "source": ".topics/tower-havoc/cards/001-4-defensive-reroll.decision.trace.md"
-    },
-    {
-      "id": "dud-01",
-      "family": "dud",
-      "name": "Dud",
-      "type": "tactic",
-      "effect": "No effect. It remains in hand until the deck-recycle rule removes it unless another future effect says otherwise.",
-      "timing": "No effect.",
-      "source": ".topics/tower-havoc/cards/001-5-dud.decision.trace.md"
-    },
-    {
-      "id": "dud-02",
-      "family": "dud",
-      "name": "Dud",
-      "type": "tactic",
-      "effect": "No effect. It remains in hand until the deck-recycle rule removes it unless another future effect says otherwise.",
-      "timing": "No effect.",
-      "source": ".topics/tower-havoc/cards/001-5-dud.decision.trace.md"
-    },
-    {
-      "id": "dud-03",
-      "family": "dud",
-      "name": "Dud",
-      "type": "tactic",
-      "effect": "No effect. It remains in hand until the deck-recycle rule removes it unless another future effect says otherwise.",
-      "timing": "No effect.",
-      "source": ".topics/tower-havoc/cards/001-5-dud.decision.trace.md"
-    },
-    {
-      "id": "dud-04",
-      "family": "dud",
-      "name": "Dud",
-      "type": "tactic",
-      "effect": "No effect. It remains in hand until the deck-recycle rule removes it unless another future effect says otherwise.",
-      "timing": "No effect.",
-      "source": ".topics/tower-havoc/cards/001-5-dud.decision.trace.md"
-    },
-    {
-      "id": "dud-05",
-      "family": "dud",
-      "name": "Dud",
-      "type": "tactic",
-      "effect": "No effect. It remains in hand until the deck-recycle rule removes it unless another future effect says otherwise.",
-      "timing": "No effect.",
-      "source": ".topics/tower-havoc/cards/001-5-dud.decision.trace.md"
-    },
-    {
-      "id": "dud-06",
-      "family": "dud",
-      "name": "Dud",
-      "type": "tactic",
-      "effect": "No effect. It remains in hand until the deck-recycle rule removes it unless another future effect says otherwise.",
-      "timing": "No effect.",
-      "source": ".topics/tower-havoc/cards/001-5-dud.decision.trace.md"
     },
     {
       "id": "upper-hand-01",
