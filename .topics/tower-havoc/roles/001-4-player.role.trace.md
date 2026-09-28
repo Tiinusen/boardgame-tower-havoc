@@ -55,10 +55,10 @@
 
 # Continuity Integrity
 
-- [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/c5c0a8173dcc0816d239a64fa363c7924df216b1/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
+- [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: [Tower Havoc Roles](001-roles.topic.trace.md)
   - Value: 9rv6NpjrEL3GEkrga-dhcY8_xpcD9hNCAP6WKDtOnLg
 
-- [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/c5c0a8173dcc0816d239a64fa363c7924df216b1/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
+- [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: self
-  - Value: QQsEZdqV_37FrxqLKKo-Xc-2Crj9jRXHj9MhHWW79UQ
+  - Value: PgHktWh0p7W2YTrjHLAf2dvKzVblZSYbqDSmVGquZEc

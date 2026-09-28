@@ -1,6 +1,6 @@
 # Continuity Context
 
-- Envelope Schema: [tiinex.root.v1](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.schemas/tiinex.root.v1.schema.md)
+- Envelope Schema: [tiinex.root.v1](https://github.com/Tiinex/docs/blob/8145c280093dff5d0b67db2aa72d5f5c12b6c7cb/.topics/.schemas/tiinex.root.v1.schema.md)
 - Parent
   - Parent Schema: [tiinex.topic.v1](https://github.com/Tiinex/docs/blob/053d46ce082d4ec261b82abc44ecca403d61e240/.topics/.schemas/core/topic/tiinex.topic.v1.schema.md)
   - Created At: 2026-09-18 12:40:00
@@ -8,7 +8,7 @@
   - Origin:
     - [relative](001-roles.topic.trace.md)
 - Current
-  - Current Schema: [tiinex.party.role.v1](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.schemas/party/role/tiinex.party.role.v1.schema.md)
+  - Current Schema: [tiinex.party.role.v1](https://github.com/Tiinex/docs/blob/c5c0a8173dcc0816d239a64fa363c7924df216b1/.topics/.schemas/party/role/tiinex.party.role.v1.schema.md)
   - Created At: 2026-09-19 16:08:00
   - Authors: Olle Tiinus; ChatGPT
   - Why: Add a reusable project-local execution-boundary role so external card-art work can travel through qualified Tiinex Handoffs instead of chat-only prompting.
@@ -76,4 +76,4 @@
 
 - [sha256-base64url-c14n-v2](https://github.com/Tiinex/docs/blob/3988951208eb9a8926e84ab42625d4b42fa00c2d/.topics/.validators/sha256-base64url-c14n-v2.validator.md)
   - Towards: self
-  - Value:E6m9Vc4jK-N7SLTXz4rmnuO_6uUO7sGAPLcvPbu4Yvk
+  - Value:RAqqE_Hqh_9xB55I3NlOypeNWUz6Fb1u1N1rBAZkTmw
