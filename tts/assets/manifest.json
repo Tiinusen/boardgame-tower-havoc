@@ -1,0 +1,31 @@
+{
+  "type": "tower-havoc.tts.pages-assets.v1",
+  "repository": "Tiinusen/boardgame-tower-havoc",
+  "baseUrl": "https://tiinusen.github.io/boardgame-tower-havoc/",
+  "assets": [
+    {
+      "path": "tts/assets/cards-back.png",
+      "url": "https://tiinusen.github.io/boardgame-tower-havoc/tts/assets/cards-back.png",
+      "sha256": "ae539046404574b538a24ad142a69dd29c5caf5f04d2c234028fbe29e672eecd",
+      "bytes": 10377
+    },
+    {
+      "path": "tts/assets/cards-front-8x5.png",
+      "url": "https://tiinusen.github.io/boardgame-tower-havoc/tts/assets/cards-front-8x5.png",
+      "sha256": "32c033fbac7214142ea366415b4a4dd82d7e5a68badbd5f33b7f5199e14787ae",
+      "bytes": 244500
+    },
+    {
+      "path": "tts/assets/coin-action.png",
+      "url": "https://tiinusen.github.io/boardgame-tower-havoc/tts/assets/coin-action.png",
+      "sha256": "179bf99ba7ea6fd391c2ada2ebf4b8250ead35f56d8e54cf8522c9c3540b33e4",
+      "bytes": 488738
+    },
+    {
+      "path": "tts/assets/coin-ammo.png",
+      "url": "https://tiinusen.github.io/boardgame-tower-havoc/tts/assets/coin-ammo.png",
+      "sha256": "8080ea3e0dfa041f968e30d8a98f543e2a65499f4cddb5eefad8b309a0339221",
+      "bytes": 470906
+    }
+  ]
+}

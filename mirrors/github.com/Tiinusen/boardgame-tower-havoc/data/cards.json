@@ -1,0 +1,313 @@
+{
+  "schema": "tower-havoc.generated.cards.v0.1",
+  "generated_from": ".topics/tower-havoc/**",
+  "count": 34,
+  "cards": [
+    {
+      "id": "sabotage-01",
+      "family": "sabotage",
+      "name": "Sabotage",
+      "type": "tactic",
+      "effect": "Remove one reinforcement from any opponent floor.",
+      "timing": "Play on your turn.",
+      "source": ".topics/tower-havoc/cards/001-2-sabotage.decision.trace.md"
+    },
+    {
+      "id": "sabotage-02",
+      "family": "sabotage",
+      "name": "Sabotage",
+      "type": "tactic",
+      "effect": "Remove one reinforcement from any opponent floor.",
+      "timing": "Play on your turn.",
+      "source": ".topics/tower-havoc/cards/001-2-sabotage.decision.trace.md"
+    },
+    {
+      "id": "sabotage-03",
+      "family": "sabotage",
+      "name": "Sabotage",
+      "type": "tactic",
+      "effect": "Remove one reinforcement from any opponent floor.",
+      "timing": "Play on your turn.",
+      "source": ".topics/tower-havoc/cards/001-2-sabotage.decision.trace.md"
+    },
+    {
+      "id": "sabotage-04",
+      "family": "sabotage",
+      "name": "Sabotage",
+      "type": "tactic",
+      "effect": "Remove one reinforcement from any opponent floor.",
+      "timing": "Play on your turn.",
+      "source": ".topics/tower-havoc/cards/001-2-sabotage.decision.trace.md"
+    },
+    {
+      "id": "sabotage-05",
+      "family": "sabotage",
+      "name": "Sabotage",
+      "type": "tactic",
+      "effect": "Remove one reinforcement from any opponent floor.",
+      "timing": "Play on your turn.",
+      "source": ".topics/tower-havoc/cards/001-2-sabotage.decision.trace.md"
+    },
+    {
+      "id": "sabotage-06",
+      "family": "sabotage",
+      "name": "Sabotage",
+      "type": "tactic",
+      "effect": "Remove one reinforcement from any opponent floor.",
+      "timing": "Play on your turn.",
+      "source": ".topics/tower-havoc/cards/001-2-sabotage.decision.trace.md"
+    },
+    {
+      "id": "offensive-reroll-2-01",
+      "family": "offensive-reroll-2",
+      "name": "Offensive Reroll — 2",
+      "type": "tactic",
+      "effect": "When another player rolls 2 for an attack, force that attack die to be rerolled.",
+      "timing": "Reaction",
+      "source": ".topics/tower-havoc/cards/001-3-offensive-reroll.decision.trace.md"
+    },
+    {
+      "id": "offensive-reroll-2-02",
+      "family": "offensive-reroll-2",
+      "name": "Offensive Reroll — 2",
+      "type": "tactic",
+      "effect": "When another player rolls 2 for an attack, force that attack die to be rerolled.",
+      "timing": "Reaction",
+      "source": ".topics/tower-havoc/cards/001-3-offensive-reroll.decision.trace.md"
+    },
+    {
+      "id": "offensive-reroll-3-01",
+      "family": "offensive-reroll-3",
+      "name": "Offensive Reroll — 3",
+      "type": "tactic",
+      "effect": "When another player rolls 3 for an attack, force that attack die to be rerolled.",
+      "timing": "Reaction",
+      "source": ".topics/tower-havoc/cards/001-3-offensive-reroll.decision.trace.md"
+    },
+    {
+      "id": "offensive-reroll-3-02",
+      "family": "offensive-reroll-3",
+      "name": "Offensive Reroll — 3",
+      "type": "tactic",
+      "effect": "When another player rolls 3 for an attack, force that attack die to be rerolled.",
+      "timing": "Reaction",
+      "source": ".topics/tower-havoc/cards/001-3-offensive-reroll.decision.trace.md"
+    },
+    {
+      "id": "offensive-reroll-4-01",
+      "family": "offensive-reroll-4",
+      "name": "Offensive Reroll — 4",
+      "type": "tactic",
+      "effect": "When another player rolls 4 for an attack, force that attack die to be rerolled.",
+      "timing": "Reaction",
+      "source": ".topics/tower-havoc/cards/001-3-offensive-reroll.decision.trace.md"
+    },
+    {
+      "id": "offensive-reroll-4-02",
+      "family": "offensive-reroll-4",
+      "name": "Offensive Reroll — 4",
+      "type": "tactic",
+      "effect": "When another player rolls 4 for an attack, force that attack die to be rerolled.",
+      "timing": "Reaction",
+      "source": ".topics/tower-havoc/cards/001-3-offensive-reroll.decision.trace.md"
+    },
+    {
+      "id": "offensive-reroll-5-01",
+      "family": "offensive-reroll-5",
+      "name": "Offensive Reroll — 5",
+      "type": "tactic",
+      "effect": "When another player rolls 5 for an attack, force that attack die to be rerolled.",
+      "timing": "Reaction",
+      "source": ".topics/tower-havoc/cards/001-3-offensive-reroll.decision.trace.md"
+    },
+    {
+      "id": "offensive-reroll-5-02",
+      "family": "offensive-reroll-5",
+      "name": "Offensive Reroll — 5",
+      "type": "tactic",
+      "effect": "When another player rolls 5 for an attack, force that attack die to be rerolled.",
+      "timing": "Reaction",
+      "source": ".topics/tower-havoc/cards/001-3-offensive-reroll.decision.trace.md"
+    },
+    {
+      "id": "defensive-reroll-01",
+      "family": "defensive-reroll",
+      "name": "Defensive Reroll",
+      "type": "tactic",
+      "effect": "Reroll one relevant roll made by the card owner. Exact eligible roll types remain PLAYTEST.",
+      "timing": "Reaction / PLAYTEST.",
+      "source": ".topics/tower-havoc/cards/001-4-defensive-reroll.decision.trace.md"
+    },
+    {
+      "id": "defensive-reroll-02",
+      "family": "defensive-reroll",
+      "name": "Defensive Reroll",
+      "type": "tactic",
+      "effect": "Reroll one relevant roll made by the card owner. Exact eligible roll types remain PLAYTEST.",
+      "timing": "Reaction / PLAYTEST.",
+      "source": ".topics/tower-havoc/cards/001-4-defensive-reroll.decision.trace.md"
+    },
+    {
+      "id": "defensive-reroll-03",
+      "family": "defensive-reroll",
+      "name": "Defensive Reroll",
+      "type": "tactic",
+      "effect": "Reroll one relevant roll made by the card owner. Exact eligible roll types remain PLAYTEST.",
+      "timing": "Reaction / PLAYTEST.",
+      "source": ".topics/tower-havoc/cards/001-4-defensive-reroll.decision.trace.md"
+    },
+    {
+      "id": "defensive-reroll-04",
+      "family": "defensive-reroll",
+      "name": "Defensive Reroll",
+      "type": "tactic",
+      "effect": "Reroll one relevant roll made by the card owner. Exact eligible roll types remain PLAYTEST.",
+      "timing": "Reaction / PLAYTEST.",
+      "source": ".topics/tower-havoc/cards/001-4-defensive-reroll.decision.trace.md"
+    },
+    {
+      "id": "upper-hand-01",
+      "family": "upper-hand",
+      "name": "Upper Hand",
+      "type": "tactic",
+      "effect": "Take two random cards from one chosen opponent hand.",
+      "timing": "Play on your turn.",
+      "source": ".topics/tower-havoc/cards/001-6-upper-hand.decision.trace.md"
+    },
+    {
+      "id": "upper-hand-02",
+      "family": "upper-hand",
+      "name": "Upper Hand",
+      "type": "tactic",
+      "effect": "Take two random cards from one chosen opponent hand.",
+      "timing": "Play on your turn.",
+      "source": ".topics/tower-havoc/cards/001-6-upper-hand.decision.trace.md"
+    },
+    {
+      "id": "plunder-01",
+      "family": "plunder",
+      "name": "Plunder",
+      "type": "tactic",
+      "effect": "Choose an opponent and roll D6: 1–2 steal 1 Ready Ammo; 3–4 steal 2; 5–6 steal 3; never steal more than the target has.",
+      "timing": "Play on your turn.",
+      "source": ".topics/tower-havoc/cards/001-7-plunder.decision.trace.md"
+    },
+    {
+      "id": "plunder-02",
+      "family": "plunder",
+      "name": "Plunder",
+      "type": "tactic",
+      "effect": "Choose an opponent and roll D6: 1–2 steal 1 Ready Ammo; 3–4 steal 2; 5–6 steal 3; never steal more than the target has.",
+      "timing": "Play on your turn.",
+      "source": ".topics/tower-havoc/cards/001-7-plunder.decision.trace.md"
+    },
+    {
+      "id": "plunder-03",
+      "family": "plunder",
+      "name": "Plunder",
+      "type": "tactic",
+      "effect": "Choose an opponent and roll D6: 1–2 steal 1 Ready Ammo; 3–4 steal 2; 5–6 steal 3; never steal more than the target has.",
+      "timing": "Play on your turn.",
+      "source": ".topics/tower-havoc/cards/001-7-plunder.decision.trace.md"
+    },
+    {
+      "id": "plunder-04",
+      "family": "plunder",
+      "name": "Plunder",
+      "type": "tactic",
+      "effect": "Choose an opponent and roll D6: 1–2 steal 1 Ready Ammo; 3–4 steal 2; 5–6 steal 3; never steal more than the target has.",
+      "timing": "Play on your turn.",
+      "source": ".topics/tower-havoc/cards/001-7-plunder.decision.trace.md"
+    },
+    {
+      "id": "overtime-01",
+      "family": "overtime",
+      "name": "Overtime",
+      "type": "tactic",
+      "effect": "Gain 1 action.",
+      "timing": "Play on your turn.",
+      "source": ".topics/tower-havoc/cards/001-8-overtime.decision.trace.md"
+    },
+    {
+      "id": "overtime-02",
+      "family": "overtime",
+      "name": "Overtime",
+      "type": "tactic",
+      "effect": "Gain 1 action.",
+      "timing": "Play on your turn.",
+      "source": ".topics/tower-havoc/cards/001-8-overtime.decision.trace.md"
+    },
+    {
+      "id": "overtime-03",
+      "family": "overtime",
+      "name": "Overtime",
+      "type": "tactic",
+      "effect": "Gain 1 action.",
+      "timing": "Play on your turn.",
+      "source": ".topics/tower-havoc/cards/001-8-overtime.decision.trace.md"
+    },
+    {
+      "id": "overtime-04",
+      "family": "overtime",
+      "name": "Overtime",
+      "type": "tactic",
+      "effect": "Gain 1 action.",
+      "timing": "Play on your turn.",
+      "source": ".topics/tower-havoc/cards/001-8-overtime.decision.trace.md"
+    },
+    {
+      "id": "event-ammunition-shortage-01",
+      "family": "event-ammunition-shortage",
+      "name": "Ammunition Shortage",
+      "type": "event",
+      "effect": "Every player loses 1 Ready Ammo if possible.",
+      "timing": "Resolve immediately.",
+      "source": ".topics/tower-havoc/cards/001-9-global-events.decision.trace.md"
+    },
+    {
+      "id": "event-production-boom-01",
+      "family": "event-production-boom",
+      "name": "Production Boom",
+      "type": "event",
+      "effect": "Every player who currently has any ammo in Production gains +1 Ready Ammo immediately; Production contents remain unchanged.",
+      "timing": "Resolve immediately.",
+      "source": ".topics/tower-havoc/cards/001-9-global-events.decision.trace.md"
+    },
+    {
+      "id": "event-panic-production-01",
+      "family": "event-panic-production",
+      "name": "Panic Production",
+      "type": "event",
+      "effect": "Every player immediately chooses: gain 2 Ready Ammo OR gain 1 action.",
+      "timing": "Resolve immediately.",
+      "source": ".topics/tower-havoc/cards/001-9-global-events.decision.trace.md"
+    },
+    {
+      "id": "event-damp-powder-01",
+      "family": "event-damp-powder",
+      "name": "Damp Powder",
+      "type": "event",
+      "effect": "No player may use Emergency Ammo until the drawer begins their next turn; Planned Ammo works normally.",
+      "timing": "Leave face-up until expiry.",
+      "source": ".topics/tower-havoc/cards/001-9-global-events.decision.trace.md"
+    },
+    {
+      "id": "event-ceasefire-01",
+      "family": "event-ceasefire",
+      "name": "Ceasefire",
+      "type": "event",
+      "effect": "No attacks until the drawer begins their next turn.",
+      "timing": "Leave face-up until expiry.",
+      "source": ".topics/tower-havoc/cards/001-9-global-events.decision.trace.md"
+    },
+    {
+      "id": "event-building-strike-01",
+      "family": "event-building-strike",
+      "name": "Building Strike",
+      "type": "event",
+      "effect": "All builds cost +1 action until the drawer begins their next turn.",
+      "timing": "Leave face-up until expiry.",
+      "source": ".topics/tower-havoc/cards/001-9-global-events.decision.trace.md"
+    }
+  ]
+}

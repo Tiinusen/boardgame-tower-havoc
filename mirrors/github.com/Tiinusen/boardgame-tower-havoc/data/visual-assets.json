@@ -1,0 +1,81 @@
+{
+  "schema": "tower-havoc.generated.visual-assets.v1",
+  "generated_from": [
+    ".topics/tower-havoc/art/001-1-faction-player-boards.decision.trace.md",
+    ".topics/tower-havoc/art/001-2-action-ammo-coin-art.decision.trace.md",
+    ".topics/tower-havoc/art/001-3-card-visual-system.decision.trace.md",
+    ".topics/tower-havoc/art/001-4-approved-visual-assets.preservation.trace.md"
+  ],
+  "player_boards": [
+    {
+      "id": "ironclads",
+      "source": "art/approved/player-boards/ironclads.png",
+      "tts": "tts/assets/player-boards/ironclads.png",
+      "sha256": "b4b08670ae0078240e756213c915dadb7a0d8ec77cb4e9b06408e1c161a4012b"
+    },
+    {
+      "id": "brass-union",
+      "source": "art/approved/player-boards/brass-union.png",
+      "tts": "tts/assets/player-boards/brass-union.png",
+      "sha256": "126c0049646a7a16f61e92928b46cda10361c5ebec270a9e20c8a62be4095da0"
+    },
+    {
+      "id": "ember-rail",
+      "source": "art/approved/player-boards/ember-rail.png",
+      "tts": "tts/assets/player-boards/ember-rail.png",
+      "sha256": "4ef0a5147d34d46649e2a51d19483ca4cf67423328a3368df950ab1eda0edf54"
+    },
+    {
+      "id": "storm-foundry",
+      "source": "art/approved/player-boards/storm-foundry.png",
+      "tts": "tts/assets/player-boards/storm-foundry.png",
+      "sha256": "03a9f236a25739f2219bdcd1d66229c46db289eede508b0d5ea01ce417e36693"
+    },
+    {
+      "id": "ash-dominion",
+      "source": "art/approved/player-boards/ash-dominion.png",
+      "tts": "tts/assets/player-boards/ash-dominion.png",
+      "sha256": "7fdc0c34c97c96b3436622d1ed55f37ded7f5ca6a86ea8857c6da384523fd37b"
+    },
+    {
+      "id": "horizon-guild",
+      "source": "art/approved/player-boards/horizon-guild.png",
+      "tts": "tts/assets/player-boards/horizon-guild.png",
+      "sha256": "4b05f5a5adddd07e3bc2168f3e6ea5c408ed14160950c8681679527851783abf"
+    }
+  ],
+  "coin": {
+    "action": {
+      "source": "art/approved/coins/action-side.png",
+      "tts": "tts/assets/coin-action.png",
+      "sha256": "179bf99ba7ea6fd391c2ada2ebf4b8250ead35f56d8e54cf8522c9c3540b33e4"
+    },
+    "ammo": {
+      "source": "art/approved/coins/ammo-side.png",
+      "tts": "tts/assets/coin-ammo.png",
+      "sha256": "8080ea3e0dfa041f968e30d8a98f543e2a65499f4cddb5eefad8b309a0339221"
+    }
+  },
+  "card_references": {
+    "back": {
+      "source": "art/approved/card-references/card-back-reference.png",
+      "tts_reference": "tts/assets/card-design-references/card-back-reference.png",
+      "sha256": "956ef2705b93d1df1c28241eca4d58230d71051812c9377bb362d2f7f5343c7e"
+    },
+    "event": {
+      "source": "art/approved/card-references/event-front-reference.png",
+      "tts_reference": "tts/assets/card-design-references/event-front-reference.png",
+      "sha256": "1d7571beefd631777986f6054e2cadf33dc8fb1920587aa5649ef04f0877da66"
+    },
+    "sabotage": {
+      "source": "art/approved/card-references/sabotage-front-reference.png",
+      "tts_reference": "tts/assets/card-design-references/sabotage-front-reference.png",
+      "sha256": "6215adb68f1f7dbf1b7016664e5868c75d6fec35fa903a9d47838e558aaece0d"
+    },
+    "tactic": {
+      "source": "art/approved/card-references/tactic-front-reference.png",
+      "tts_reference": "tts/assets/card-design-references/tactic-front-reference.png",
+      "sha256": "2c5aa90040747667c79f4a2f5081475325cdfa9b87bd1d81956619db4367ede3"
+    }
+  }
+}
